@@ -1,0 +1,159 @@
+---
+title: ""
+format: html
+---
+
+# Experimental Repository
+
+::: accent
+Psychologists regularly use experiments to collect data about peoples cognitions, personality, perceptions, or behaviour (amongst other things).
+
+However, there are a number of solutions available for conducting data collection with behavioural tasks, such as the Stroop task, Go/No-Go task, or N-back task. At Wrexham University, we predominantly use 2 solutions; Psychopy and Gorilla.
+
+Each has different strengths and weaknesses, so you should consider which system is best for your research. 
+:::
+
+An upcoming array of batteries are on their way to be made and gathered as a full list of experimental task (Updated to [Task Builder 2](https://support.gorilla.sc/support/tools/task-builder-2)) within our Wrexham University Repository page on [Gorilla.sc](https://gorilla.sc/). If you are an undergraduate student at Wrexham University you will be expected to create your own version of the task.
+
+If you have further questions, you can contact: [psychology.technician\@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk)
+
+# Upcoming 
+
+## Social Cognition & Cooperation
+
+-   Implicit Association Test (IAT)
+-   Prisoner’s Dilemma
+-   Public Goods Game
+-   Economic Decision-Making Tasks
+-   Willingness to Pay / Utility Tasks
+
+------------------------------------------------------------------------
+
+## Decision-Making, Risk & Learning
+
+-   Balloon Analog Risk Task (BART)
+-   Iowa Gambling Task
+-   Hungry Donkey Task
+-   Risk Judgment Tasks (e.g., Teen Risk Judgment Task)
+-   Posner Delay Discounting
+-   Probabilistic Reversal Learning
+-   Weather Prediction Task
+-   Urn Task (Evidence Accumulation)
+
+------------------------------------------------------------------------
+
+## Attention & Cognitive Control
+
+-   Attentional Network Task (ANT)
+-   Flanker Task
+-   Stroop Task (Colour, Numerical, Victoria variants)
+-   Bivalent Shape Task
+-   Spatial Cueing (Posner Paradigm)
+-   Spatial Priming
+-   Simon Task
+-   Task Switching Paradigms
+-   Stop-Signal Task
+
+------------------------------------------------------------------------
+
+## Vigilance & Sustained Attention
+
+-   Mackworth Clock Task
+-   Attentional Blink
+-   Test of Attentional Vigilance (TOVA / TOAV)
+-   Psychomotor Vigilance Task (PVT)
+-   Sustained Attention to Response Task (SART)
+-   Oddball Task
+-   Situation Awareness Test
+-   Probability Monitoring
+
+------------------------------------------------------------------------
+
+## Working Memory & Short-Term Memory
+
+-   Digit Span (Forward & Backward)
+-   Corsi Blocks
+-   Operation Span (OSPAN)
+-   Reading Span
+-   Symmetry Span
+-   Sternberg Memory Scanning
+-   Partial Report (Iconic Memory)
+
+------------------------------------------------------------------------
+
+## Long-Term Memory & Learning
+
+-   Ebbinghaus Learning / Relearning Paradigm
+-   Paired Associates Learning
+-   Free Recall
+-   DRM False Memory Paradigm
+-   Item–Order Task
+-   Generation Effect Task
+
+------------------------------------------------------------------------
+
+## Reasoning, Problem Solving & Numeracy
+
+-   Remote Associates Task (RAT)
+-   Math Processing / Two-Column Addition
+-   Berlin Numeracy Test
+-   Wason Selection Task
+-   Travelling Salesman Problem
+-   Trail Making Test
+-   Matrix Rotation
+-   Mental Rotation
+-   Global / Local Processing (Navon Task)
+-   Match-to-Sample Task
+-   Pattern Comparison
+
+------------------------------------------------------------------------
+
+## Perception & Visual Cognition
+
+-   Change Detection / Change Blindness
+-   Dot-Probe Task
+-   Visual Search
+-   Object Judgment (Shape/Polygon Matching)
+-   Time Estimation Tasks (e.g., Timewall)
+-   Thatcher Task (Face Inversion)
+-   Müller-Lyer Illusion
+
+------------------------------------------------------------------------
+
+## Language & Lexical Processing
+
+-   Lexical Decision Task
+-   Semantic Priming
+-   Word Fluency / Verbal Fluency
+-   Naming / Audio Naming Tasks
+-   Visual World Paradigm
+
+------------------------------------------------------------------------
+
+## Motor Control & Psychomotor Performance
+
+-   Fitts’s Law Task
+-   Manual Dexterity Tasks
+-   Pursuit Rotor
+-   Tapping / Timetap
+-   Typing Task
+
+------------------------------------------------------------------------
+
+## Reaction Time & Processing Speed
+
+-   Simple Response Time (SRT)
+-   Choice Response Time
+-   Four-Choice Response Time
+-   Hick’s Law Task
+-   Deary–Liewald Reaction Time Task
+
+------------------------------------------------------------------------
+
+## Subjective States, Traits & Workload
+
+-   Comfort Scales
+-   Tiredness Scale
+-   Handedness Inventory
+-   NASA-TLX
+-   General Survey / Questionnaire Tasks

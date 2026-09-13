@@ -1,0 +1,69 @@
+<div id="help-widget">
+  <button id="help-main" aria-label="Help">
+    <img src="/images/wrexham-icon.jpeg" alt="Help">
+  </button>
+
+  <a class="help-action action-gorilla" href="https://gorilla.sc/" target="_blank" rel="noopener" aria-label="Gorilla.sc">
+    <img src="/images/gorilla-icon.png" alt="Gorilla.sc">
+  </a>
+
+  <a class="help-action action-wris" href="https://wris.wrexham.ac.uk/" target="_blank" rel="noopener" aria-label="WRIS">
+    <img src="/images/vidatum-academic.png" alt="WRIS">
+  </a>
+
+  <a class="help-action action-digital-learning-skills" href="https://wrexham.libguides.com/digitallearning" target="_blank" rel="noopener" aria-label="DLS">
+    <img src="/images/digital-learning-skills.png" alt="DLS">
+  </a>
+
+  <a class="help-action action-email" href="https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener" aria-label="Email us">
+    <img src="/images/colour-psy-tech-image.png" alt="Email us">
+  </a>
+
+  <a class="help-action action-myuni" href="https://moodle.wrexham.ac.uk/my/" target="_blank" rel="noopener" aria-label="MyUni">
+    <img src="/images/moodle-icon.png" alt="MyUni">
+  </a>
+
+  <a class="help-action action-github" href="https://github.com/WU-Psychology-Technician" target="_blank" rel="noopener" aria-label="GitHub">
+    <img src="/images/github.png" alt="GitHub">
+  </a>
+
+  <a class="help-action action-jisc" href="https://app.onlinesurveys.jisc.ac.uk/login?callbackUrl=%2Fdashboard%2Fwgu" target="_blank" rel="noopener" aria-label="JISC">
+    <img src="/images/JISC.png" alt="JISC">
+  </a>
+
+  <a class="help-action action-itdesk" href="https://wrexhamuniversity.servicedeskplus.uk/app/itdesk/ui/ssp/pages/home" target="_blank" rel="noopener" aria-label="IT Help Desk">
+    <img src="/images/IT-help-desk.jpg" alt="IT Help Desk">
+  </a>
+
+  <a class="help-action action-osf" href="https://osf.io/" target="_blank" rel="noopener" aria-label="OSF">
+    <img src="/images/OSF.png" alt="OSF">
+  </a>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const widget = document.getElementById("help-widget");
+  const mainBtn = document.getElementById("help-main");
+  const secondaryBtns = document.querySelectorAll(".help-action");
+
+  /* TOGGLE RADIAL MENU */
+  mainBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    widget.classList.toggle("open");
+  });
+
+  /* CLOSE ON ACTION CLICK */
+  secondaryBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      widget.classList.remove("open");
+    });
+  });
+
+  /* CLOSE ON OUTSIDE CLICK */
+  document.addEventListener("click", (e) => {
+    if (!widget.contains(e.target)) {
+      widget.classList.remove("open");
+    }
+  });
+});
+</script>

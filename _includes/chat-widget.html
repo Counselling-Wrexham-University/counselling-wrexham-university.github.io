@@ -1,0 +1,205 @@
+<!-- Floating Speech Bubble / Chat Widget with Logo & Email -->
+<div id="help-widget">
+  <!-- Clickable bubble -->
+  <div id="chat-toggle">
+    <div id="chat-label">Need Help?</div>
+    <img src="/images/wrexham-icon.jpeg" alt="Help" id="chat-logo">
+  </div>
+
+  <!-- Chat form (hidden by default) -->
+  <div id="chat-box">
+    <h4>Need Assistance?</h4>
+    <input type="email" id="user-email" placeholder="Your email" required>
+    <textarea id="chat-message" placeholder="Type your message..." required></textarea>
+    <button id="chat-submit">Send</button>
+    <p id="chat-feedback"></p>
+  </div>
+</div>
+
+<style>
+/* Container */
+#help-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Clickable bubble */
+#chat-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Label hidden by default, absolutely above logo */
+#chat-label {
+  display: block; /* required for transition */
+  position: absolute;
+  bottom: 100%; /* above logo */
+  left: 50%;
+  transform: translateX(-50%) translateY(10px); /* start slightly below */
+  background-color: #007bff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none; /* prevent mouse interference */
+}
+
+/* Speech bubble arrow */
+#chat-label::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* bottom of the label */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #007bff transparent transparent transparent; /* triangle pointing down */
+  z-index: 100;
+}
+
+/* Show label on hover with smooth rise */
+#chat-toggle:hover #chat-label {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0); /* rises up */
+}
+
+/* Logo */
+#chat-logo {
+  width: 100px; /* larger */
+  height: 100px; /* larger */
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Chat box hidden by default */
+#chat-box {
+  display: none;
+  position: absolute;
+  bottom: 120px; /* above logo */
+  right: 0;
+  width: 320px;
+  background: white; /* light mode */
+  color: black;      /* light mode text */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  padding: 10px;
+  font-size: 0.95em;
+  text-align: left;
+  z-index: 10000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode chat box */
+html[data-bs-theme="dark"] #chat-box {
+  background: #212529;
+  color: #f8f9fa;
+}
+
+/* Chat box heading */
+#chat-box h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: inherit; /* inherit color from chat box */
+}
+
+/* Inputs */
+#user-email, #chat-message {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+html[data-bs-theme="dark"] #user-email,
+html[data-bs-theme="dark"] #chat-message {
+  background: #343a40;
+  color: #f8f9fa;
+  border: 1px solid #555;
+}
+
+/* Textarea */
+#chat-message {
+  height: 80px;
+  resize: none;
+}
+
+/* Submit button */
+#chat-submit {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#chat-submit:hover {
+  background: #0056b3;
+}
+
+/* Feedback message */
+#chat-feedback {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: green;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const toggle = document.getElementById("chat-toggle");
+  const box = document.getElementById("chat-box");
+  const submit = document.getElementById("chat-submit");
+  const message = document.getElementById("chat-message");
+  const email = document.getElementById("user-email");
+  const feedback = document.getElementById("chat-feedback");
+
+  // Toggle chat box on click
+  toggle.addEventListener("click", () => {
+    box.style.display = (box.style.display === "block") ? "none" : "block";
+  });
+
+  // Send message via mailto
+  submit.addEventListener("click", () => {
+    const userEmail = email.value.trim();
+    const text = message.value.trim();
+
+    if (!userEmail || !text) {
+      feedback.textContent = "Please enter your email and message.";
+      feedback.style.color = "red";
+      return;
+    }
+
+    const recipient = "psychology.technician@wrexham.ac.uk";
+    const subject = encodeURIComponent("Assistance Request from Website");
+    const body = encodeURIComponent(`Message:\n${text}\n\nFrom: ${userEmail}`);
+    const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
+
+    feedback.textContent = "Opening your email client...";
+    feedback.style.color = "green";
+
+    message.value = "";
+    email.value = "";
+  });
+});
+</script>

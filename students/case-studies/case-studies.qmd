@@ -1,0 +1,32 @@
+---
+title: "Case Studies"
+format: html
+---
+
+The psychology technicians have worked extensively across the department with almost 
+
+
+# Psychology Laboratory 
+
+- Our psychophiosiological laboratory holds several equipment and miscellaneous items to conduct in-person experiments. We hold two experimental cubicles that have full temperature and ventilation control. 
+
+
+# Gorilla 
+
+The deparment also spends time using [Gorilla.sc](http://gorilla.sc/) for teaching across modules and also assisting students who wish to use multi-design research and experimental studies. We also subscribe to using JISC and with their recent 2025 [JISC x Gorilla](https://www.chest.ac.uk/announcements/new-gorilla-agreement/) agreement we have efficient functionality across our department to establish well rounded research and launching functional survey x experimental studies.
+
+
+We also provide some Gorilla Open Materials publicly available and made by previous and current academic staff and psychology technicians. 
+
+
+# PsychoPy x Tobii EyeTracking 
+
+- We have worked on helping students using Psychopy and Tobii for synchronous video and Area Of Interest (AOI) based research. We fully constructed the appropriate modules for their experiments.
+
+
+
+
+
+
+
+

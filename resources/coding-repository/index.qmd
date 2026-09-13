@@ -1,0 +1,22 @@
+---
+title: ''
+format: html
+---
+
+# Coding Repository
+
+At the Psychology at Wrexham University (WUPSY) we emphasise open-source softwares. And whenever we have time we also try to show where we derive all this information, following as per the Open Science Framework for best practices:
+
+<!--# Show the same framework as here: https://exploringr.princeton.edu/self-learning-resources-for-r/ -->
+
+The rest of our public available code can be found here on: <https://github.com/WU-Psychology-Technician>
+
+
+
+# Reference Material 
+
+https://happygitwithr.com/install-intro
+https://psych252.github.io/
+https://stat545.com/
+https://uoepsy.github.io/
+

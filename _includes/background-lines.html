@@ -1,0 +1,73 @@
+<style>
+  .tech-bg-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; 
+    pointer-events: none;
+    display: block !important;
+  }
+
+  body { background-color: var(--quarto-body-bg); }
+
+  /* Wider containers to allow the patterns to spread out */
+  .svg-left { position: absolute; left: 0; top: 0; height: 100vh; width: 250px; }
+  .svg-right { position: absolute; right: 0; top: 0; height: 100vh; width: 250px; }
+
+  .tech-line { fill: none; stroke-width: 2; stroke-linecap: round; }
+  
+  .tech-line.static { 
+    stroke: var(--quarto-body-color); 
+    opacity: 0.08; 
+  }
+
+  .tech-line.pulse {
+    stroke: #50b9a8;
+    stroke-dasharray: 120, 1000;
+    stroke-dashoffset: 1120;
+    animation: electricity 8s linear infinite;
+    filter: drop-shadow(0 0 5px #50b9a8);
+  }
+
+  .tech-node {
+    fill: var(--quarto-body-bg);
+    stroke: #50b9a8;
+    stroke-width: 1.2;
+    filter: drop-shadow(0 0 3px #50b9a8);
+  }
+
+  @keyframes electricity {
+    from { stroke-dashoffset: 1120; }
+    to { stroke-dashoffset: 0; }
+  }
+
+  @media (max-width: 1200px) {
+    .tech-bg-overlay { display: none; }
+  }
+</style>
+
+<div class="tech-bg-overlay">
+  <svg class="svg-left" viewBox="0 0 250 1000" preserveAspectRatio="xMinYMin slice">
+    <path class="tech-line static" d="M 50,0 V 200 L 90,260 V 500 L 40,580 V 1000" />
+    <path class="tech-line pulse" style="animation-duration: 6s;" d="M 50,0 V 200 L 90,260 V 500 L 40,580 V 1000" />
+    
+    <path class="tech-line static" d="M 90,260 L 130,320 V 450 L 110,480" />
+    <path class="tech-line pulse" style="animation-duration: 9s; animation-delay: -2s;" d="M 90,260 L 130,320 V 450 L 110,480" />
+    
+    <circle class="tech-node" cx="90" cy="260" r="4" /> <circle class="tech-node" cx="110" cy="480" r="3" />
+  </svg>
+
+  <svg class="svg-right" viewBox="0 0 250 1000" preserveAspectRatio="xMaxYMin slice">
+    <path class="tech-line static" d="M 210,0 V 300 L 170,380 V 650 L 220,750 V 1000" />
+    <path class="tech-line pulse" style="animation-duration: 7s;" d="M 210,0 V 300 L 170,380 V 650 L 220,750 V 1000" />
+
+    <path class="tech-line static" d="M 170,380 L 100,450 V 600 L 130,640" />
+    <path class="tech-line pulse" style="animation-duration: 10s; animation-delay: -3s;" d="M 170,380 L 100,450 V 600 L 130,640" />
+    
+    <path class="tech-line static" d="M 130,640 L 70,700 V 850 L 100,900" />
+    <path class="tech-line pulse" style="animation-duration: 8s; animation-delay: -5s;" d="M 130,640 L 70,700 V 850 L 100,900" />
+
+    <circle class="tech-node" cx="170" cy="380" r="4.5" /> <circle class="tech-node" cx="130" cy="640" r="4" />   <circle class="tech-node" cx="100" cy="900" r="3" />   <circle class="tech-node" cx="100" cy="450" r="2.5" /> </svg>
+</div>

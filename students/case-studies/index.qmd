@@ -1,0 +1,30 @@
+---
+title: "Dissertation - Case Studies "
+editor: visual
+---
+
+This page will give you some case studies of Dissertation projects we have worked on for 3rd year students from previous years. Their projects have all required use of our equipment or specialist skills. You should get an idea of the variety of projects that you could undertake and the level of support you’ll get from us as the Psychology technicians.
+
+# Case Study 1
+
+## **The Modality Effect: Investigating Differential Memory Encoding for Visual and Auditory Stimuli**
+
+**Technologies & Platforms Used: `Gorilla.sc`**
+
+> How do our brains prioritize information based on how it is delivered? In this research project, we investigated the influence of sensory modality on the encoding of neutral verbal stimuli. By utilizing Gorilla.sc, we developed a rigorous online experiment that isolated visual and auditory presentation methods, requiring participants to perform a recognition task following initial exposure. This project highlights the critical role of technical support in psychological research, with the Psychology Technical team providing end-to-end guidance in experimental development, stimulus control, and the technical orchestration of the study’s logical flow.
+
+# Case Study 2
+
+## **"Do We Know What We Know? Examining Confidence and Capacity in Episodic Memory"**
+
+**Technologies & Platforms Used: `Gorilla.sc`**
+
+> A key question in cognitive aging and psychology is how well our confidence in our memory—our self-efficacy—aligns with our actual performance. In this project, we leveraged the Gorilla.sc platform to deploy a two-part assessment. First, participants completed the MIA-Revised Capacity scale to gauge their perceived memory capabilities. Following this, they performed a series of episodic memory tasks involving the identification of neutral, everyday stimuli. This study served as a critical exploration of whether high memory self-efficacy translates to superior mnemonic accuracy.
+
+# Case Study 3
+
+## **Where Does the Magic Happen? An Eye-Tracking Analysis of Misdirection**
+
+**Technologies & Platforms Used: `Tobii EyeTracking`, `Gorilla.sc`, `Tobii Pro Labs`**
+
+> Magic is fundamentally a study of human attention. In this dissertation project, we collaborated with a Wrexham University colleague to deconstruct the art of the 'classic sleight.' The student asked a critical question: when witnessing a magic trick, do we follow the eyes or the hands? By tracking the visual gaze of participants as they observed a live magic routine, this research mapped the precise moments where human attention is captured, held, and—ultimately—misdirected.

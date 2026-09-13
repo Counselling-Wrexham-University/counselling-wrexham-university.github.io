@@ -1,0 +1,53 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  
+  // FUNCTION: Inject the button into the navbar
+  function addChatButton() {
+    if (document.getElementById('custom-chat-trigger')) return;
+
+    const navTools = document.querySelector('.quarto-navbar-tools') || 
+                     document.querySelector('.navbar-nav') ||
+                     document.querySelector('.navbar-container');
+
+    if (navTools) {
+      const chatBtn = document.createElement('div');
+      chatBtn.id = 'custom-chat-trigger';
+      chatBtn.innerHTML = '💬'; 
+      chatBtn.title = "Contact Support";
+      
+      // Insert at the beginning of the tools container
+      navTools.insertBefore(chatBtn, navTools.firstChild);
+
+      // Attach Click Event - DIRECT MAILTO
+      chatBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const email = "psychology.technician@wrexham.ac.uk";
+        const subject = encodeURIComponent("Technical Support Request");
+        const body = encodeURIComponent(
+          "Hi Psychology Technicians,\n\n" +
+          "I am getting in touch regarding:\n" +
+          "[Please describe your equipment needs or technical issue here]\n\n" +
+          "Many thanks,\n" +
+          "[Your Name]"
+        );
+
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+      });
+      
+      return true; 
+    }
+    return false; 
+  }
+
+  // RETRY LOGIC (Ensures it finds the navbar in Quarto)
+  if (!addChatButton()) {
+    const interval = setInterval(() => {
+      if (addChatButton()) {
+        clearInterval(interval);
+      }
+    }, 500);
+    setTimeout(() => clearInterval(interval), 5000);
+  }
+});
+</script>

@@ -1,0 +1,18 @@
+---
+title: "facet-map" 
+format: html 
+---
+
+# Background Information
+
+-   The Academic Self-efficacy scale is a 20 item questionnaire regarding beliefs about learning.
+
+# Reference 
+
+-   M. Jerusalem, & R. Schwarzer. Fragebogen zur Erfassung von “Selbstwirksamkeit. Skalen zur Befindlichkeit und Personenlichkeit In R. Schxarzer (Ed.). Freie Universitaet, Institut fer Psychologie, Berlin, 1981.
+
+-   Satici, S. and Can, G. (2016). Investigating Academic Self-efficacy of University Students in Terms of Socio-demographic Variables. *Universal Journal of Educational Research*, 4(8), pp.1874-1880.
+
+# Copyright restrictions
+
+-   [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)

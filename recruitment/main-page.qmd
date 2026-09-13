@@ -1,0 +1,16 @@
+---
+title: "Home"
+format: html
+---
+
+Welcome to the WU-Participant Panel Network.
+
+Potential participants: Use the ["Available Studies](Recruitment/index-2.qmd) button above to see a list of all available studies.
+
+Researchers: See the [Researcher Requirements](Recruitment/index-3.qmd) page for instructions on posting your studies.
+
+# International Network
+
+Our international collaborators also have their own pages with their own available studies:
+
+-   [**SLACR**](https://slacr.weebly.com/available-studies.html)

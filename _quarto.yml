@@ -1,0 +1,114 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!docs/**"
+  resources:
+    - assets/*
+
+website:
+  title: "Counselling - Wrexham University"
+  favicon: images/wrexham-icon.jpeg
+
+  navbar:
+    logo: images/wrexham-icon.jpeg
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+
+      - text: "About"
+        menu:
+          - text: "Technicians"
+            href: about/index.qmd
+          - text: "Laboratory"
+            href: about/index-2.qmd
+          - text: "FAQ"
+            href: about/FAQ.qmd
+
+      - text: "Students"
+        menu:
+          - text: "Main Student Page"
+            href: students/index.qmd
+#          - text: "Dissertation Case Studies"
+#            href: students/case-studies/index.qmd
+          - text: "Risk Assessments"
+            href: students/H&S/index.qmd
+          - text: "General Ethics Guide"
+            href: students/ethics/index.qmd
+          - text: "Online Ethics Application Guide"
+            href: students/vidatum-academic/index.qmd
+          - text: "PsychTech Booking System"
+            href: https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled
+
+      - text: "Resources"
+        menu:
+          - text: "Main Resources Page"
+            href: resources/index.qmd
+          - text: "Equipment"
+            href: equipment/index.qmd
+          - text: "Psychometric Scales"
+            href: resources/index2.qmd
+          - text: "Experimental Tasks"
+            href: resources/index3.qmd
+#          - text: "Coding Repository"
+#            href: resources/index4.qmd
+#          - text: "Immersive Applications"
+#            href: resources/index5.qmd
+#          - text: "AI Tools"
+#            href: resources/index6.qmd
+
+      - text: "Recruitment"
+        menu:
+          - text: "Main Recruitment Page"
+            href: recruitment/main-page.qmd
+          - text: "Available Studies"
+            href: recruitment/available-studies.qmd
+
+      - text: "Platforms"
+        menu:
+          - text: "Main Platforms Page"
+            href: platforms/index.qmd
+          - text: "Gorilla.sc"
+            href: platforms/gorilla.qmd
+          - text: "SONA (In-development)"
+            href: platforms/sona/index.qmd
+          - text: "Panopto"
+            href: platforms/panopto.qmd
+          - text: "JISC"
+            href: platforms/jisc.qmd
+          - text: "IT Support"
+            href: https://wrexhamuniversity.servicedeskplus.uk/app/itdesk/ui/ssp/pages/home
+
+      - text: "News"
+        menu:
+          - text: "Main News Page"
+            href: updates/index.qmd
+          - text: "Current Technician Tasks"
+            href: updates/tasks.qmd
+          - text: "Feedback"
+            href: updates/feedback.qmd
+
+      - text: "Contact"
+        href: contact/index.qmd
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: cosmo
+    css: styles.css
+    toc: true
+    code-line-numbers: true
+
+    page-footer:
+      right: "Last updated: {{< meta date-modified >}}"
+
+    include-after-body:
+      - "_includes/chat-widget-2.html"
+      - "_includes/scroll-to-top.html"
+      - "_includes/footer.html"
+      - "_includes/technician-chat.html"
+      - "_includes/welsh-widget.html"
+      - "_includes/synthwave.html"

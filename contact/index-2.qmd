@@ -1,0 +1,74 @@
+---
+title: "index-2"
+format: html
+---
+
+-   Mathematics Foundations
+    -   Statistics
+    -   Probability
+    -   Linear Algebra
+    -   Calculus
+-   Programming Core
+    -   Python Basics
+    -   Python OOP
+    -   NumPy
+    -   Pandas
+    -   SQL
+    -   Advanced SQL
+    -   Bash / Shell
+-   Data Handling
+    -   Data Collection
+    -   Data Cleaning
+    -   Data Wrangling
+    -   Explorative Data Analysis
+    -   Feature Engineering
+-   Data Visualisation
+    -   Matplotlib
+    -   Seaborn
+    -   Plotly
+    -   Streamlit
+    -   Tableau / Power BI
+-   Machine Learning
+    -   Regression
+    -   Classification
+    -   Clustering
+    -   Dimensionality Reduction
+    -   Model Evaluation
+    -   Hyperparameter Tuning
+-   Advanced Machine Learning
+    -   Ensemble Methods
+    -   Gradient Boosting
+    -   Time Series Analysis
+    -   Recommendation Systems
+-   Deep Learning
+    -   Neural Networks
+    -   CNNs
+    -   RNNs
+    -   Transformers
+    -   Transfer Learning
+-   NLP & Vision
+    -   Text preprocessing
+    -   NLP Pipelines
+    -   LLM
+    -   Computer Vision
+    -   Multimodal Models
+-   Modern AI
+    -   LLMs
+    -   Prompt Engineering
+    -   Embeddings
+    -   Vector DB
+    -   RAG
+    -   AI Agents
+    -   Fine-Tuning
+-   Engineering & Tools
+    -   Git
+    -   GitHub
+    -   Docker
+    -   APIs
+    -   FastAPI
+-   Big Data & Cloud
+    -   Spark
+    -   Distributed Computing
+    -   AWS Basics
+    -   GCP / Azure Basics
+-   MLOPS & Deployment

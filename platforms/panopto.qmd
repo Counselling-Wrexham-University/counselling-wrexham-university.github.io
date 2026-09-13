@@ -1,0 +1,65 @@
+---
+title: "Using Panopto for your Dissertation Project"
+format: html
+---
+
+------------------------------------------------------------------------
+
+# Recording Qualitative Studies with Panopto
+
+Over the years the PsychTech have provided guides and videos on how to use Panopto and how to create surveys. However, the issue with this is that platform JISC has gone through various changes and shifts both as an organisation and more importantly on their website. Therefore, creating guides by us is essentially not of great time usage for us. Therefore, we advise students to follow the Help & Support page which is heavily updated by the JISC team itself.
+
+Here you can find the link to the [Help & Support Page](https://www.panopto.com/support/)
+
+\
+Panopto is an excellent tool for recording interviews and focus groups because it handles secure cloud storage, automatic captioning, and easy access management automatically. You can access it via the [myuni.wrexham.ac.uk](https://myuni.wrexham.ac.uk/) under the VLE & Teaching Resources page or you can find it [here](https://glyndwr.cloud.panopto.eu/Panopto/)
+
+# **Essential Checklist for Setup & Preparing your Recording**
+
+1.  Privacy & Ethics: Ensure your Informed Consent forms explicitly state that the interview will be recorded and stored on the university’s Panopto server. Participants must be aware of how long the data will be stored and who will have access.
+
+2.  Environment: Find a quiet, distraction-free space. If you are recording in a lab, place a "Recording in Progress" sign on the door.
+
+3.  The "Test" Recording: Always do a 30-second test! Check the audio levels in the Panopto recorder (you should see the green bars moving clearly) and ensure the camera angle captures the participant without being intrusive.
+
+# Setting Up Your Recording
+
+Folder Location: When launching the Panopto recorder, do not save to a public course folder. Save it to your "My Folder" or a specific, password-protected Research Folder created for your project.
+
+## Capture Sources:
+
+- Audio: Select your microphone. If using a lab microphone, ensure it is selected in the device dropdown.
+
+- Video: Select your camera. If you only need audio, you can set the video source to "None" to help put nervous participants at ease.
+
+- Screen: Only select "Capture Screen" if you are showing stimuli or specific software during the interview. Avoid recording the entire desktop if it contains sensitive files.
+
+# During the Session
+
+- Start/Stop: Use the hotkeys (usually `F8` to start/pause, `F9` to stop) if you want to be less "tech-focused" and more "human-focused" during the session.
+
+- Pausing: If you need to go "off the record" for a moment, use the Pause button in Panopto. The recording will continue to run but will mark the section as a "cut" in the timeline, which you can easily remove or keep later in the editor.
+
+# Post-Recording & Security
+
+- Editing: Use the Panopto Editor to trim the beginning and end of the recording (e.g., removing the setup time or the moments after the interview concludes).
+
+- Sharing: By default, your recording is private. Only share the link with your supervisor or research team members who are authorized to access the data.
+
+- Transcriptions: Panopto’s Automatic Speech Recognition (ASR) will generate captions. You can use these as a starting point for your qualitative transcription, but always verify them manually for accuracy, especially when identifying participant speech.
+
+# FAQ for Qualitative Researchers
+
+FAQ for Qualitative Researchers
+
+- Q: Can I use Panopto Capture (the browser version)?
+
+  - A: Yes! Panopto Capture is great because it doesn't require installing software. Just log into your university Panopto site, click + Create, and select Panopto Capture. It works entirely in your browser
+
+- Q: How do I ensure my data is secure?
+
+  - A: Panopto is a secure, enterprise-level platform. However, the biggest risk is user error. Never share a link to a recording publicly. Ensure the sharing settings on the specific video are restricted to "Specific people" (your module leader or supervisor).
+
+- Q: Should I record the video or just the audio?
+
+  - A: For qualitative research, video is helpful for capturing non-verbal cues (gestures, facial expressions). However, to protect the participant from identification and minimise risk of data loss it is important to make sure you are not recording their face.

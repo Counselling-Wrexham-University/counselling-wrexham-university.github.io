@@ -1,0 +1,456 @@
+---
+title: "Current Psychology Technicians Tasks"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+This is a list of current tasks I have created to help both students and
+staff clearly understand the responsibilities of the psychology
+technicians.
+
+::: callout-important
+# Current Task
+
+Focus on establishing the **H&S Training List** and **Traffic Light
+Dashboard** to ensure lab safety and resource transparency.
+:::
+
+# Tasks
+
+::: callout-note
+## Project Overview
+
+This roadmap tracks the development of the Psychology Technician Website
+and Ecosystem of resources, guides, and procedures. Items marked with
+`[x]` are completed.
+:::
+
+## Ongoing Tasks
+
+- **Update Immersive Applications section** (Find more)
+
+  - Horizon Workrooms are being removed. Maybe create an Experiment
+    version of it?
+  - ShapesXR - A good way to teach student's how to create on MetaQuest?
+    How do I implement it with Unity Experimental Framework?
+  - MetaSteps - Another no-code creation for VR.
+  - Create a Immersive version of the lab?
+  - **Establish Immersive Resources**: Collaborate with the Immersive
+    Team with resources and online stuff.
+  - XSens **Update AI Section**
+
+- **Update AI Tools sections**
+
+  - NotebookLM: https://notebooklm.google/ - a research and note-taking
+    application from Google.
+
+- **Update** / **Improve data science section**
+
+  - Use some references from here and PhD work –\>
+    <https://teachpsych.org/E-xcellence-in-Teaching-Blog>
+
+- **Update Risk Assessments section**
+
+  - Add necessary links for new SOPS + Equipment
+
+    - Add when EEG is acquiesced –\>
+      [ttps://eeg100.org/](https://eeg100.org/)
+
+  - **SOPs (Standard Operating Procedures)**: Short, bulleted guides
+    (e.g., sanitizing VR headsets, applying EEG gel).
+
+## **Website Tasks**
+
+- Create AI Assistant for Positron Workflows for future Data Science
+  Section.
+  - Allow install via GitHub .Quarto Install
+- Create A set of AI Workflows and Pipelines internally.
+- Change the Lab Targets to Bucket List of Equipment. Equipment \| Lab
+  spaces that will be arranged for implementation at Wrexham University
+  - Create a Section in the News part of the Welsh Psychometrics Lab
+- Create a network in the first page to show how to best search find
+  what pages to find.
+- Create a Discourse page –\> <https://github.com/discourse/discourse>
+  - <https://blogs.oracle.com/developers/install-run-discourse-for-free-in-the-oracle-cloud>
+- Complete the Resources section
+- Create a Toggle Wheel for Accessibility for contrasting sight.
+- Fix Traffic Light System Dark Mode Functionality in Equipment Page
+- Create a GitHub Repository with all the data-sets that Technicians
+  will use for Teaching for R, Python and SPSS examples.
+  - Where to find open data sets
+    - Kaggle
+    - Data.gov.uk
+    - awesomedata/awesome-public-data-sets
+    - World Bank Open Data
+  - From Data-Cleaning
+  - From Statistical Modelling
+- Create a Feedback section in the Booking System in Microsoft Forms
+- Add Risk Assessment's table into Student Section.
+- Add a Frequently Asked Questions section in the Student section.
+- Create and Add a Maintenance banner that activates on specific dates
+  instead of using the callout function.
+- **Visitor Metrics**: Add site visit interactivity to view website
+  traffic statistics.
+- **Update - Add ethics Application "Common Pitfalls"** A specific list
+  of reasons the Ethics Committee sends applications back. Also add a
+  "Correct vs. Incorrect" examples.
+- **KTANE**: Add details into equipment catalog.
+- **Comprehensive Equipment List**: Expand website catalog (e.g., Neural
+  Network resources).
+- **Complete these sections**: Available Studies, Researcher
+  Requirements, Coding Repository
+- **Online Textbook**: Establish web-based resource for Research Method
+  modules.
+  - Focused around Data Science & Research Methods in Psychology
+- **Tobii EyeTracker**: Establish Risk Assessments, H&S Procedures, and
+  open PsychoPy Case Studies.
+- **Virtual Tour**: Implement a photo-slider or 360° image of the
+  Psychology labs.
+- **OSF & Version Control**: Develop a guide for integrating projects
+  with OSF and GitHub.
+- **Search Optimizations**: Add keywords to metadata on every page for
+  internal site search. - Add this to the ethics guides - Add this to
+  the H&S Guides - Add this to the Risk Assessments Guides
+- **FAQ Section**: Add a specific FAQ bot and section to the technical
+  page.
+- **Preregistration**: Add a guide on why it matters and how to execute
+  it on OSF.
+- **Data Management Plans**: Guidance on secure storage of sensitive
+  data on university servers in the Ethics section.
+- **Coding Snippets**: A "Cookbook" of R/Python code for cleaning
+  eye-tracker data, counterbalancing, etc.
+- **Interactive Demo Experiments**: Embed mini-experiments using
+  JavaScript or Gorilla iframes.
+- **Add friendly AI**: Create a GPT for answering module specific
+  questions.
+- **Statistics Flowchart**: An interactive/visual guide for choosing the
+  correct statistical test. Take from Statistical Theory & A Student's
+  guide to Bayesian Statistics. Create a tree node.
+- **Poster Printing Guide**: Dimensions, templates, and instructions for
+  final year posters.
+- Add a [Docker](https://www.docker.com/) for helping students to run R
+  code in small cloud environments. (Long-term task)
+- Create a final version of a consistent workflow that will work for
+  teaching R and Statistics for students at Wrexham University
+- 
+
+[**Automation**]{.underline}
+
+- Figure out how to use free AI models from Claude AI for Claude Code
+  and Claude MCP with N8N MCP.
+- Add Clawdbot into Automation Stream of ideas?
+- Add integrators to PowerAutomate + Microsoft Bookings for possible
+  automation.
+- **Administrative Automation**: Identify and implement ways to automate
+  departmental administrative tasks.
+  - Use n8n? Possible new alternatives other than PowerAutomate?
+- Add **Risk Assessments**: Add downloadable Risk Assessments for both
+  Students and Staff.
+- Complete an Asset Management Register / Inventory Checklist / Future
+  equipment proposals.
+- **Equipment Deadlines**: Create separate equipment deadlines for
+  Undergraduates and Postgraduates.
+
+**Online Programme**
+
+- Create a Psychology Technician Page specifically for the Online
+  Programme
+
+**Resources**
+
+- Add software resources
+
+  - <https://www.reaper.fm/>
+
+- Search the Psych Equipment Storage and find out what specific
+  proprietary scales we have and place it in the **psychometrics page.**
+
+**Equipment / Facilities**
+
+- Add [Electroencephalography Lab Plans]{.underline}
+
+- Add [Eye Tracking Lab plans]{.underline}
+
+- Add [Driving Simulation lab plans]{.underline}
+
+- Add [Interview or Focus Group Project Rooms plans]{.underline}
+
+- Add [Multi-Testing Suite plans]{.underline}
+
+- Add [Biopsychology Project Rooms]{.underline}
+
+- Add PsychoPy Case studies and experiments.
+
+- Add Blood Pressure Monitors
+
+- Add Pain Advanced Thermosensory stimualtor
+
+- Add Cold Pressor
+
+- Add MotionWatches
+
+- Add Transcranial Electrical Stimulation (nurostym)
+
+- Add Biopac MP36
+
+- Look into SISO Asset Management System
+
+- Add AI Case Studies
+
+  - Bespoke Game design
+
+  - Social media
+
+  - Shopping faked environments for experiments.
+
+- Look into becoming registered IST Practitioner
+
+- Look into Prototyping, user testing, and unit testing (PHPUnit) to
+  ensure reliable applications.
+
+- Look into Creating AI models in Microsoft AI Builder
+
+- Look into Using ChatGPT API in research for generating fake chatrooms
+  in Qualtrics and other systems and how it could be done via JISC.
+
+- Look into Integration, maintenance, and support documentation for for
+  Biopac MP150/MP35 (EMG, GSR), Brain Products EEG Acticap, GVS
+  (Brainbox), EyeLink 1000/1000+, TMS, FNIRS, and Brainbox Neuro
+  Navigator.
+
+- Look into miscellaneuous –\> University systems, including Ethics
+  systems, KCDU database, Lab/Asset booking (SISO Store), IRP
+  management, FYP/MSc and RES allocation systems, and University-wide
+  JISC and SISO Loans/Room Booking system (mapping + SSO integration).
+  Power Platform and Power Automate workflows for process automation.
+  Software/web technologies: Python, Matlab, Java, Perl, Ruby, C++,
+  VB.Net, XHTML/HTML5, CSS3, PHP, JavaScript/JQuery (+ UI), WordPress,
+  Drupal, Ruby on Rails, Laravel, Symfony. Authentication/data
+  protocols: SAML (auth modules), LDAP. Version control: Git, SVN.
+  Development/deployment environments: Homestead, Vagrant, Docker,
+  Capistrano, Deployer. Database design: MySQL, SQLite, SQL Server. IT
+  and application support, including hardware, software, connectivity,
+  and general troubleshooting. Managing/auditing yearly software
+  upgrades (PsychoPy, Matlab)Running training workshops (PsychoPy,
+  Qualtrics). Lean and Agile methodologies (including Scrum Master). LCS
+  Level 1a Lean Competency training for Continuous Improvement.
+
+- Create Avatar Models for Virtual Reality Software development in
+  Unity.
+
+  - Using Metahuman in Unreal Engine
+
+  - Using Avatar Maker in Unity or using Blender for more definition.
+
+- Create a Research Labs and Groups Webpage on the main Wrexham Page
+
+  - Create a Voluntary Research Assistant Scheme for increasing research
+    output
+
+- 
+
+- Look into collaborations with with external suppliers and development
+  teams.
+
+- Create a Staff Section for Technical consultancy on new projects,
+  including planning, specifications, and costings for research bids.
+
+- Look into Basic building, electrical, and soldering skills (e.g., GVS
+  cables). Some Fusion 360 and 3D printing experience for lab equipment
+  casings.
+
+- Add Design and editing skills in GIMP and Scribus (inDesign
+  alternative)
+
+<!-- -->
+
+- **GitHub Expansion**: Add more code and scripts to the GitHub
+  Repository.
+  - Complete FUKUDA Step Test (Neuro-otological test) GitHub experiment
+    using Camera Object tracking to detect unilateral; vestibular
+    hypofunction.
+  - Detecting Anxiety and Depression with Facial and speech emotion
+    recognition
+    ([github](https://github.com/hariharitha21/Detection-of-Anxiety-and-Depression))
+  - Utilising VR for social anxiety
+    ([github](https://github.com/Agora-VR/Agora-VR))
+  - Detecting subclinical social anxiety using physiological data from a
+    wrist worn wearable
+    ([github](https://github.com/rs2416/Detecting_Social_Anxiety))
+  - Detecting real-time face and emotional recongition
+    (<https://github.com/PratikSavla/aio-bot>)
+  - Extract more:
+    <https://github.com/jasiek-net/awesome-psychology-projects>
+- Develop R, Python, and Julia scripts to replace SPSS in the
+  department.
+- Case Studies
+  - PSY765
+    - Qual Case Studies
+    - Quant Case Studies
+
+**New Procedures**
+
+- **Hormone Data Acquisition**: Establish neuroendocrinological
+  procedures for the department.
+- **SONA System**: Establish SONA for recruitment within the department.
+- **Immersive:** Establish Training Procedures for available equipment
+  within the HEIQ.
+
+**Immersive Tools**
+
+- **VR Lounge**: Create a Virtual Reality Space featuring several
+  psychology experiments. The space will be a VR environment for
+  psychology student's to be able to understand a full scope of
+  applications that they can use for their own experiments.
+
+  - Create (Cognitive) Experimental Module:
+    [Astygmatism](https://www.youtube.com/watch?v=PDHMxMQ9jag)
+
+  - Create (Cognitive) Experimental Module: [Macular
+    Degeneration](https://www.youtube.com/watch?v=zNYiGVfmKgI)
+
+  - Create (Cognitive) Experimental Module: [Eye
+    Shadows](https://www.youtube.com/watch?v=WoGK_Xf9cdU)
+
+  - Create (Cognitive) Experimental Module: [Visual Deficit
+    Suite](https://www.youtube.com/watch?v=9kRilVoQxgI)
+
+  - Create (Cognitive) Experimental Module: [VR Simulation of
+    Starbursting, halosm and ghosting after laser eye
+    surgery](https://www.youtube.com/watch?v=CqNWlAJ0vH8)
+
+  - Create (Cognitive) Experimental Module: [Visual Deficits in Virtual
+    Reality](https://www.youtube.com/watch?v=B1Bi3i-zFH4)
+
+  - Create (Biological) Experimental Module: 3D VR Interactive Brain Lab
+
+  - Create (Social) Experimental Module: Prisoner's Dilemma with
+    *Trustful* AI.
+
+  - Create (Developmental) Experimental Module: Biological
+    Neuro-Development Showcase
+
+  - **Laboratory Induction**: Create a VR Laboratory Induction Module
+    for users.
+
+- Enhance Experimental Tasks into Experimental Repository Sections
+
+  - Add Unity Experimental Framework Guide
+    - Add Trellis 2 https://github.com/microsoft/TRELLIS.2
+
+- **Add GitHub Repositories** of interest and add them into a compendium
+  list onto the Technician Website. Then categorise them for Subject of
+  interest.
+
+  - Biological Psychology: https://github.com/rasmusab/drinkr (Influence
+    of Alcohol) + https://github.com/rasmusab/iba-cocktails
+  - Cognitive Psychology:
+    https://github.com/rasmusab/bitsy-maze-generator (Cog Task)
+  - https://github.com/AnshKathpal/Kinder-Counselor-Chatbot
+  - <https://github.com/pieeg-club/EEGwithRaspberryPI>
+  - <https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php>
+
+**Equipment**
+
+- **Staff "WANT" List**: Add a section for staff to suggest equipment.
+
+  - Create the 3D EyeTrackers.
+
+    - <https://github.com/JEOresearch/EyeTracker/tree/main>
+
+  - Add FNRIS into the equipment list.
+
+  - Add EEG into the equipment list
+
+  - Add Meta VR Headsets (Target internal grants upon release).
+
+  - Create low-cost FNRIS
+
+    - del Angel Arrieta, F., Cisneros, M. R., Rivas, J. J.,
+      Castrejón, L. R., Sucar, L. E., Andreu-Perez, J., &
+      Orihuela-Espina, F. (2021, November). Characterization of a
+      Raspberry Pi as the core for a low-cost multimodal EEG-fNIRS
+      platform. In *2021 43rd Annual International Conference of the
+      IEEE Engineering in Medicine & Biology Society (EMBC)* (pp.
+      1288-1291). IEEE.
+
+**Biological Psychology**
+
+- Add some components from Neuroscience to improve **bio-psychology**
+  **content.**
+
+**Social Psychology**
+
+- Create Norm Transmission Gorilla.sc Programme
+
+**PSY765**
+
+- Create Case studies + Visualisations + Model Selection + Model fit
+
+  - Normal Linear Models
+
+  - Generalised Linear Models
+
+  - Multi-Level Models
+
+**Research**
+
+- Develop a custom "Research Assistant" Chatbot for student's for
+  helping in specifically how to help student's understand the workload
+  and priorities, help, links, pathways after university etc. at Wrexham
+  University.
+
+- Develop a "Learning Statistics" chatbot from Hugging Face models.
+
+**Miscellaneous**
+
+- Try to find out ways to use Rasperry Pi for Psychology, Automation, or
+  for teaching.
+
+  - Jolles, J. W. (2021). Broad‐scale applications of the Raspberry Pi:
+    A review and guide for biologists. *Methods in Ecology and
+    Evolution*, *12*(9), 1562-1579.
+
+  - Mathe, S. E., Kondaveeti, H. K., Vappangi, S., Vanambathina, S. D.,
+    & Kumaravelu, N. K. (2024). A comprehensive review on applications
+    of Raspberry Pi. *Computer Science Review*, *52*,
+
+    100636. 
+
+  - <https://www.raspberrypi.org/blog/grounded-cognition/>
+
+  - <https://www.biorxiv.org/content/10.1101/807693v1.full.pdf>
+
+  - <https://forums.raspberrypi.com/viewtopic.php?t=83037>
+
+  - <https://brendg.co.uk/2021/07/26/creating-a-mood-detector-using-lobe-and-a-raspberry-pi/>
+
+  - <https://www.bps.org.uk/psychologist/why-do-we-need-psychology-and-what-does-psychology-need>
+
+  - <https://www.britishecologicalsociety.org/raspberry-pi-computers-are-helping-revolutionize-biological-research/>
+
+## 
+
+\[INSERT REMAINING TASKS FROM LOCAL REPOSITORIES IN HERE\]
+
+
+
+# Removed Ideas
+
+- **Technician Support**: Here we can book another system maybe for
+  things that the psych staff want?
+
+  - `span style="color:red;"> No point as it is a small department. Maybe instead do it for externals or when dept expands </span>`)
+
+- Add **Health & Safety Training**. Specifically, add H&S Training list
+  for Students, Staff, and Technicians.
+
+  - `span style="color:red;"> No point. Keep it in house. </span>`)
+
+- **Create a Staff Section**:
+
+  - **Grant Support Section**: Technical specifications for equipment to
+    be used in grant applications.
+    - `span style="color:red;"> No point. The website needs to be more for the student's than the staff. Therefore keep it in house. </span>`)

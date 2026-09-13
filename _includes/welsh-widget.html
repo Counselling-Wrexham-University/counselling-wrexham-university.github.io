@@ -1,0 +1,51 @@
+<div id="google_translate_element" style="display:none;"></div>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,cy'}, 'google_translate_element');
+  }
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const CYMRU_FLAG = 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg';
+  const ENGLAND_FLAG = 'https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg';
+
+  function setupLangButton() {
+    const navTools = document.querySelector('.quarto-navbar-tools');
+    if (!navTools || document.getElementById('lang-trigger')) return;
+
+    const langBtn = document.createElement('div');
+    langBtn.id = 'lang-trigger';
+    langBtn.style.cursor = 'pointer';
+    langBtn.style.padding = '5px';
+    langBtn.innerHTML = `<img src="${CYMRU_FLAG}" style="width:24px; vertical-align:middle;">`;
+    navTools.insertBefore(langBtn, navTools.firstChild);
+
+    langBtn.addEventListener('click', function() {
+      const select = document.querySelector('.goog-te-combo');
+      if (select) {
+        // Detect current language from Google's internal value
+        const currentLang = select.value;
+        const newLang = (currentLang === 'cy') ? 'en' : 'cy';
+        
+        // Update Google Translate
+        select.value = newLang;
+        select.dispatchEvent(new Event('change'));
+        
+        // Immediate visual update to flag
+        const img = langBtn.querySelector('img');
+        img.src = (newLang === 'cy') ? ENGLAND_FLAG : CYMRU_FLAG;
+      }
+    });
+  }
+
+  // Poll for navbar and widget
+  const interval = setInterval(() => {
+    if (document.querySelector('.quarto-navbar-tools') && document.querySelector('.goog-te-combo')) {
+      setupLangButton();
+      clearInterval(interval);
+    }
+  }, 300);
+});
+</script>

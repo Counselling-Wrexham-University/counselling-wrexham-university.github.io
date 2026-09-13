@@ -1,0 +1,114 @@
+---
+title: "Frequently Asked Questions (FAQ)"
+format: html
+---
+
+Not sure what we do? We’ve put together this guide to answer common questions and help you navigate our services. Whether you’re a student or a new staff member, you’ll find everything you need to know about our technical support right here.
+
+<details>
+<summary><strong>What kind of technical support do you provide?</strong></summary>
+
+We provide support for hardware setup, lab equipment access, and platform troubleshooting (e.g., JISC/Gorilla). Please note that we do not provide academic tutoring, proofreading, or feedback on your research design or academic writing.
+</details>
+
+<details>
+<summary><strong>How do I access JISC?</strong></summary>
+
+Please contact [psychology.technicians@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk) and request an account on JISC for the specific module. Please CC your supervisor / module leader for the JISC when sending the email.  
+</details>
+
+<details>
+<summary><strong>How do I access Gorilla.sc?</strong></summary>
+
+Please contact [psychology.technicians@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk) and request an account on Gorilla.sc for the specific module. Please CC your supervisor / module leader for the Gorilla.sc when sending the email. 
+</details>
+
+<details>
+<summary><strong>Where can I get access for support from the technicians for my dissertation project?</strong></summary>
+
+For technical support regarding your dissertation—such as equipment booking, software setup, or lab space access—please submit a request via the [PsychTech Booking System](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled).
+</details>
+
+
+<details>
+<summary><strong>Can you please help me with my data analysis?</strong></summary>
+
+We cannot help in analysing your dissertation/module related data. We can only provide demonstrations and cannot guide your analysis process. Please refer to the appropriate research methods modules for selecting the appropriate models and analysis for appropriate guidance.  
+</details>
+
+<details>
+<summary><strong>I need to book a session on the day, please can you help?</strong></summary>
+
+To ensure we can provide the best possible support, we kindly ask that all bookings are made at least **24 hours** in advance. This lead time allows our team to plan our daily schedule effectively, as we are often focused on specialised tasks and are not always able to monitor the booking inbox in real-time.
+</details>
+
+
+<details>
+<summary><strong>What do I do if equipment is damaged or malfunctioning?</strong></summary>
+
+Please report any issues immediately to the Psychology Technician team at [psychology.technicians@wrexham.ac.uk](mailto:psychology.technicians@wrexham.ac.uk). Please include a photo of the damage and the asset tag number if available. Do not attempt to repair equipment yourself; we are here to handle all maintenance.
+</details>
+
+
+<details>
+<summary><strong>How do I install this application on my personal computer?</strong></summary>
+
+We provide support for software used within the university labs. For installations on personal devices, please visit the [Wrexham IT Support Portal Link](https://wrexhamuniversity.servicedeskplus.uk/app/itdesk/ui/ssp/pages/home) for university-licensed software availability. We are unable to provide technical support for personal hardware or non-university software.
+</details>
+
+<details>
+<summary><strong> I’m having trouble connecting to the university Wi-Fi in the lab/campus. Can the Psychology Technicians help?</strong></summary>
+
+As the Psychology Technician team, we focus on research-specific software and equipment. We do not have access to the university’s core network infrastructure or student Wi-Fi credentials.
+</details>
+
+
+<details>
+<summary><strong>Where can I find resources for statistics?</strong></summary>
+
+Although we cannot provide help with statistics directly and you are looking for specific statistics or data analysis resources beyond what is provided by the university course then do book a `Initial Discussion` meeting via the [Booking System](https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled).    
+</details>
+
+
+<details>
+<summary><strong> Does my research need a Risk Assessment?</strong></summary>
+
+Yes. All experiments conducted within Wrexham University require a completed Risk Assessment as a mandatory component of your Ethics submission. This process ensures the safety of both the researcher and your participants. You do not need to navigate this process alone. For guidance on identifying hazards and implementing safety protocols, please consult:
+
+- Your Research Supervisor: They provide oversight for project-specific risks and ethical requirements.
+
+- The Psychology Technician Team: We are available to support the technical aspects of your assessment, including lab safety protocols, equipment handling, and experimental environment configurations.
+</details>
+
+
+<details>
+<summary><strong>Can you help with my data cleaning</strong></summary>
+
+We can guide you through the data cleaning procedure to an extent, we will not be directly manipulating the dataset itself, but assistance with the data cleaning is only minimal.
+</details>
+
+
+
+<details>
+<summary><strong> Can you help me in setting up my experiment?</strong></summary>
+
+We provide full support on experiments if requested by the student and your supervisor of your dissertation project. This means that if you get stuck along the way with creating your experiment then we can directly help by fixing any derailment during the creation of your study. 
+
+</details>
+
+
+<details>
+<summary><strong> I have a very niche and technical idea I want to do, can you help?</strong></summary>
+
+We recommend you discuss with us or your supervisor if you want to conduct any technical ideas that you wish to conduct for your dissertation project. You can also setup a `Initial Discussion` meeting via the [Booking System](https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled) for this purpose!
+</details>
+
+
+
+> If there's a question that doesn't appear here that you need to find out then please do send an email to [psychology.technician@Wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk) and we will respond to your query within 4 working days. 
+
+
+
+
+
+

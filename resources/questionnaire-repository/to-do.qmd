@@ -1,0 +1,341 @@
+---
+title: "to-do"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# A list of completed scales on Gorilla.sc
+
+-   Academic Self-Efficacy Scale (ASES 2016)
+
+-   Brief Resilience Scale (BRS)
+
+-   Facet Map (Version 1, 2023)
+
+-   Short Warwick Edinburgh Mental Wellbeing Scale (S) WEMWBS
+
+-   Short Warwick Edinburgh Mental Wellbeing Scale (WEMWBS) Fersiwn
+    Cymraeg
+
+-   Warwick Edinburgh Mental Wellbeing Scale (WEMWBS)
+
+-   Warwick Edinburgh Mental Wellbeing Scale (WEMWBS) Fersiwn Cymraeg
+
+-   [Aggression
+    Questionnaire](http://hub.salford.ac.uk/psytech/aggression-questionnaire/)
+
+-   Oxford Happiness Questionnaire
+
+# A list of scales documents on Website
+
+-   Academic Self-Efficacy Scale (ASES 2016)
+
+-   Facet Map (Version 1, 2023)
+
+# A list of scales to complete
+
+-   [5 – 15 (Developmental
+    Questionnaire)](http://hub.salford.ac.uk/psytech/2021/08/05/5-15/)
+
+-   [Alcohol Use Disorder Identification Test
+    (AUDIT).](http://hub.salford.ac.uk/psytech/alcohol-use-disorder-identification-test-audit/)
+
+-   [Attitudes to mental illness questionnaire
+    (AMIQ)](http://hub.salford.ac.uk/psytech/attitudes-to-mental-illness-questionnaire-amiq/)
+
+-   [Attitudes to Sexual Offenders
+    (ATS)](http://hub.salford.ac.uk/psytech/2021/09/28/attitudes-to-sexual-offenders-ats/)
+
+-   [Attitudes towards women
+    questionnaire](http://hub.salford.ac.uk/psytech/attitudes-towards-women-scale/)
+
+-   [Authoritarianism-Rebellion
+    scale](http://hub.salford.ac.uk/psytech/authoritarianism-rebellion-scale/)
+
+-   Barthel index
+
+-   [Behavioral avoidance/inhibition scales
+    (BIS/BAS)](http://hub.salford.ac.uk/psytech/2021/08/05/behavioral-avoidance-inhibition-bis-bas-scales/)
+
+-   Beliefs about pain questionnaire (BPCQ)
+
+-   [Bergen Social Media Addiction
+    Scale ](https://hub.salford.ac.uk/psytech/2021/08/10/bergen-social-media-addiction-scale/)
+
+-   [Big five inventory
+    (personality)](http://hub.salford.ac.uk/psytech/big-five-inventory-bfi/)
+
+-   [Body Awareness
+    questionnaire](http://hub.salford.ac.uk/psytech/body-awareness-questionnaire/)
+
+-   [Body-esteem
+    scale](http://hub.salford.ac.uk/psytech/the-body-esteem-scale/)
+
+-   [Body-shape
+    questionnaire](http://hub.salford.ac.uk/psytech/body-shape-questionnaire-bsq-34/)
+
+-   [Brief resilience
+    scale](http://hub.salford.ac.uk/psytech/brief-resilience-scale/)
+
+-   Cancer attitude inventory
+
+-   [Center for epidemiological studies depression scale
+    (CES-D)](http://hub.salford.ac.uk/psytech/center-for-epidemiological-studies-depression-scale-ces-d/)
+
+-   Cheerfulness scale
+
+-   [Cognitive Failures
+    questionnaire](http://hub.salford.ac.uk/psytech/the-cognitive-failures-questionnaire/)
+
+-   [Community Attitudes Toward Sex Offenders
+    (CATSO)](http://hub.salford.ac.uk/psytech/2021/09/28/community-attitudes-toward-sex-offenders-catso/)
+
+-   [Community attitudes towards the mentally ill
+    (CAMI)](http://hub.salford.ac.uk/psytech/community-attitudes-toward-the-mentally-ill/)
+
+-   Compassion scale
+
+-   [Computer Anxiety rating
+    scale](http://hub.salford.ac.uk/psytech/computer-anxiety-rating-scale/)
+
+-   COPE inventory (coping)
+
+-   Courtauld emotional control scale (CES)
+
+-   [Creative Achievement Questionnaire
+    (CAQ)](http://hub.salford.ac.uk/psytech/2021/08/06/creative-achievement-questionnaire-caq/)
+
+-   [Current thoughts scale (state
+    self-esteem)](http://hub.salford.ac.uk/psytech/current-thoughts-scale/)
+
+-   [Deffenbacher driving anger
+    scale](http://hub.salford.ac.uk/psytech/deffenbacher-driving-anger-scale/)
+
+-   [Dieting beliefs
+    scale](http://hub.salford.ac.uk/psytech/dieting-beliefs-scale/)
+
+-   [Differential loneliness
+    scale](http://hub.salford.ac.uk/psytech/differential-loneliness-scale/)
+
+-   [Eating attitudes test
+    (EAT-26)](http://hub.salford.ac.uk/psytech/eating-attitudes-test-eat-26/)
+
+-   [Early Executive Functions Questionnaire
+    (EEFQ)](http://hub.salford.ac.uk/psytech/2021/09/01/early-executive-functions-questionnaire-eefq/)
+
+-   [Emotional intelligence self assessment questionnaire
+    (EISAQ)](http://hub.salford.ac.uk/psytech/emotional-intelligence-questionnaire/)
+
+-   [False Facebook self
+    questionnaire](http://hub.salford.ac.uk/psytech/false-facebook-self-questionnaire/)
+
+-   [Fat Phobia
+    scale](http://hub.salford.ac.uk/psytech/fat-phobia-scale/)
+
+-   [Fear-Avoidance Beliefs Questionnaire
+    (FABQ)](https://hub.salford.ac.uk/psytech/2021/08/04/fear-avoidance-beliefs-questionnaire-fabq/)
+
+-   [Flow State
+    Scale](http://hub.salford.ac.uk/psytech/2021/08/06/flow-state-scale-fss/)
+
+-   Framingham Type A behaviour pattern measure
+
+-   Framingham anger measure
+
+-   [Friendship
+    questionnaire](http://hub.salford.ac.uk/psytech/friendship-questionnaire/)
+
+-   [Frost multidimensional perfectionism
+    scale](http://hub.salford.ac.uk/psytech/frost-multidimensional-perfectionism-scale/)
+
+-   Functional limitations profile
+
+-   General preventive health behaviours checklist
+
+-   [Generalised anxiety disorder
+    (7-item)](http://hub.salford.ac.uk/psytech/generalized-anxiety-disorder-gad-7-scale/)
+    – GAD7
+
+-   [Generalised self-efficacy
+    scale](http://hub.salford.ac.uk/psytech/general-self-efficacy-scale-gse/)
+
+-   [Gratitude
+    questionnaire](http://hub.salford.ac.uk/psytech/the-gratitude-questionnaire-gq-6/)
+
+-   Health opinion survey
+
+-   Health value scale
+
+-   [HEXACO personality inventory revised
+    (HEXACO-PI-R)](http://hub.salford.ac.uk/psytech/hexaco-personality-inventory/)
+
+-   [Hospital anxiety & depression scale
+    (HADS)](https://hub.salford.ac.uk/psytech/2021/08/04/hospital-anxiety-and-depression-scale-hads/)
+
+-   [Impact of events
+    scale](http://hub.salford.ac.uk/psytech/impact-of-events-scale/)
+
+-   [Internalized stigma of mental illness
+    inventory](http://hub.salford.ac.uk/psytech/internalized-stigma-of-mental-illness-inventory-ismi/)
+
+-   [Interpersonal reactivity
+    index](http://hub.salford.ac.uk/psytech/interpersonal-reactivity-index/)
+
+-   [Internet Addiction
+    Scale](http://hub.salford.ac.uk/psytech/the-internet-addiction-scale/)
+
+-   [Internet Gaming Disorder
+    (IGD)](https://hub.salford.ac.uk/psytech/2021/08/10/internet-gaming-disorder-igd/)
+
+-   [Life orientation test
+    (LOT)](http://hub.salford.ac.uk/psytech/life-orientation-test-lot-r/)
+
+-   [Love attitudes
+    scale](http://hub.salford.ac.uk/psytech/the-love-attitudes-scale/)
+
+-   Marlowe-Crowne scale
+
+-   [McGill Pain
+    Questionnaire](https://hub.salford.ac.uk/psytech/2021/08/04/mcgill-pain-questionnaire-mpq/)
+
+-   [Medical interview satisfaction
+    scale](http://hub.salford.ac.uk/psytech/medical-interview-satisfaction-scale/)
+
+-   Mental adjustment to cancer scale
+
+-   [Mental health literacy
+    scale](http://hub.salford.ac.uk/psytech/mental-health-literacy-scale-mhls/)
+
+-   Modern racism scale
+
+-   Multidimensional health locus of control scale
+
+-   [Multidimensional perfectionism scale
+    (MPS)](http://hub.salford.ac.uk/psytech/multidimensional-perfectionism-scale-mps/)
+
+-   [Multidimensional scale of perceived social
+    support](http://hub.salford.ac.uk/psytech/multidimensional-scale-of-perceived-social-support/)
+
+-   
+
+-   [Pain Catastrophizing
+    Scale](https://hub.salford.ac.uk/psytech/2021/08/04/pain-catastrophizing-scale/)
+
+-   Pain coping strategies questionnaire
+
+-   [Passionate love
+    scale](http://hub.salford.ac.uk/psytech/passionate-love-scale/)
+
+-   [Patient health questionnaire
+    (PHQ-8)](https://hub.salford.ac.uk/psytech/2021/08/04/patient-health-questionnaire-depression-scale-phq-8/)
+
+-   Patient request form
+
+-   Pennebaker inventory of limbic languidness
+
+-   Perceived arousal questionnaire
+
+-   Perceived stress scale (PSS)
+
+-   Pain [Perception Questionnaire for Young
+    People](https://hub.salford.ac.uk/psytech/2021/08/04/perception-questionnaire-for-young-people/)
+
+-   [Pain Self Efficacy Questionnaire
+    (PSEQ)](https://hub.salford.ac.uk/psytech/2021/08/04/pain-self-efficacy-questionnaire-pseq/)
+
+-   [Perfectionistic self-presentation
+    scale](http://hub.salford.ac.uk/psytech/perfectionistic-self-presentation-scale-psps/)
+
+-   [Positive & negative affect schedule
+    (PANAS)](https://hub.salford.ac.uk/psytech/2021/08/04/positive-and-negative-affect-scale-panas/)
+
+-   Prejudicial evaluation and social interaction scale
+
+-   [Procrastination
+    scale](http://hub.salford.ac.uk/psytech/procrastination-scale/)
+
+-   [Problematic Internet Use Questionnaire
+    (PIUQ)](https://hub.salford.ac.uk/psytech/2021/08/10/problematic-internet-use-questionnaire-piuq/)
+
+-   [Psychological Predictors of Problem Mobile Phone
+    Use](https://hub.salford.ac.uk/psytech/2021/08/10/psychological-predictors-of-problem-mobile-phone-use/)
+
+-   Recovery locus of control scale
+
+-   Religious self-regulation questionnaire (SRQ-R)
+
+-   Reported health behaviours checklist
+
+-   [Richmond compulsive buying
+    scale](http://hub.salford.ac.uk/psytech/richmond-compulsive-buying-scale/)
+
+-   Rosenberg self-esteem scale (RSE)
+
+-   Rotterdam symptom checklist (RSCL)
+
+-   Ryff scales of psychological wellbeing
+
+-   [Satisfaction with life
+    scale](http://hub.salford.ac.uk/psytech/satisfaction-with-life-scale/)
+
+-   Saucier Mini-Marker (brief Big-Five personality measure)
+
+-   School children’s happiness inventory
+
+-   Sleep habits survey
+
+-   Sociability questionnaire
+
+-   Social readjustment rating scale
+
+-   [Social Media Use Integration Scale
+    (SMUIS)](https://hub.salford.ac.uk/psytech/2021/08/10/social-media-use-integration-scale-smuis/)
+
+-   Self-Presentation on Facebook questionnaire (SPFBQ)
+
+-   Short form social support questionnaire (SSQ6)
+
+-   Significant others scale (SOS)
+
+-   [Smartphone Application-Based Addiction Scale
+    (SABAS)](https://hub.salford.ac.uk/psytech/2021/08/10/smartphone-application-based-addiction-scale-sabas/)
+
+-   [State-Trait cheerfulness inventory
+    (STCI)](http://hub.salford.ac.uk/psytech/state-trait-cheerfulness-inventory-stci/)
+
+-   Student alcohol questionnaire
+
+-   Student self-efficacy questionnaire
+
+-   [Survey of recent life
+    experiences](http://hub.salford.ac.uk/psytech/survey-of-recent-life-experiences/)
+
+-   [Tampa Scale of Kinesiophobia
+    (TSK)](https://hub.salford.ac.uk/psytech/2021/08/04/tampa-scale-of-kinesiophobia-tsk/)
+
+-   UAB pain behaviour scale
+
+-   Varni-Thompson paediatric pain questionnaire
+
+-   Word pair similarity task
+
+*Below are scales that are paid-for copyrighted questionnaires. The
+timescale to process payment for the below questionnaires may not fit
+within dissertation timelines.*
+
+-   [\*Ages & Stages questionnaire: Social-Emotional
+    (ASQ-SE)](http://hub.salford.ac.uk/psytech/2021/08/02/ages-stages-questionnaire-social-emotional-asqse-2/)
+
+-   [\*BarOn Emotional Quotient inventory
+    (EQ-I)](http://hub.salford.ac.uk/psytech/2021/08/02/baron-emotional-quotient-inventory-eq-i/)
+
+-   \*[Dispositional Flow Scale
+    (DFS)](http://hub.salford.ac.uk/psytech/2021/08/05/dispositional-flow-scale-dfs/)
+
+-   \*[General health
+    questionnaire](http://hub.salford.ac.uk/psytech/general-health-questionnaire/)
+
+-   \*[Toronto Alexithymia scale
+    (TAS-20)](http://hub.salford.ac.uk/psytech/toronto-alexithymia-scale-tas-20/)

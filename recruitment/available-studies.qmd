@@ -1,0 +1,140 @@
+---
+title: "Available Studies"
+format: html
+---
+
+Please direct all specific study related question the principles investigator of the study. You can find their contact information on the informed consent page of the study. If you would like to file a complaint any study, please reach out to the institutional review board listed on the study informed consent. 
+
+All studies on this page are approved and managed by the Faculty Research Ethics Committee (FREC) and University Research Ethics Committee (UREC) at the Wrexham University. 
+
+If you are a participant at Wrexham University and participating on a Research Module study, please direct all existing questions to the appropriate module leader.
+
+
+# Home Research - Wrexham University 
+
+Here you will find all relevant PhD and Psychology Faculty member's research. All home studies for BSc and MSc are managed on the **Psychology Technician Moodle webpage**. Please contact at [Psychology Technicianns](mailto:psychology.technician@Wrexham.ac.uk) at Wrexham University to publish your study on that page. Any further questions then please reach out to them if you have any questions at: [psychology.technician@Wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk)
+
+## List of available studies
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<!-- The script populates status and button based on date -->
+<span class="study-status badge float-end" data-end-date="2027-08-01"></span>
+
+### Thinking Processes & Stress Perception
+
+**Full Title:** An investigation into the impact of linear and non-linear thinking processes and their possible factors of influence, on stress perception and coping strategies: A mixed-methods approach
+
+::: {.text-muted .small .mb-3}
+**PI:** Elizabeth (Liz) Broom | **REF Ethics:** 7266
+:::
+
+* **Study Period:** 01/04/2026 – 01/08/2027
+* **Contact:** [Elizabeth (Liz) Broom](mailto:s19005509@mail.glyndwr.ac.uk)
+
+::: {.mt-3}
+<a href="https://app.onlinesurveys.jisc.ac.uk/s/wgu/thoughts-and-influencing-factors" 
+   class="study-btn btn btn-primary btn-sm" 
+   data-end-date="2027-08-01" 
+   target="_blank">
+   Take Part in Study <i class="bi bi-box-arrow-up-right"></i>
+</a>
+:::
+:::
+:::
+:::
+
+<br>
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<span class="study-status badge float-end" data-end-date="2027-04-30"></span>
+
+###  Welsh Validation on Wellbeing Scale 
+
+**Full Title:** The Warwick-Edinburgh Mental Wellbeing Scale: A Welsh validation of the 7-item measure
+
+::: {.text-muted .small .mb-3}
+**PI:** Mandy Robbins | **REF Ethics:** 8102
+:::
+
+* **Study Period:** 01/05/2026 – 30/04/2027
+* **Contact:** [Mandy Robbins](mailto:m.robbins@wrexham.ac.uk)
+
+::: {.mt-3}
+<a href="https://research.sc/participant/login/dynamic/A97C39CB-6D76-447A-B53A-F4104F2DC73D" 
+   class="study-btn btn btn-primary btn-sm" 
+   data-end-date="2027-04-30" 
+   target="_blank">
+   Take Part in Study <i class="bi bi-box-arrow-up-right"></i>
+</a>
+:::
+:::
+:::
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const today = new Date().toISOString().split('T')[0];
+  
+  document.querySelectorAll('.study-status').forEach(badge => {
+    const endDate = badge.getAttribute('data-end-date');
+    if (today > endDate) {
+      badge.textContent = 'Closed';
+      badge.classList.add('bg-secondary');
+    } else {
+      badge.textContent = 'Active';
+      badge.classList.add('bg-success');
+    }
+  });
+
+  document.querySelectorAll('.study-btn').forEach(btn => {
+    const endDate = btn.getAttribute('data-end-date');
+    if (today > endDate) {
+      btn.classList.add('disabled');
+      btn.setAttribute('aria-disabled', 'true');
+      btn.removeAttribute('href');
+      btn.innerHTML = 'Study Closed';
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+# International Research 
+
+These are a list of universities that we have signed a memorandum of understanding to work collaboratively in the process of recruitment. Please visit their websites to access these studies as participants. 
+
+
+- [Small Liberal Arts College Research Network (SLACR)](https://slacr.weebly.com/available-studies.html)
+
+
+
+
+

@@ -1,0 +1,34 @@
+---
+title: "AI Tools"
+format: html
+---
+
+::: callout-important
+# Page Maintenance
+
+This page will be getting periodically updated due to the ever-evolving industry of AI.
+:::
+
+## Purpose of This Page
+
+This page delineates currently available **Artificial Intelligence (AI) tools** that may support Psychology dissertation and research projects.\
+Tools are grouped by **stage of the research lifecycle**, with emphasis on **supportive use** (e.g., planning, analysis assistance, visualisation) rather than replacement of scholarly judgement.
+
+> Use of AI tools must always comply with institutional ethics policies, data protection regulations (e.g., GDPR), and academic integrity guidelines.
+
+------------------------------------------------------------------------
+
+-   ElevenLabs
+
+<!-- -->
+
+-   3DVista: https://www.3dvista.com/en/ - a 360-degree immersive creation platform for tours and simulations -
+-   ElevenLabs: https://elevenlabs.io/ - an AI Voice platform (AI music, sound effects, podcasts etc.)
+-   Google Vids: https://workspace.google.com/ - an AI-supported video and presentation creation program (only supported on some paid Google plans)
+-   <https://suno.com/home>
+-   <https://modelzoo.co/>
+-   kimi.com
+-   perchance.org/image-generator-professional
+-   <https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo>
+-   <https://huggingface.co/tencent/HY-Motion-1.0>
+-   MCP

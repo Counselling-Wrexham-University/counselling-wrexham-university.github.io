@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Using Gorilla.sc for your Dissertation Project – Counselling - Wrexham University</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/wrexham-icon.jpeg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-029b10fc0dc652dab2ec1ac156c1a037.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-203c05c04b54dbe261474da57f29730d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/wrexham-icon.jpeg" alt="" class="navbar-logo light-content">
+    <img src="../images/wrexham-icon.jpeg" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Counselling - Wrexham University</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about/index.html">
+ <span class="dropdown-text">Technicians</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../about/index-2.html">
+ <span class="dropdown-text">Laboratory</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../about/FAQ.html">
+ <span class="dropdown-text">FAQ</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-students" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Students</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-students">    
+        <li>
+    <a class="dropdown-item" href="../students/index.html">
+ <span class="dropdown-text">Main Student Page</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../students/H&amp;S/index.html">
+ <span class="dropdown-text">Risk Assessments</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../students/ethics/index.html">
+ <span class="dropdown-text">General Ethics Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../students/vidatum-academic/index.html">
+ <span class="dropdown-text">Online Ethics Application Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled">
+ <span class="dropdown-text">PsychTech Booking System</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../resources/index.html">
+ <span class="dropdown-text">Main Resources Page</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../equipment/index.qmd">
+ <span class="dropdown-text">Equipment</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/index2.html">
+ <span class="dropdown-text">Psychometric Scales</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/index3.html">
+ <span class="dropdown-text">Experimental Tasks</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recruitment" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recruitment</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recruitment">    
+        <li>
+    <a class="dropdown-item" href="../recruitment/main-page.html">
+ <span class="dropdown-text">Main Recruitment Page</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../recruitment/available-studies.html">
+ <span class="dropdown-text">Available Studies</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-platforms" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Platforms</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-platforms">    
+        <li>
+    <a class="dropdown-item" href="../platforms/index.html">
+ <span class="dropdown-text">Main Platforms Page</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../platforms/gorilla.html">
+ <span class="dropdown-text">Gorilla.sc Open</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../platforms/sona/index.html">
+ <span class="dropdown-text">SONA (In-development)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../platforms/panopto.html">
+ <span class="dropdown-text">Panopto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../platforms/jisc.html">
+ <span class="dropdown-text">JISC</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://wrexhamuniversity.servicedeskplus.uk/app/itdesk/ui/ssp/pages/home">
+ <span class="dropdown-text">IT Support</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-news" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">News</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-news">    
+        <li>
+    <a class="dropdown-item" href="../updates/index.html">
+ <span class="dropdown-text">Main News Page</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../updates/tasks.html">
+ <span class="dropdown-text">Current Technician Tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../updates/feedback.html">
+ <span class="dropdown-text">Feedback</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../contact/index.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#essential-checklist-for-experimental-design" id="toc-essential-checklist-for-experimental-design" class="nav-link active" data-scroll-target="#essential-checklist-for-experimental-design"><strong>Essential Checklist for Experimental Design</strong></a>
+  <ul class="collapse">
+  <li><a href="#phase-1-task-design-logic-task-builder" id="toc-phase-1-task-design-logic-task-builder" class="nav-link" data-scroll-target="#phase-1-task-design-logic-task-builder">Phase 1: Task Design &amp; Logic (Task Builder)</a>
+  <ul class="collapse">
+  <li><a href="#phase-2-experiment-flow-logic-experiment-tree" id="toc-phase-2-experiment-flow-logic-experiment-tree" class="nav-link" data-scroll-target="#phase-2-experiment-flow-logic-experiment-tree">Phase 2: Experiment Flow &amp; Logic (Experiment Tree)</a></li>
+  <li><a href="#phase-3-pilot-testing-data-audit" id="toc-phase-3-pilot-testing-data-audit" class="nav-link" data-scroll-target="#phase-3-pilot-testing-data-audit">Phase 3: Pilot Testing &amp; Data Audit</a></li>
+  <li><a href="#phase-4-launching-your-experiment" id="toc-phase-4-launching-your-experiment" class="nav-link" data-scroll-target="#phase-4-launching-your-experiment">Phase 4: Launching your Experiment</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Using Gorilla.sc for your Dissertation Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Over the years the PsychTech have provided guides and videos on how to use Gorilla.sc and how to create experiments and surveys. However, the issue with this is that platform Gorilla.sc has gone through various changes and shifts both as an organisation and more importantly on their website. Therefore, creating guides by us is essentially not of great time usage for us. Therefore, we advise students to follow the Help &amp; Support page which is heavily updated by the Gorilla.sc team itself.</p>
+<p>Here you can find the link to the <a href="https://support.gorilla.sc/support/">Documentation &amp; Support Page</a>. Here you will find comprehensive guides and also <a href="https://app.gorilla.sc/admin/samples">sample projects</a>.</p>
+<p>Gorilla.sc is an ideal platform for designing interactive behavioral experiments, online tasks, and complex academic questionnaires because it provides precise millisecond timing, advanced branching and randomization, and seamless data exports compatible with R, SPSS, or Python. You can request access by completing this <a href="https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JABKV6oLmjfbQqvnE3ItB8ZPAfrbYar9MWRVk3bQlfdyqZs?nav=YTVlZGM0YmUtNTJmMC00YWE3LWEyMjItMmMxMGFkZTAzNTRi">form</a> here and you can find the website <a href="https://gorilla.sc/">here</a></p>
+<p>The Psychology technicians have also created a repository on <a href="https://app.gorilla.sc/openmaterials/1112705">Gorilla.sc</a> holding several psychometric scales for ease of use for students who wish to implement and focus on solely building their experiments whilst having the psychometric scales on hand and ready to implement into their study.</p>
+<section id="essential-checklist-for-experimental-design" class="level1">
+<h1><strong>Essential Checklist for Experimental Design</strong></h1>
+<p>Nonetheless, I have written a generic guide here that hopefully will not require that much change in the future. For further details please visit the <a href="https://support.gorilla.sc/support/">support page</a> or <a href="https://support.gorilla.sc/support/launching-your-study/index">guides on launching your study</a></p>
+<section id="phase-1-task-design-logic-task-builder" class="level2">
+<h2 class="anchored" data-anchor-id="phase-1-task-design-logic-task-builder">Phase 1: Task Design &amp; Logic (Task Builder)</h2>
+<p><strong>Trial Structure &amp; Canvas Layout</strong></p>
+<ul>
+<li><p>Set up explicit fixations/crosses with clear display durations (e.g., 500 ms).</p></li>
+<li><p>Ensure response buttons or keypresses are bound to explicit zones.</p></li>
+<li><p>Define explicit screen bounds and scaling so elements render cleanly across varying monitor sizes.</p></li>
+</ul>
+<p><strong>Stimulus Management</strong></p>
+<ul>
+<li>Upload stimulus files (images, audio, video) using consistent, clear file names.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Verify media preload settings (e.g., set critical visual or audio stimuli to preload before trial display to prevent timing lag).</li>
+</ul>
+<p><strong>Spreadsheet Construction</strong></p>
+<ul>
+<li>Map columns directly to task zones (e.g., <code>stimulus_image</code>, <code>correct_response</code>).</li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Add a <code>randomise_blocks</code> or <code>randomise_trials</code> column to control trial sequence per participant.</p></li>
+<li><p>Specify a <code>display</code> column to direct Gorilla which screen layout to call for each row.</p></li>
+</ul>
+<p><strong>Data &amp; Metric Logging</strong></p>
+<ul>
+<li><p>Check that Reaction Time (RT), accuracy logging are toggled ON for response screens.</p></li>
+<li><p>Check that psychometric measures are obtaining appropriate values and follow the exact formatting</p></li>
+</ul>
+<!-- -->
+<ul>
+<li>Set up correct key bindings and response tags (e.g., <code>space</code> = target, <code>f</code>/<code>j</code> = binary choice).</li>
+</ul>
+<section id="phase-2-experiment-flow-logic-experiment-tree" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-experiment-flow-logic-experiment-tree">Phase 2: Experiment Flow &amp; Logic (Experiment Tree)</h3>
+<ul>
+<li><p><strong>Participant Routing</strong></p>
+<ul>
+<li><p>Include an <strong>Participant Information &amp; Informed Consent</strong> screen at the very beginning.</p></li>
+<li><p>Add a <strong>Demographics Questionnaire</strong> (or screening checks) prior to the core task.</p></li>
+<li><p>Place <strong>Instructions</strong> nodes with brief comprehension checks before major tasks.</p></li>
+</ul></li>
+<li><p><strong>Randomization &amp; Counterbalancing</strong></p>
+<ul>
+<li><p>Use <strong>Randomiser</strong> nodes to assign participants to conditions or task orders evenly.</p></li>
+<li><p>Use <strong>Branching</strong> nodes to divert participants based on accuracy, demographics, or consent answers.</p></li>
+</ul></li>
+<li><p><strong>Data Quality &amp; Rejection Controls</strong></p>
+<ul>
+<li><p>Add an <strong>Attention Check</strong> or <strong>Catch Trial</strong> node to screen out low-effort responses.</p></li>
+<li><p>Set up a <strong>Branching / Reject</strong> path for participants who fail attention checks or decline consent.</p></li>
+</ul></li>
+<li><p><strong>Recruitment Platform Integration</strong></p>
+<ul>
+<li><p>Place a <strong>Redirect / Finish</strong> node at the end with appropriate completion URLs (e.g., Prolific, CloudResearch, or Qualtrics parameters).</p></li>
+<li><p>Pass participant query parameters (<code>PROLIFIC_PID</code>, <code>STUDY_ID</code>, <code>SESSION_ID</code>) into Gorilla embedded variables.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="phase-3-pilot-testing-data-audit" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-pilot-testing-data-audit">Phase 3: Pilot Testing &amp; Data Audit</h3>
+<ul>
+<li><p><strong>Technical Validation</strong></p>
+<ul>
+<li><p>Test the experiment link in <strong>Preview Mode</strong> across multiple browser types (Chrome, Safari, Firefox).</p></li>
+<li><p>Check the task on both desktop and mobile layouts (or set device restrictions in the Experiment Tree settings).</p></li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Data Export Verification</strong></p>
+<ul>
+<li><p>Run a full mock session and export the <strong>Data CSV</strong>.</p></li>
+<li><p>Confirm that key columns (<code>Response</code>, <code>Reaction Time</code>, <code>Spreadsheet Row</code>, <code>Correct</code>, <code>Participant ID</code>) are present and accurate.</p></li>
+<li><p>Verify that spreadsheet values parse cleanly without missing data or mismatched headers.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="phase-4-launching-your-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="phase-4-launching-your-experiment">Phase 4: Launching your Experiment</h3>
+<p>As previously mentioned, once you are ready to launch your study then follow this link here for a full guide to make sure you have followed everything: <a href="https://support.gorilla.sc/support/launching-your-study/index" class="uri">https://support.gorilla.sc/support/launching-your-study/index</a></p>
+<p>We have inserted the guide above so you can get the full information above. However, when you are indeed ready to launch your experiment then please watch this video set by gorilla.sc: <a href="https://support.gorilla.sc/support/launching-your-study/create-to-launch#launchyourexperiment" class="uri">https://support.gorilla.sc/support/launching-your-study/create-to-launch#launchyourexperiment</a></p>
+<p>Finally, once you have requested the Tokens the Psychology Technicians will accept your token requests and then you will have to accept the tokens by requesting that same number again. It’s a little bit confusing I know but this is how Gorilla.sc is set up!</p>
+<p>Good Luck in your data collection!!!</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<div id="help-widget">
+
+  <button id="help-main" aria-label="Help">
+
+    <img src="../images/wrexham-icon.jpeg" alt="Help">
+
+  </button>
+
+
+
+  <a class="help-action action-gorilla" href="https://gorilla.sc/" target="_blank" rel="noopener" aria-label="Gorilla.sc">
+
+    <img src="../images/gorilla-icon.png" alt="Gorilla.sc">
+
+  </a>
+
+
+
+  <a class="help-action action-wris" href="https://wris.wrexham.ac.uk/" target="_blank" rel="noopener" aria-label="WRIS">
+
+    <img src="../images/vidatum-academic.png" alt="WRIS">
+
+  </a>
+
+
+
+  <a class="help-action action-digital-learning-skills" href="https://wrexham.libguides.com/digitallearning" target="_blank" rel="noopener" aria-label="DLS">
+
+    <img src="../images/digital-learning-skills.png" alt="DLS">
+
+  </a>
+
+
+
+  <a class="help-action action-email" href="https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener" aria-label="Email us">
+
+    <img src="../images/colour-psy-tech-image.png" alt="Email us">
+
+  </a>
+
+
+
+  <a class="help-action action-myuni" href="https://moodle.wrexham.ac.uk/my/" target="_blank" rel="noopener" aria-label="MyUni">
+
+    <img src="../images/moodle-icon.png" alt="MyUni">
+
+  </a>
+
+
+
+  <a class="help-action action-github" href="https://github.com/WU-Psychology-Technician" target="_blank" rel="noopener" aria-label="GitHub">
+
+    <img src="../images/github.png" alt="GitHub">
+
+  </a>
+
+
+
+  <a class="help-action action-jisc" href="https://app.onlinesurveys.jisc.ac.uk/login?callbackUrl=%2Fdashboard%2Fwgu" target="_blank" rel="noopener" aria-label="JISC">
+
+    <img src="../images/JISC.png" alt="JISC">
+
+  </a>
+
+
+
+  <a class="help-action action-itdesk" href="https://wrexhamuniversity.servicedeskplus.uk/app/itdesk/ui/ssp/pages/home" target="_blank" rel="noopener" aria-label="IT Help Desk">
+
+    <img src="../images/IT-help-desk.jpg" alt="IT Help Desk">
+
+  </a>
+
+
+
+  <a class="help-action action-osf" href="https://osf.io/" target="_blank" rel="noopener" aria-label="OSF">
+
+    <img src="../images/OSF.png" alt="OSF">
+
+  </a>
+
+</div>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const widget = document.getElementById("help-widget");
+
+  const mainBtn = document.getElementById("help-main");
+
+  const secondaryBtns = document.querySelectorAll(".help-action");
+
+
+
+  /* TOGGLE RADIAL MENU */
+
+  mainBtn.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+
+    widget.classList.toggle("open");
+
+  });
+
+
+
+  /* CLOSE ON ACTION CLICK */
+
+  secondaryBtns.forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+      widget.classList.remove("open");
+
+    });
+
+  });
+
+
+
+  /* CLOSE ON OUTSIDE CLICK */
+
+  document.addEventListener("click", (e) => {
+
+    if (!widget.contains(e.target)) {
+
+      widget.classList.remove("open");
+
+    }
+
+  });
+
+});
+
+</script>
+<div id="scroll-top-widget" aria-label="Scroll to top">
+
+  <span>▲</span>
+
+</div>
+
+
+
+<script>
+
+  const scrollBtn = document.getElementById("scroll-top-widget");
+
+
+
+  window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 300) {
+
+      scrollBtn.classList.add("show");
+
+    } else {
+
+      scrollBtn.classList.remove("show");
+
+    }
+
+  });
+
+
+
+  scrollBtn.addEventListener("click", () => {
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+  });
+
+</script>
+
+<footer class="full-width-footer">
+
+  <div class="footer-content">
+
+    <h2>Psychology Technicians · Wrexham University</h2>
+
+    <p>© <span id="current-year"></span></p>
+
+    <p>
+
+      <a href="https://wrexham.ac.uk/privacy">Privacy Policy</a> |
+
+      <a href="https://myuni.glyndwr.ac.uk/">MyUni Page</a> |
+
+      <a href="https://wris.wrexham.ac.uk/">Ethics Page</a> |
+
+      <a href="https://wrexham.libguides.com/digitallearning">Digital Skills</a> |
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+
+<script>
+
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+
+</script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  
+
+  // FUNCTION: Inject the button into the navbar
+
+  function addChatButton() {
+
+    if (document.getElementById('custom-chat-trigger')) return;
+
+
+
+    const navTools = document.querySelector('.quarto-navbar-tools') || 
+
+                     document.querySelector('.navbar-nav') ||
+
+                     document.querySelector('.navbar-container');
+
+
+
+    if (navTools) {
+
+      const chatBtn = document.createElement('div');
+
+      chatBtn.id = 'custom-chat-trigger';
+
+      chatBtn.innerHTML = '💬'; 
+
+      chatBtn.title = "Contact Support";
+
+      
+
+      // Insert at the beginning of the tools container
+
+      navTools.insertBefore(chatBtn, navTools.firstChild);
+
+
+
+      // Attach Click Event - DIRECT MAILTO
+
+      chatBtn.addEventListener('click', function(e) {
+
+        e.preventDefault();
+
+        
+
+        const email = "psychology.technician@wrexham.ac.uk";
+
+        const subject = encodeURIComponent("Technical Support Request");
+
+        const body = encodeURIComponent(
+
+          "Hi Psychology Technicians,\n\n" +
+
+          "I am getting in touch regarding:\n" +
+
+          "[Please describe your equipment needs or technical issue here]\n\n" +
+
+          "Many thanks,\n" +
+
+          "[Your Name]"
+
+        );
+
+
+
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+
+      });
+
+      
+
+      return true; 
+
+    }
+
+    return false; 
+
+  }
+
+
+
+  // RETRY LOGIC (Ensures it finds the navbar in Quarto)
+
+  if (!addChatButton()) {
+
+    const interval = setInterval(() => {
+
+      if (addChatButton()) {
+
+        clearInterval(interval);
+
+      }
+
+    }, 500);
+
+    setTimeout(() => clearInterval(interval), 5000);
+
+  }
+
+});
+
+</script>
+<div id="google_translate_element" style="display:none;"></div>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
+
+  function googleTranslateElementInit() {
+
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,cy'}, 'google_translate_element');
+
+  }
+
+</script>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  const CYMRU_FLAG = 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg';
+
+  const ENGLAND_FLAG = 'https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg';
+
+
+
+  function setupLangButton() {
+
+    const navTools = document.querySelector('.quarto-navbar-tools');
+
+    if (!navTools || document.getElementById('lang-trigger')) return;
+
+
+
+    const langBtn = document.createElement('div');
+
+    langBtn.id = 'lang-trigger';
+
+    langBtn.style.cursor = 'pointer';
+
+    langBtn.style.padding = '5px';
+
+    langBtn.innerHTML = `<img src="${CYMRU_FLAG}" style="width:24px; vertical-align:middle;">`;
+
+    navTools.insertBefore(langBtn, navTools.firstChild);
+
+
+
+    langBtn.addEventListener('click', function() {
+
+      const select = document.querySelector('.goog-te-combo');
+
+      if (select) {
+
+        // Detect current language from Google's internal value
+
+        const currentLang = select.value;
+
+        const newLang = (currentLang === 'cy') ? 'en' : 'cy';
+
+        
+
+        // Update Google Translate
+
+        select.value = newLang;
+
+        select.dispatchEvent(new Event('change'));
+
+        
+
+        // Immediate visual update to flag
+
+        const img = langBtn.querySelector('img');
+
+        img.src = (newLang === 'cy') ? ENGLAND_FLAG : CYMRU_FLAG;
+
+      }
+
+    });
+
+  }
+
+
+
+  // Poll for navbar and widget
+
+  const interval = setInterval(() => {
+
+    if (document.querySelector('.quarto-navbar-tools') && document.querySelector('.goog-te-combo')) {
+
+      setupLangButton();
+
+      clearInterval(interval);
+
+    }
+
+  }, 300);
+
+});
+
+</script>
+<script src="../assets/synthwave.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

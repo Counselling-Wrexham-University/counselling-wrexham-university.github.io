@@ -1,0 +1,550 @@
+---
+title: ""
+format: html
+---
+
+# Counselling Research Ethics Guidance for Students
+
+**Document status and authorship** — This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document. It is a living, evolving resource intended to support Counselling students across academic years in understanding and applying research ethics in practice. It should be read alongside formal university ethics procedures, your professional body's code, and supervisor guidance. Students are encouraged to consult only the sections relevant to their specific project rather than reading the document in its entirety; however, those intending to practise as counsellors or psychotherapists are strongly advised to engage with the full document, as the ethical reasoning it describes is the same reasoning you will use in clinical practice.
+
+**Do / Do Not Guidance:**
+
+- ✅ Use this document as a practical guide alongside formal procedures
+- ✅ Read only the sections that are directly relevant to your specific project
+- ❌ Treat this as a final or exhaustive policy
+- ❌ Feel obliged to read every section if it is not relevant to your study
+
+## The two frameworks this guidance is built on
+
+Counselling in the UK is not governed by a single statutory regulator. Instead, practitioners belong to professional bodies that hold Accredited Registers overseen by the Professional Standards Authority. The two most relevant to Wrexham Counselling students are:
+
+- **BACP** — British Association for Counselling and Psychotherapy: [*Ethical Framework for the Counselling Professions*](https://www.bacp.co.uk/events-and-resources/ethics-and-standards/ethical-framework-for-the-counselling-professions/)
+- **NCPS** — National Counselling and Psychotherapy Society: [*Code of Ethics*](https://ncps.com/about-us/code-of-ethics)
+
+For research specifically, BACP publishes a dedicated companion document that the *Ethical Framework* requires members to follow:
+
+- [*Ethical Guidelines for Research in the Counselling Professions*](https://www.bacp.co.uk/events-and-resources/research/publications/ethical-guidelines-for-research-in-the-counselling-professions/) (BACP, last updated February 2019)
+
+NCPS embeds its research requirements directly within the *Code of Ethics*, in the **Research Ethics** section.
+
+::: callout-important
+## The BACP Ethical Framework is changing
+
+BACP launched a new *Ethical Framework for the Counselling Professions* **2026**, which becomes **mandatory at midday on Tuesday 3 November 2026**. Until then, the **2018** framework remains the operative document.
+
+The 2026 framework restructures into three sections — *working ethically within relationships*, *ethical principles*, and *core responsibilities* — and adds new guidance on the use of AI and digital technology. It also asks members to articulate a **rationale for their ethical decision-making**, which is directly relevant to how you justify design choices in an ethics application.
+
+If you are writing a dissertation that will be submitted after November 2026, cite the 2026 framework. If your project concludes before then, cite 2018. Check with your supervisor which applies to your submission date.
+:::
+
+**A note on which body applies to you.** If you are a student member of BACP or NCPS, you are bound by that body's code *now*, as a student, not only after qualifying. If you are a member of neither, your project is still governed by Wrexham's REC and by whichever framework your programme aligns to. Ask your supervisor if you are unsure — the answer changes what you cite in your application.
+
+------------------------------------------------------------------------
+
+## 1. Purpose of This Document
+
+This document supports Counselling students in preparing ethically sound research proposals and ethics applications. Its aim is to translate the ethical commitments of the counselling professions into practical guidance that aligns with the expectations of Research Ethics Committees (RECs). The emphasis throughout is on ethical viability, feasibility, and institutional responsibility, rather than simply regulatory compliance.
+
+It provides guidance on:
+
+- practical implementation of BACP and NCPS ethics in a research context,
+- common pitfalls for student researchers,
+- additional considerations for REC review,
+- the particular hazards of researching as a trainee practitioner,
+- and guidance for managing sensitive or complex aspects of research.
+
+**Do / Do Not Guidance:**
+
+- ✅ Consult supervisors early and regularly
+- ✅ Consider practical feasibility as well as ethical principles
+- ❌ Assume mere adherence to rules ensures ethical approval
+- ❌ Start data collection without REC approval
+
+------------------------------------------------------------------------
+
+## 2. Ethical Foundations: BACP and NCPS
+
+Both frameworks share a common ancestry in principle-based ethics, so they overlap substantially. Where they differ is in emphasis and structure: BACP separates *values*, *principles* and *personal moral qualities*, while NCPS sets out five *fundamental principles* drawing explicitly on Kitchener (1984) and Kitchener and Anderson (2011).
+
+### 2.1 The BACP structure
+
+The 2018 *Ethical Framework* has three main parts: **Our commitment to clients**, **Ethics**, and **Good practice**. The Ethics section is the one you will most often cite in a research rationale.
+
+**BACP core principles:**
+
+| Principle | Meaning |
+|---------------------------------------|---------------------------------|
+| **Being trustworthy** | Honouring the trust placed in the practitioner |
+| **Autonomy** | Respect for the client's right to be self-governing |
+| **Beneficence** | A commitment to promoting the client's wellbeing |
+| **Non-maleficence** | A commitment to avoiding harm to the client |
+| **Justice** | Fair and impartial treatment of all clients; adequate provision of services |
+| **Self-respect** | Fostering the practitioner's self-knowledge, integrity and care for self |
+
+BACP is explicit that these principles will sometimes conflict, and that a decision is not unethical merely because it is controversial or because another practitioner would have decided differently. What is required is that you consider all relevant circumstances with care and **remain accountable for the decision you made**. This is precisely the reasoning an REC wants to see in an application — not a claim that your study is risk-free, but a demonstration that you identified the tensions and reasoned through them.
+
+BACP also names **personal moral qualities** that practitioners aspire to, several of which bear directly on research conduct: *candour*, *courage*, *diligence*, *humility*, *integrity*, *resilience* and *wisdom*.
+
+### 2.2 The NCPS fundamental principles
+
+1.  **Working towards the good of clients and doing no harm** (Beneficence and Non-maleficence) — practitioners hold client welfare central and commit to avoiding harm.
+2.  **Being trustworthy and responsible** (Fidelity) — honouring trust placed by clients and the community, and representing the profession respectfully.
+3.  **Respect for the dignity and rights of the client** (Autonomy) — the right to self-determination, with Gillick competence and the Fraser Guidelines considered where applicable.
+4.  **Justice** — awareness of one's own judgements and prejudices, using supervision as a safeguard, and respect for diversity of persons.
+5.  **Integrity and self-responsibility** — honesty and accuracy, alongside responsibility for one's own health, wellbeing and scope of competence.
+
+NCPS states that these principles cannot deliver a single "right" answer, but can be used to reach a **best clinical judgement** — and that a practitioner must be able to demonstrate they considered them, **especially in discussion with their supervisor**.
+
+### 2.3 How the two map onto each other
+
+| Concern                          | BACP              | NCPS                   |
+|----------------------------------|-------------------|------------------------|
+| Avoiding harm                    | Non-maleficence   | Principle 1            |
+| Promoting good                   | Beneficence       | Principle 1            |
+| Trust                            | Being trustworthy | Principle 2 (Fidelity) |
+| Self-determination               | Autonomy          | Principle 3            |
+| Fairness and anti-discrimination | Justice           | Principle 4            |
+| Practitioner wellbeing           | Self-respect      | Principle 5            |
+
+If your project sits under one body, cite that body. If your cohort spans both, citing the shared principle and noting both sources is acceptable and often clearer.
+
+**Do / Do Not Guidance:**
+
+- ✅ Cite the framework your professional membership actually binds you to
+- ✅ Show your reasoning where principles pull against each other
+- ❌ Cite the BPS Code of Human Research Ethics as your governing framework — it governs psychologists, not counsellors
+- ❌ Treat the principles as a checklist to be ticked rather than a reasoning structure
+
+------------------------------------------------------------------------
+
+## 3. Research-Specific Requirements
+
+### 3.1 What BACP requires of research
+
+The *Ethical Framework* sets out research obligations in its Good practice section. In summary, BACP members undertaking research commit to being rigorously attentive to the **quality and integrity** of the research process, the knowledge claims arising from it, and how results are disseminated. All research must be **guided by the *Ethical Guidelines for Research in the Counselling Professions***, all participants must take part on the basis of **explicit informed consent**, and all research must be **reviewed in advance** so that participants' rights and interests are considered *independently of the researcher*. Research methods must comply with good practice standards for any services being delivered and must not adversely affect clients.
+
+That independent-review requirement is why REC approval is not a bureaucratic formality — it is the mechanism by which the framework's own standard is met.
+
+The *Ethical Guidelines for Research* are organised into twelve sections, several of which are directly relevant to dissertation projects:
+
+- Ethical principles and research
+- Research integrity
+- Safety and managing the risks of research to participants, the public and the researcher
+- Relationships and communication with research participants
+- Vulnerability in research participants
+- Research ethics review and research governance
+- Online research
+- **Trainee and student researchers**
+- Ethical problem-solving in research
+
+Section 9 is written for you specifically. Read it before drafting your application.
+
+### 3.2 What NCPS requires of research
+
+The NCPS *Code of Ethics* contains a Research Ethics section stating that where research directly involves clients or trainees, **all clauses of the Code apply**. In addition, researchers must:
+
+1.  Accept that participation is **purely voluntary**, with no pressure of any type exerted. Payment must not act as an inducement where the research asks participants to take risks beyond those of everyday life.
+2.  Obtain **proper consent before commencement**, especially with minors or persons with special needs. In longitudinal research, consent may need to be repeated at intervals.
+3.  Make clear at the outset that initial consent **does not negate the right to withdraw** at any stage.
+4.  Maintain **complete openness and honesty** about the purpose and nature of the research.
+5.  Consider **potential adverse consequences** and be ready to signpost to support.
+6.  Inform a participant if, during research, they present a condition they seem unaware of — and advise them if continued participation may jeopardise their future wellbeing.
+7.  Provide for the **ongoing care** of participants regarding adverse effects arising within a reasonable period after involvement.
+8.  Act on the principle that **the privacy and psychological wellbeing of the individual participant is always more important than the research itself**.
+
+Point 8 is the one to internalise. It is the sentence to return to whenever a design decision trades participant welfare against data quality.
+
+::: callout-note
+## Note on the incentive clause
+
+NCPS permits payment but forbids it as an *inducement to accept risk*. A modest thank-you (a prize draw entry, a voucher) is generally acceptable; a payment large enough to make a participant tolerate distress they would otherwise avoid is not. Explain your reasoning in the application rather than simply stating the amount.
+:::
+
+**Do / Do Not Guidance:**
+
+- ✅ Read BACP's *Ethical Guidelines for Research*, section 9, if you are a BACP member
+- ✅ Read the NCPS Code's Research Ethics section if you are an NCPS member
+- ✅ Plan for after-the-fact support, not just in-the-moment debriefing
+- ❌ Assume the Code applies only to clinical work and not to your dissertation
+- ❌ Set an incentive level without justifying it
+
+------------------------------------------------------------------------
+
+## 4. The Practitioner-Researcher Problem
+
+This section has no equivalent in psychology-oriented ethics guidance, and it is the single most common reason counselling dissertation proposals require substantial revision.
+
+As a counselling student you occupy **two roles at once**: trainee practitioner and student researcher. These roles carry different obligations, different relationships to the people in front of you, and different kinds of power. Confusing them causes real harm.
+
+### 4.1 Do not research your own clients
+
+You must not recruit your own current clients as research participants. The reasons are cumulative and each would be sufficient on its own:
+
+- **Consent cannot be freely given.** A client depends on you therapeutically. "No" is much harder to say to your counsellor than to a stranger with a clipboard.
+- **The therapeutic frame is compromised.** Material disclosed in therapy is disclosed for therapeutic purposes. Repurposing it as data breaches the basis on which it was shared.
+- **Dual relationship.** BACP requires that dual or multiple relationships be avoided where the risks of harm to the client outweigh the benefits. Researcher-and-therapist is a textbook example.
+- **Withdrawal becomes unsafe.** A participant who withdraws mid-study must be able to continue therapy unaffected — and neither of you can be confident that is true.
+
+Former clients are only marginally less problematic, and any such proposal needs explicit supervisory and REC discussion before it is drafted.
+
+### 4.2 Recruiting through your placement
+
+Recruiting *other* clients from your placement agency is sometimes possible but is never straightforward. It requires:
+
+- **Gatekeeper permission** from the agency, in writing, independent of your own placement relationship
+- Recruitment that does not run through you as their counsellor or a colleague with therapeutic contact
+- Clear communication that participation has **no bearing whatsoever** on the service they receive
+- A plan for what happens if a participant discloses something about the service, a colleague, or their own risk
+
+Many agencies will decline, and they are entitled to. Build your timeline assuming a "no" is possible, and have an alternative population identified before you submit.
+
+### 4.3 The research interview is not a therapy session
+
+Counselling students are, by training, good at opening people up. That skill becomes an ethical hazard in a research interview, where you have no therapeutic contract, no ongoing relationship, and no mandate to work with what emerges.
+
+The distinction to hold onto: **you use counselling skills to conduct a humane interview, but you are not offering therapy.** You listen well, you notice distress, you respond with warmth — and then you signpost rather than intervene.
+
+**Do / Do Not Guidance:**
+
+- ✅ Use counselling skills to make the interview safe, paced and respectful
+- ✅ Pause, offer a break, or end the interview if a participant becomes distressed
+- ✅ Have a written signposting list ready before the first interview
+- ✅ Take the emotional impact of interviews to research supervision
+- ❌ Follow distressing material deeper because it is producing rich data
+- ❌ Offer interpretations, reframes, or therapeutic homework
+- ❌ Slide into a therapeutic contract mid-interview
+- ❌ Research your own current clients under any framing
+
+### 4.4 Two kinds of supervision
+
+Clinical supervision and research supervision are different, and you will likely have both. Clinical supervision addresses your practice with clients; research supervision addresses your project. Material from research participants should go to your **research supervisor**, within the confidentiality terms your participants agreed to — not into clinical supervision, where participants never consented for it to go.
+
+If a research interview has affected you personally, that *is* appropriate for clinical supervision or personal therapy, discussed at the level of your own reaction rather than the participant's disclosures.
+
+------------------------------------------------------------------------
+
+## 5. What Research Ethics Committees Evaluate in Practice
+
+**Do / Do Not Guidance:**
+
+- ✅ Provide clear rationale, methodology, and risk management plans
+- ✅ Demonstrate researcher competence and supervision arrangements
+- ✅ State explicitly how you have separated practitioner and researcher roles
+- ❌ Submit vague or incomplete proposals
+- ❌ Assume feasibility without evidence
+
+Key areas of REC evaluation include:
+
+- Feasibility within the academic timeframe
+- Appropriateness of the sample and recruitment method
+- Data protection, storage, and UK GDPR compliance
+- Researcher competence and supervision
+- Institutional risk and liability
+- Management of dual roles and power imbalance
+- Adequacy of distress protocols and signposting
+- Researcher safety and wellbeing
+
+------------------------------------------------------------------------
+
+## 6. Common Ethical Requirements and Restrictions for Student Projects
+
+### 6.1 Use of Measures and Scales
+
+**Do / Do Not Guidance:**
+
+- ✅ Use scales free for research or educational purposes
+- ✅ Frame measures as assessing traits, experiences, or self-reported states
+- ✅ Check licensing terms in writing before building your survey
+- ❌ Use copyrighted or proprietary measures without permission
+- ❌ Attempt to diagnose or imply clinical assessment
+
+Note that widely used outcome measures in counselling (for example the CORE family of measures) have their own licensing and usage conditions. Confirm terms before you design around them.
+
+### 6.2 Data Collection Platforms and Digital Tools
+
+**Do / Do Not Guidance:**
+
+- ✅ Use university-approved, UK GDPR-compliant platforms
+- ✅ Store data within institutional systems
+- ❌ Use unapproved third-party platforms (e.g., Google Forms)
+- ❌ Store participant data on personal or external cloud services
+
+NCPS makes the same point for practice: only use platforms that are secure in terms of GDPR, confidentiality, hacking and data storage, and follow ICO guidance. The Society explicitly declines to endorse or forbid specific platforms because the market changes too quickly — which means the responsibility for checking sits with you and your institution.
+
+### 6.3 Research Location and Facilities
+
+**Do / Do Not Guidance:**
+
+- ✅ Conduct research in approved university facilities
+- ✅ Book rooms, equipment, and risk assessments in advance
+- ✅ Consult the technical team about room and equipment requirements at [psychology-technician\@wrexham.ac.uk](mailto:psychology-technician@wrexham.ac.uk)
+- ❌ Conduct research in unapproved or unsafe locations
+- ❌ Ignore risk assessment procedures
+- ❌ Conduct interviews in a participant's home without a lone-working protocol
+
+### 6.4 Researcher Safety and Self-Care
+
+BACP's research guidelines treat researcher safety as an ethical requirement in its own right, not an afterthought — and both frameworks name practitioner wellbeing as a principle (BACP's *self-respect*; NCPS's *integrity and self-responsibility*).
+
+Qualitative counselling research means sustained exposure to difficult material. This has a cumulative effect that students routinely underestimate.
+
+**Do / Do Not Guidance:**
+
+- ✅ Agree a lone-working protocol before any off-campus data collection
+- ✅ Space interviews out rather than clustering them
+- ✅ Build transcription time into your plan — you will hear the material again
+- ✅ Use supervision for the impact the work has on you
+- ❌ Schedule six emotionally demanding interviews in a week to save time
+- ❌ Treat your own distress as a private problem separate from the project
+
+### 6.5 Deception in Research
+
+**Do / Do Not Guidance:**
+
+- ✅ Avoid deception unless genuinely necessary
+- ✅ Fully debrief participants if deception is used
+- ❌ Mislead participants unnecessarily
+- ❌ Leave participants unaware of study purpose
+
+Note that NCPS requires "complete openness and honesty with regard to both the purpose and nature of the research". Deception designs are therefore a harder sell in counselling research than in experimental psychology, and need strong justification.
+
+### 6.6 Conversion Therapy
+
+No project may investigate, trial, evaluate, or in any way facilitate practices intended to change or suppress sexual orientation or gender identity. NCPS states plainly that conversion therapy is unethical, harmful, and unsupported by evidence. BACP's *Ethical Framework* commits members to challenging the assumption that any sexual orientation or gender identity is preferable to another, and to not attempting to bring about such change.
+
+Research *about* the harms of conversion practices, or about survivors' experiences, is a legitimate and important area — but it is sensitive-topic research with survivors of harm, and is subject to everything in Section 7.1 below.
+
+### 6.7 Where to find Ethics Templates
+
+- University ethics templates: <https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/>
+
+### 6.8 Where to find the Research Application website
+
+- Wrexham Research Information System (WRIS): <https://wris.wrexham.ac.uk/main/research>
+
+### 6.9 Where to find dissertation information
+
+Assessment briefs, rubrics and writing guidance are on the Moodle page for your module.
+
+::: callout-warning
+## Placeholder — needs your module codes
+
+The original version of this page listed PSY619, PSY771 and PSY775, which are Psychology modules. Replace these with the correct Counselling module codes before publishing.
+:::
+
+### 6.10 Who to ask for Help
+
+Your **dissertation supervisor** is your first point of contact throughout. Your **personal tutor** should be separate from your dissertation project. Your **clinical supervisor** covers your practice, not your research — though the boundary between the two is itself worth discussing with both.
+
+------------------------------------------------------------------------
+
+## 7. Common Student Research Themes and Additional Ethical Considerations
+
+### 7.1 Sensitive Topics
+
+Research involving sensitive topics requires careful ethical justification, proportionate risk management, and clear evidence that the research question cannot be addressed using less intrusive means. Sensitive topics may include, but are not limited to: trauma, abuse, violence, self-harm, suicide, substance use, discrimination, illegal behaviour, bereavement, sexual behaviour, or highly personal life experiences.
+
+Research Ethics Committees assess sensitive-topic proposals with particular attention to **participant vulnerability, likelihood of distress, and researcher preparedness**. You must demonstrate that you have anticipated potential emotional, psychological, or social risks and put appropriate safeguards in place. This includes recognising that participants may have lived experience related to the topic even where the study does not explicitly recruit clinical or vulnerable populations.
+
+Ethical viability depends not only on *what* is studied, but *how*. Question wording, task framing, sequencing of measures, and the context of participation all influence participant wellbeing. Studies that are overly intrusive, poorly justified, or disproportionate to the level of academic training are likely to be rejected or require substantial revision.
+
+Counselling students face a particular version of this risk. Your interviewing skill means participants may disclose more than they intended to — and more than they would have to a less skilled interviewer. Skill increases your responsibility rather than reducing it.
+
+**Do / Do Not Guidance:**
+
+- ✅ Provide a clear theoretical and empirical justification for studying the sensitive topic
+- ✅ Demonstrate proportionality between research aims and participant burden
+- ✅ Include content warnings and remind participants of their right to skip questions
+- ✅ Implement robust debriefing and signposting procedures
+- ✅ Write a distress protocol specifying what you will do, at what threshold
+- ✅ Consult supervisors early and revise designs where risk is disproportionate
+- ❌ Include sensitive questions without strong justification
+- ❌ Use graphic, explicit, or unnecessarily detailed materials
+- ❌ Assume participants will not experience distress
+- ❌ Proceed without clear plans for managing adverse reactions
+
+### 7.2 Mental Health and Wellbeing
+
+Research on mental health and wellbeing is common in counselling but carries **heightened responsibility**. RECs scrutinise how constructs are defined, measured, and communicated. You must distinguish between **research measurement** and any form of clinical assessment or diagnosis.
+
+Undergraduate and postgraduate taught students are **not qualified to diagnose**, and neither BACP nor NCPS registration confers diagnostic authority at any career stage. NCPS states directly that practitioners should not attempt to diagnose physical symptoms without relevant medical training, and that clients seeking relief from physical symptoms should be advised to consult a registered medical practitioner. The same restraint applies to psychological diagnosis in a research context: instruments such as depression, anxiety or stress scales must be framed explicitly as **self-report research measures**, never as screening or identification tools.
+
+NCPS Research Ethics point 6 creates a specific obligation here: if a participant presents a condition they seem unaware of, you have a duty to inform them and to advise them if continued participation may jeopardise their wellbeing. This is *not* a licence to diagnose. In practice it means: notice, do not interpret, signpost to their GP or an appropriate service, and record what you did.
+
+**Do / Do Not Guidance:**
+
+- ✅ Use non-diagnostic, research-appropriate self-report measures
+- ✅ State clearly that measures do not provide clinical assessment or diagnosis
+- ✅ Provide content warnings and the option to skip questions
+- ✅ Include tailored support and wellbeing signposting in debrief materials
+- ✅ Justify the number and type of measures used
+- ❌ Attempt to diagnose, screen, or label participants
+- ❌ Present scores as indicators of mental disorder or clinical risk
+- ❌ Return individual scores to participants as if they were meaningful clinical feedback
+- ❌ Omit support information when researching distress-related topics
+
+### 7.3 Research with Children and Young People (Under 18)
+
+Research involving under-18s is subject to **significantly heightened ethical, legal, and safeguarding requirements**. Such participants are a vulnerable population and RECs apply a much higher threshold for risk, consent, feasibility, and institutional responsibility.
+
+For undergraduate students, primary data collection with under-18s is generally **not permitted** within standard dissertation timelines, because of enhanced safeguarding procedures, parental or guardian consent, gatekeeper approval, and in most cases an enhanced **DBS check**. These processes typically exceed an academic year.
+
+Both professional bodies address consent capacity directly. NCPS requires written consent from an appropriate adult except where the young person is **Gillick competent**, and recommends holding a current DBS certificate. BACP requires careful consideration of a young person's capacity to give informed consent, whether it is appropriate to seek consent from those with parental responsibility, and the young person's best interests. Where consent turns on competence, the **Fraser Guidelines** may also be relevant.
+
+Educational and youth settings impose their own approval processes and calendars, operating independently of the university REC. Even an ethically sound idea may be unviable because of institutional delay.
+
+**Do / Do Not Guidance:**
+
+- ✅ Inform academic staff at least **one year in advance** of any intention to work with under-18s
+- ✅ Expect under-18 research to be more appropriate for **postgraduate-level study**
+- ✅ Prepare a **complete adult-participant backup project** from the outset
+- ✅ Consider alternatives (adult practitioners who work with young people, parents, trainee counsellors, or retrospective adult self-report designs)
+- ❌ Attempt to recruit young people without full REC, parental, and institutional approval
+- ❌ Assume DBS checks and gatekeeper permissions fit inside one academic year
+- ❌ Design a dissertation that depends solely on under-18 access
+
+### 7.4 Forensic and Secure Settings
+
+Research in prisons, probation services, secure hospitals, or with justice-involved populations is **high-risk** because of heightened vulnerability, power imbalance, restricted autonomy, and institutional gatekeeping. Undergraduate students are generally **not permitted** to conduct primary research in these settings.
+
+Barriers include multi-layered approval (university REC plus HM Prison and Probation Service or equivalent), security clearance, enhanced safeguarding, and timelines far exceeding an academic year. Participants in custodial settings may have constrained freedom to consent, raising direct concerns about voluntariness — which cuts against NCPS's requirement that participation be *purely voluntary with no pressure of any type*.
+
+**Do / Do Not Guidance:**
+
+- ✅ Notify academic staff **at least one year in advance** of any forensic interest
+- ✅ Expect this to be more appropriate for **postgraduate or doctoral study**
+- ✅ Develop a **fully viable backup project** using non-forensic adult populations
+- ✅ Frame forensic interests through theoretical, survey-based, or analogue designs
+- ❌ Approach prisons, probation services, or secure units independently
+- ❌ Recruit justice-involved participants without formal institutional agreements
+- ❌ Assume consent is freely given in custodial or mandated contexts
+
+### 7.5 Researching Counsellors and Trainees
+
+A common and often excellent dissertation design is to research practitioners rather than clients — trainee experiences, supervision, burnout, therapist decision-making. This avoids many client-facing risks but introduces its own.
+
+- Your participants may be **peers on your own course**, creating pressure to take part
+- Small professional communities make **anonymisation difficult**; identifying details accumulate across a transcript
+- Practitioner participants may disclose **client material**, which they are not free to share and you are not free to use
+- Participants may disclose **their own practice concerns**, raising questions about what you would do with a disclosure of unsafe practice
+
+Address the last two explicitly in your information sheet: ask participants not to share identifiable client information, and state in advance what you would do if serious concerns about client safety emerged.
+
+**Do / Do Not Guidance:**
+
+- ✅ Recruit peers via a neutral route with an explicit no-pressure statement
+- ✅ Ask participants to anonymise any client examples themselves, at source
+- ✅ State your position on disclosures of unsafe practice before consent is given
+- ❌ Recruit by approaching classmates directly and personally
+- ❌ Include verbatim client detail relayed by a practitioner participant
+
+------------------------------------------------------------------------
+
+## 8. Quantitative and Qualitative Pathways
+
+This section is more procedural, so that you have a route from research question to submitted application.
+
+### 8.1 Quantitative — Surveys
+
+- Decide upon your research question
+- Use the university templates: <https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/>
+- Decide the statistical model that fits the question (correlation, linear regression, multiple regression, ANOVA, Poisson, zero-inflated count models, and so on)
+- Choose psychometric measures of your constructs of interest:
+  - decide how many items you require
+  - decide whether to use an established or a newly validated measure
+  - confirm licensing and permission in writing
+- Justify each demographic item you collect in relation to your constructs — collect nothing you cannot justify
+- Obtain approval to use the JISC platform from the technical team, with supervisor approval
+
+**Document order for an online survey:**
+
+1.  **Participant information sheet** — the first document the participant sees (unless you are first asking whether they wish to use Welsh-language versions)
+2.  **Consent form** — meeting BACP or NCPS consent requirements, including the explicit right to withdraw
+3.  **The measures themselves**, in the order you have justified
+4.  **Debrief** — how the data will be used, and signposting to appropriate services should participation have affected their wellbeing
+
+### 8.2 Quantitative — Experimental
+
+- Decide upon your research question
+- Use the university templates linked above
+- Decide the statistical model that fits the question (t-tests, regression, ANOVA, and so on)
+- Select a task or measure that works within an experimental procedure
+- Justify your demographic items
+- Decide whether the study is face-to-face or online
+- Consult the technical team, with supervisor approval, on building and deploying the study
+- **\[Face-to-face\]** Arrange room booking and complete the risk assessment
+- **\[Gorilla.sc\]** Obtain platform approval with supervisor approval; work through the Gorilla tutorials; build materials and the experiment tree; obtain tokens; deploy, and use the resulting link in your recruitment advert
+
+### 8.3 Qualitative
+
+Qualitative work is the dominant tradition in counselling research, and the pathway deserves the same specificity.
+
+- Decide upon your research question
+- Decide the **methodology**: Interpretative Phenomenological Analysis, thematic analysis, grounded theory, narrative analysis, discourse analysis, ethnography
+- Decide the **method**: interview, focus group, observation
+  - Document analysis is a **secondary** data collection method and does not satisfy the primary data collection requirement of the dissertation
+- Consider **reflexivity** from the start, not as an appendix. Your own training, assumptions and therapeutic orientation shape what you hear and how you interpret it. Both frameworks require this kind of self-examination — NCPS names awareness of one's own judgements under Justice; BACP names humility and self-respect among personal moral qualities. Keep a reflexive journal from the first interview
+- Plan **anonymisation at transcription**, not at write-up. Change names, places, employers, and distinctive circumstances as you transcribe
+- Plan for **quotation consent**. Verbatim quotes are more identifying than students expect, particularly in small professional communities. State in your information sheet that anonymised quotes may be used
+- Decide face-to-face or online delivery
+
+**Face-to-face:**
+
+- Book a suitable private room; complete the room and lone-working risk assessment
+- Arrange times with participants that coincide with the booking
+- Record audio only, via the approved platform
+
+**Online:**
+
+- Use Microsoft Teams with the approved recording platform (not a personal application install)
+- **Test that audio records correctly before your first real interview** — a lost first interview is not recoverable and the participant cannot simply repeat it
+- Consider the participant's privacy at their end: are they somewhere they can speak freely?
+
+------------------------------------------------------------------------
+
+## 9. Data Protection and Confidentiality
+
+Confidentiality in research differs from confidentiality in therapy, and participants need to understand which one applies.
+
+Both frameworks require that limits to confidentiality be stated **in advance**. In a research context this means your information sheet must say, before consent is given, what would cause you to break confidentiality — typically disclosure of risk of serious harm to the participant or another person, or of a child at risk.
+
+**Do / Do Not Guidance:**
+
+- ✅ State the limits of confidentiality before consent, not after a disclosure
+- ✅ Keep records adequate, relevant and limited to what is necessary
+- ✅ Store data on institutional systems, encrypted, with access limited to the research team
+- ✅ Agree a retention and destruction schedule and state it to participants
+- ✅ Transport any physical materials in a locked container
+- ❌ Keep recordings on a phone or personal laptop
+- ❌ Promise absolute confidentiality — you cannot deliver it
+- ❌ Discuss identifiable participant material in open forums or group chats
+
+------------------------------------------------------------------------
+
+## 10. Final Guidance for Students
+
+**Do / Do Not Guidance:**
+
+- ✅ Engage supervisors and technical staff early
+- ✅ Prepare ethical applications with clarity and feasibility in mind
+- ✅ Read the research guidance for your own professional body, not just this page
+- ✅ Use the Wrexham Research Ethics Student Guide (WRIS: [undergraduate](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf), [postgraduate](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Postgraduate-Student-User-Guide.pdf))
+- ✅ Keep the practitioner and researcher roles distinct, and say in your application how you will do so
+- ❌ Assume ethical approval is automatic
+  - Expect a minimum two-week turnaround, often longer. Earlier is better
+- ❌ Ignore institutional guidance or REC feedback
+
+Well-designed ethical research protects participants, researchers, and the institution — and strengthens the value of the work produced. In counselling, it does something further: it models, in a research setting, the same care and accountability you are training to offer clients.
+
+------------------------------------------------------------------------
+
+## Key Documents
+
+| Document | Body | Link |
+|--------------------------------|--------------------|--------------------|
+| *Ethical Framework for the Counselling Professions* (2018; 2026 mandatory from 3 Nov 2026) | BACP | [Link](https://www.bacp.co.uk/events-and-resources/ethics-and-standards/ethical-framework-for-the-counselling-professions/) |
+| *Ethical Guidelines for Research in the Counselling Professions* (Feb 2019) | BACP | [Link](https://www.bacp.co.uk/events-and-resources/research/publications/ethical-guidelines-for-research-in-the-counselling-professions/) |
+| *Code of Ethics*, including Research Ethics section | NCPS | [Link](https://ncps.com/about-us/code-of-ethics) |
+| University ethics templates | Wrexham | [Link](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/) |
+| Research application system (WRIS) | Wrexham | [Link](https://wris.wrexham.ac.uk/main/research) |
+| Data protection guidance | ICO | [Link](https://ico.org.uk/) |

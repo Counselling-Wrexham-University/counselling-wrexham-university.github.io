@@ -1,0 +1,9 @@
+---
+title: "Risk Assessments"
+format: html
+---
+
+
+## Purpose of this Document 
+
+The purpose of this page is for guiding students on how to appropriately implement a Risk Assessment using one of our styled templates. 

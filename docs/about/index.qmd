@@ -1,0 +1,83 @@
+---
+title: ""
+date-modified: last-modified
+date-format: "DD-MM-YYYY"
+---
+
+# About the Psychology Technicians
+
+The Psychology Technicians at [Wrexham University](https://wrexham.ac.uk/) provide essential technical support, training, and expertise to staff and students in the Psychology Department.\
+We ensure that teaching, research, and student projects are supported with the right tools, equipment, and guidance.
+
+------------------------------------------------------------------------
+
+## Our Role
+
+We support the Psychology Department in three key areas:
+
+-   **Teaching Support**\
+    We prepare, maintain, and run equipment for practical classes, workshops, and open days.\
+    From laboratory demonstrations to experimental psychology tasks, we ensure everything runs smoothly.
+
+-   **Research Support**\
+    We help staff and students set up studies, collect data, and manage specialist equipment.\
+    Our expertise covers Biopac, Tobii Eye Tracking, CANTAB, and software such as PsychoPy, R, and Gorilla.
+
+-   **Student Projects**\
+    Undergraduate and postgraduate students rely on our guidance for dissertations, independent projects, and experiments.\
+    We provide training, troubleshooting, and technical advice to make sure students can carry out their work confidently.
+
+## Technical Expertise
+
+We're always happy to support colleagues across the department and to collaborate on interdisciplinary projects. For undergraduate students, we strongly encourage you to discuss your third-year project ideas with us as early as possible. Many projects require careful planning, and we can often design experiments tailored to your specific needs. This may involve building bespoke solutions from scratch or identifying and adapting reliable “off-the-shelf” tools. Early conversations ensure we have the time to create a setup that works effectively and supports your research aims.
+
+-   JISC Survey development
+-   Gorilla Experimental Framework
+-   3D modelling and animation (Blender)
+-   2D art and animation
+-   C# / C++ Coding within the Unity / Unreal Game Engine
+-   HTML web development, and CSS (including basic Quarto deployment                   )
+-   Digital photography and video recording
+-   Video editing and post production (DaVinci Resolve)
+-   Virtual Reality
+-   Specialist knowledge of the Biopac, Tobii Eye Tracker and EEG
+
+------------------------------------------------------------------------
+
+## Meet the Team
+
+::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;"}
+:::: card
+::: card-body
+<h3 class="card-title">
+
+Sam Vizcaino-Vickers
+
+</h3>
+
+<p>Psychology Technician</p>
+
+<p> [Sam Vickers](https://sam-vizcaino-vickers.github.io/) works as one of the Psychology Technician, his working days are Wednesday-Friday. Sam graduated from Nottingham Trent University with a BSc in Psychology (Mental Health Pathway) in 2022, and an MRes in Research in Psychological Research Methods in 2024. His research interests lie in Computational Modelling, Psychometrics, and Bayesian Statistics, particularly advanced methods for analyzing multivariate data. Sam has worked in multiple research assistant roles and has specialist expertise in the equipment held in the Psychology lab. He supports students and staff across practical lab work and research projects, ensuring smooth operation of laboratory facilities. I collaborate closely with students and staff to translate research questions into practical study designs and actionable insights, supporting projects from conception through to final reporting. Currently Sam is pursuing a PhD at Cardiff University</p>
+:::
+::::
+
+:::: card
+::: card-body
+<h3 class="card-title">
+
+Yusra Aurangzeb
+
+</h3>
+
+<p>Psychology Technician</p>
+
+<p>Yusra Aurangzeb works alongside Sam as the Psychology Technician, her working days are Monday-Wednesday. Yusra has completed her undergraduate degree in Psychology and Cognitive Science from the University of Georgia. Yusra joined the Psychology team at Wrexham University as a part-time technician in January of 2022. Her role encompasses many aspects that include providing support to both staff and students with research, dissertation, statistics, technology and software, and experimental work within the Psychology programmes. Currently, Yusra is pursuing a master's in occupational and organizational psychology at Northumbria University.</p>
+:::
+::::
+:::::::
+
+------------------------------------------------------------------------
+
+## Contact Us
+
+If you’d like to know more, book equipment, or get support for your project, head to our [Contact page](/contact/) or book a session with us via [Microsoft Bookings](https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled). 

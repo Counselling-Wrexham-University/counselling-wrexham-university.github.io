@@ -1,0 +1,16 @@
+---
+title: "Data Analysis using R"
+format: html
+---
+
+The Psychology Technicians can provide insight as to how to use R Programming for data analysis, Experiments, and other stuff. 
+
+
+
+- Data Cleaning 
+- Data Visualisations 
+- Data Analysis 
+
+
+
+# COMING SOON 

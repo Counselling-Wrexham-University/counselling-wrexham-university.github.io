@@ -1,0 +1,67 @@
+---
+title: ""
+date-modified: last-modified
+date-format: "DD-MM-YYYY"
+---
+
+# PsychTech News & Updates
+
+Stay up to date with what the Psychology Technicians activities and learn more about what they do in the background. Moreover, latest announcements, training opportunities, and developments will be shown here and from the Psychology Technicians at Wrexham University.
+
+This page is updated on a regular basis with new information about upcoming workshops, and changes to available resources.
+
+------------------------------------------------------------------------
+
+## Current Status
+
+📢 **No new announcements at the moment**
+Check back soon for upcoming events, equipment updates, and student opportunities.
+
+------------------------------------------------------------------------
+
+## What You Can Expect Here
+
+On this page, we’ll share:
+- **Training sessions & workshops** (e.g., SPSS, Gorilla, Quarto setup)
+- **New equipment or software** added to the department news history
+- **Guides and resources** that we’ve recently published
+- **Opportunities** for students to get involved in projects or events
+- **Highlights** from past activities and successful collaborations
+
+
+
+# Current Tasks 
+
+
+
+
+# Completed Tasks
+
+- [x] Add GitHub Link to all data-sets for Wrexham-Psychology-Datasets
+- [x] Sam V completed EDS426. Allowing for supervision of students in
+  the SILC Building for immersive applications of dissertation projects
+  (02/2026)
+- [x] **Implement** PsyGem Learning Navigator (03/2026)
+- [x] **Create an AI section** All the relevant AI tools for students,
+  staff, researchers etc. (02/2026)
+- [x] **Add an Immersive Tools section** (02/2026)
+- [x] **Add Risk Assessment - H&S - SOPs Section** (02/2026)
+- [x] **Traffic Light Dashboard**: Show real-time
+  availability/maintenance status for labs and equipment. (02/2026)
+- [x] Create a URL to the Technician Space. Then place it on the
+  noticeboard in front of K115. (02/2026)
+- [x] **Technician News**. (02/2026)
+- [x] **Scheduling**: Add Microsoft Booking onto the Wrexham Technician
+  Page (02/2026)
+- [x] Add new gorilla.sc link into the Open Materials Section. (02/2026)
+- [x] **Open Materials**: Add Gorilla.sc experiments into the open
+  materials section.
+- [x] Add the new booking system onto the WU-Psychology-Technician
+  Website (02/2026)
+- [x] Add appropriate University branding to the Psych-Tech Website
+  (01-2026)
+- [x] Add appropriate functionality to the website (01-2026)
+- [x] Add 200 $\approx$ Psychometric Scales to Gorilla.sc Wrexham Open
+  Materials
+- [x] Add Wrexham University logo and make it interactive (01-2026)
+  - [x] Also add useful links as planetary orbit around logo.

@@ -1,0 +1,19 @@
+<div id="scroll-top-widget" aria-label="Scroll to top">
+  <span>▲</span>
+</div>
+
+<script>
+  const scrollBtn = document.getElementById("scroll-top-widget");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollBtn.classList.add("show");
+    } else {
+      scrollBtn.classList.remove("show");
+    }
+  });
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>

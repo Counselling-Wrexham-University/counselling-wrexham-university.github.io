@@ -1,0 +1,13 @@
+---
+title: "index"
+format: html
+---
+
+Reference pages that I have used for this website. The amazing work from different technicians have helped me built this site, and I want to reference them here!
+
+
+
+https://www.keele.ac.uk/psychology/facilities/
+https://hub.salford.ac.uk/psytech/
+https://psychtechs.hud.ac.uk/
+

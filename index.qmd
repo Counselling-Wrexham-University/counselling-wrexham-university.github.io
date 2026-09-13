@@ -1,0 +1,148 @@
+---
+title: "Welcome to the Wrexham Counselling Page"
+page-layout: full
+date-modified: last-modified
+date-format: "DD-MM-YYYY"
+toc: false
+---
+
+::: callout-important
+# Website Maintenance
+
+The site will be getting periodically updated before the start of the [**academic year 2026/27**]{.underline} with additional content and features.
+:::
+
+::: accent
+This site provides technical expertise, and resources to students and staff in the Counselling Department at Wrexham University. More specifically, we provide technical advice to students, academics, and external clients for feasibility of projects and choosing appropriate equipment or methods to prevent bad study designs, unsafe setups, or unrealistic proposals *before* they happen.
+:::
+
+------------------------------------------------------------------------
+
+::::::::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;"}
+:::: card
+::: card-body
+<h3 class="card-title">
+
+Resources
+
+</h3>
+
+<p>Access training materials, SOPs, and tutorials on tools/platforms such as SPSS, R, Gorilla, and PsychoPy.</p>
+
+<img src="images/resources.png" 
+     alt="PsyTech Icon" 
+     style="width: 110px; 
+            display: block; 
+            margin-left: 70px;
+            margin-top: 50px;
+            margin-bottom: 0.05rem;">
+
+
+:::
+::::
+
+:::: card
+::: card-body
+<h3 class="card-title">
+
+PsyTech Support
+
+</h3>
+
+<p>Meet the technicians, book time with us, and discover how we can help with your research and teaching projects.</p>
+
+<img src="../images/psy-tech-image-2.png" 
+     alt="PsyTech Icon" 
+     style="width: 170px; 
+            display: block;
+            margin-top: 18px;
+            margin-left: 37px; 
+            margin-bottom: 0.05rem;">
+:::
+::::
+
+:::: card
+::: card-body
+<h3 class="card-title">
+
+Booking Slots
+
+</h3>
+
+<p>We provide flexible meeting slots on a daily basis. Feel free to book in to discuss your technical needs. <b> [Click here to book a meeting with us.](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled)</p> </b>
+
+<img src="images/booking.jpg" 
+     alt="PsyTech Icon" 
+     style="width: 120px; 
+            display: block;
+            margin-top: 80px;
+            margin-left: 50px; 
+            margin-bottom: 0.2rem;">
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+
+Student Guides
+
+</h3>
+
+The technicians have created guides to help students complete Risk Assessments, submit Online Ethics applications, and explore case studies showcasing the lab’s capabilities.
+
+<img src="images/guide.png" 
+     alt="PsyTech Icon" 
+     style="width: 100px; 
+            display: block;
+            margin-top: 40px;
+            margin-left: 70px; 
+            margin-bottom: 0.2rem;">
+
+:::
+::::
+:::::::::::::
+
+------------------------------------------------------------------------
+
+## Explore Our Site
+
+To find what you need, please visit the sections above:
+
+-   [**About**](About/index.qmd) – learn more about our role and expertise
+
+-   [**Equipment**](Equipment/index.qmd) – discover the tools and technologies available
+
+-   [**Students**](Students/index.qmd) - discover some helpful guides and documents as a student
+
+-   [**Resources**](Resources/index.qmd) - access open-source and academic tools
+
+-   [**Recruitment**](recruitment/index.qmd) A page to host our internal and external available studies page.
+
+-   [**Platforms**](platforms/index.qmd)- All the main platforms the psychology department use for teaching and research.
+
+-   [**News**](Updates/index.qmd) - get the latest news on training and short courses provided by the department
+
+-   [**Contact**](contact/index.qmd) – get in touch with the Psychology Technicians team
+
+------------------------------------------------------------------------
+
+## Counselling Staff
+
+To find the rest of the counselling staff, please see our [**full staff page**](https://wrexham.ac.uk/research/our-research/faculty-of-social-and-life-sciences/psychology--counselling/) on the main Wrexham University website. 
+
+------------------------------------------------------------------------
+
+## Wrexham University Widget 
+
+Use the Wrexham University Logo Widget on the bottom right of the page to access quick links to several external websites that you are very likely to use during your time at Wrexham University!  
+
+Specifically,
+
+- Gorilla.sc 
+- JISC
+- Wrexham IT Support
+- PsychTech Booking System 
+- Wrexham Digital Skills 
+- OSF Repositories 
+- Moodle 
+- GitHub 

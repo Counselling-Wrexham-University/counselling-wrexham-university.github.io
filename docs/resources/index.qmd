@@ -1,0 +1,95 @@
+---
+title: ""
+---
+
+# Resources
+
+The Psychology Department is committed to supporting open science, transparent research practices, and the use of professional software in both teaching and independent projects. Below is a selection of recommended resources that are freely available to students and staff. We describe as well how we as the psychology technicians use these tools down below to help our students.  
+
+------------------------------------------------------------------------
+
+## Questionnaire & Experimental Resources
+
+-   [Questionnaire Page](index2.qmd){.btn .btn-primary}
+
+-   [Experimental Page](index3.qmd){.btn .btn-primary}
+
+------------------------------------------------------------------------
+
+## Open Science and Reproducibility
+
+-   [**Quarto**](https://quarto.org/)
+    A publishing system for creating reproducible documents, dashboards, and interactive reports. Useful for writing, data analysis, and creating professional portfolios. We use this to output a plethora of content for students.  
+
+-   **Open Reproducibility Resources**\
+    A growing repository and set of tools that ensure transparency in research, demonstrations and teaching materials. Primarily on Gorilla.sc Open Materials. 
+
+------------------------------------------------------------------------
+
+## Programming and Data Science
+
+-   [**Python**](https://www.python.org/)
+    A versatile language for data analysis, statistics, machine learning, and experiment design. Widely supported across psychology and cognitive science research.
+
+-   [**R**](https://www.r-project.org/)
+    A powerful statistical environment for quantitative analysis, data visualization, and reproducible research.
+
+-   [**Julia**](https://julialang.org/)
+    A high-performance programming language particularly suited for numerical computing, data analysis, and modelling. Widely used in research requiring speed and scalability, and increasingly adopted in psychology and cognitive science applications.
+
+------------------------------------------------------------------------
+
+## Media and Creative Tools
+
+-   [**Open Broadcaster Software**](https://obsproject.com/) A free and open source software for video recording and live streaming.
+
+-   [**DaVinci Resolve**](https://obsproject.com/)
+    A professional-grade video editing suite with a free version. Suitable for creating teaching material, experiment stimuli, or presentation content.
+
+-   [**Audacity**](https://www.audacityteam.org/)
+    An open-source audio editing tool, useful for preparing stimuli and cleaning recordings.
+
+-   **GIMP / Inkscape**
+    Free alternatives to Photoshop and Illustrator, excellent for creating figures, posters, and experimental graphics.
+    
+
+
+
+------------------------------------------------------------------------
+
+## Virtual Reality Tools 
+
+Our Psychology Technicians use advanced virtual reality tools to help students design, build, and test experiments:
+
+- **Unity Experimental Framework** – A flexible platform for creating interactive VR experiments and simulations.
+
+- **Unity & Unity Hub** – Centralized management for Unity projects, versions, and collaboration.
+
+- **Unreal Engine** – High-fidelity engine for immersive VR environments and realistic experimental scenarios.
+
+- **Blender** – 3D modelling and animation software to design custom stimuli and experimental assets.
+
+------------------------------------------------------------------------
+
+## Training and Learning
+
+-   **[GitHub](https://github.com/) / [GitLab](https://about.gitlab.com/)**
+    Collaborative platforms for version control and code sharing. Essential for research teams practicing appropriate standards followed by the open science framework.
+
+
+
+------------------------------------------------------------------------
+
+
+## External Resources 
+
+
+- Centre for the Child
+- Flight Simulator 
+- K Block Rooms 
+- 
+
+------------------------------------------------------------------------
+
+For further support, guidance, or training recommendations, please contact:\
+📧 **psychology.technician\@wrexham.ac.uk**

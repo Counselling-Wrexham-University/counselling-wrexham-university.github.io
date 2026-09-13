@@ -1,0 +1,16 @@
+---
+title: "facet-map"
+format: html
+---
+
+# Background Information
+
+-   Please see the website for more information: <https://facetmap.org/>
+
+# Reference
+
+-   Irwing, P., Hughes, D. J., Tokarev, A., & Booth, T. (2024). Towards a taxonomy of personality facets. *European Journal of Personality*, *38*(3), 494-515. [https://doi.org/10.1177/08902070231200919](https://journals.sagepub.com/doi/10.1177/08902070231200919)
+
+# Copyright restrictions
+
+-   [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)

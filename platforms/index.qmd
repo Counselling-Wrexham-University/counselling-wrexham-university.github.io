@@ -1,0 +1,106 @@
+---
+title: ""
+date-modified: last-modified
+date-format: "DD-MM-YYYY"
+---
+
+# Platforms
+
+At the Psychology Department at Wrexham University, we are committed to the values of Open Science. Following the practices set out by the [Open Science Framework (OSF)](https://osf.io/) , we aim to make our teaching, research, and experimental resources accessible to both students and the wider scientific community.
+
+This section provides open access materials that you can freely view, use, and adapt:
+
+-   [Gorilla Open Materials](https://app.gorilla.sc/openmaterials/1112705) – Example experiments, task templates, surveys (English and Welsh) and teaching resources created using [Gorilla Experiment Builder](https://gorilla.sc/).
+-   [Open Day Materials](https://github.com/WU-Psychology-Technician/Open-Day-Practicals) – Public engagement resources, activities, and handouts from departmental open days.
+-   [Experimental Materials](https://github.com/WU-Psychology-Technician) – Experimental code for studies, specific equipment, and technologies will be stored here via [GitHub](https://github.com/).
+
+By sharing these resources openly, we hope to encourage *transparency*, *collaboration*, and *innovation* in the psychological sciences.
+
+## What We Offer
+::::::::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;"}
+:::: card
+::: card-body
+<h3 class="card-title">
+[**OSF**](https://osf.io/)
+</h3>
+<p>Start using the open source framework (OSF) to begin your journey as a 21st century scientist! </p>
+<img src="../images/OSF-teal.png" 
+     alt="PsyTech Icon" 
+     style="width: 210px; 
+            display: block; 
+            margin-left: 70px;
+            margin-top: 0px;
+            margin-bottom: 0.05rem;">
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+[**Gorilla.sc**](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled)
+</h3>
+<p>Use [Gorilla.sc](https://gorilla.sc/) for your disseration/module project for creating online experiments.</p>
+<img src="../images/gorilla-icon-teal.png" 
+     alt="PsyTech Icon" 
+     style="width: 160px; 
+            display: block;
+            margin-top: 60px;
+            margin-left: 100px; 
+            margin-bottom: 0.2rem;">
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+[**SONA - Recruitment Page**](Students/SONA/index.qmd)
+</h3>
+<p>(<b>CURRENTLY IN-DEVELOPMENT</b>). Learn what you can do on this page to get as many participants as possible for your dissertation project in your final year.</p>
+<img src="../images/sona-image.png" 
+     alt="sona logo" 
+     style="width: 130px; 
+            display: block; 
+            margin-left: 105px; 
+            margin-bottom: 0.2rem;">
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+[**Panopto**](https://www.panopto.com/)
+</h3>
+<p>Use panopto to begin your video recording for your interviews/focus groups.</p>
+<img src="../images/panopto.png" 
+     alt="PsyTech Icon" 
+     style="width: 370px; 
+            display: block;
+            margin-top: 70px;
+            margin-left: 0px; 
+            margin-bottom: 0.2rem;">
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+[**JISC**](https://app.onlinesurveys.jisc.ac.uk/login?)
+</h3>
+<p>Start collecting psychometric data using questionnaires on JISC Online Surveys!</p>
+<img src="../images/jisc-teal.png" 
+     alt="PsyTech Icon" 
+     style="width: 160px; 
+            display: block; 
+            margin-left: 100px; 
+            margin-bottom: 0.2rem;">
+
+:::
+::::
+:::: card
+::: card-body
+<h3 class="card-title">
+[**GitHub**](https://github.com/WU-Psychology-Technician)
+</h3>
+<p>Learn what we have in our open source repositories for what we use across our modules and open days.</p>
+<img src="../images/github-teal.png" 
+     alt="PsyTech Icon" 
+     style="width: 160px; 
+            display: block; 
+            margin-left: 100px; 
+            margin-bottom: 0.2rem;">

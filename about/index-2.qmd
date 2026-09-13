@@ -1,0 +1,81 @@
+---
+title: "PsychLabs & External Rooms"
+format: html
+---
+
+The Psychology Laboratory and experimental pods are situated in the Bevan Building in K115.
+
+We also encourage students who wish to do more aspiring projects to also look into the other rooms that may be available to fit the purpose of your research and ideas. You can look in this document for a full list of all the available rooms that Wrexham University provides and also look at the \[PsychTech Room Booking System\]([PsychTech Room Booking System ](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JACQMhm2_Hv4S6U294r1BoVWAdy4TLDU0ozzh7vXU5HsqGM?nav=ZDk0ZWE3MjUtMzk3NS00NDg2LWE5MjgtZDM5MjdlYzY3ODU4)) for the technicians to prepare the spaces for you.
+
+# Facilities
+
+The lab facilitates 2 experimental pods with light and air cooling control. The lab currently holds contains all the specialised and miscellaneous equipment used by the Psychology Team, more information on this can be found in the [equipment section](equipment/index.qmd).
+
+# Lab Sustainability
+
+This guide quickly outlines the sustainable practices expected within the Psychology lab to minimise environmental impact, reduce waste, improve energy efficiency, and promote responsible use of departmental resources. It applies to all staff, students, visitors, and external researchers using the facilities.
+
+## Key Practices for Using the Lab
+
+- Keep Doors closed to help heating/cooling work efficiently.
+- Use the sleep mode on the computers when taking breaks
+- Turn off radiators, air conditioning or any devices off when exiting the lab.
+- Use the digital versions of stimuli, forms, and information sheets where possible.
+- Look for reusable options for any consumables your research requires.
+- Correctly use recyclick, general waste and other bins.
+- Handle equipment with care to avoid wasteful repears or replacements.
+- Report any broken, faulty, or unused equipment to our [PsychTech](mailto:Psychology.Technician@Wrexham.ac.uk) email.
+
+## More Detail on What You Can Do for Sustainability
+
+::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;"}
+:::: card
+::: card-body
+### [**When Designing Research**]{.card-title}
+
+- Plan to use digital, rather than paper, forms and stimuli if possible.
+- Reduce the number of devices used simultaneously.
+- Investigate if you can make use of unused equipment or share resources across projects.
+- Group data collection sessions to reduce setup frequency.
+- Prioritize reusable or sustainable equipment and resources.
+- Alter procedures to make consumables reusable or extend equipment lifespan.
+- Source sustainable resources when purchasing is necessary.
+:::
+::::
+
+:::: card
+::: card-body
+### [**During Research**]{.card-title}
+
+- Adjust blinds/curtains to manage room temperature naturally.
+- Keep doors closed to improve heating efficiency.
+- Use equipment with care to avoid unnecessary repair or replacement.
+- Reuse lab resources and only use what is strictly required.
+- Utilize **Sleep Mode** on PCs during breaks.
+- Reuse cardboard and plastic for storage or postage.
+- Correctly use recycling and general waste bins (located in lab corridors).
+- Follow signage on/near bins for correct disposal instructions.
+- Print double-sided or reuse blank sides for notes when printing is essential.
+:::
+::::
+:::::::
+
+# External Rooms
+
+There are many facilities on campus that students can utilize for their dissertations \* or will encounter for student practicals. The facilities include but are not limited to:
+
+**SILC Building** — The centre features several advanced facilities designed to support interdisciplinary learning and professional training. These rooms can be used for students in MSc or PhD level to conduct Virtual reality experiments or experiential projects.
+
+- **Immersive CAVE:** A four-wall and floor projection space for realistic, interactive training scenarios which can fit 10 people, standing only.
+
+- **XR Zones** (includes 3 zones - each can accomodate 1 person using Virtual Reality (VR) or a maximum of 8 people using a table & chairs, per zone)
+
+- **The Bridge** (a collaboration area accommodates up to 8 people on a standing/seated high table, which is used for planning, reflection and engagement across different immersive activities)
+
+**Observation Room**: **Centre of the Child** — It is a multidisciplinary research and teaching centre at Wrexham University's Plas Coch campus, supporting academic programmes in early childhood studies, psychology, nursing, and social work. It houses the on-campus **Little Scholars** day nursery, which provides full daycare and early years education for children aged 3 months to 5 years, serving university students, staff, and the general public. This centre can be used for specific research purposes for MSc or PhD students who wish to conduct observational studies with child populations.
+
+**Flight Simulator Room** — Used as part of the Psychology biopsychology module, where students take part in stress testing by landing the Merlin Flight Simulator in an emergency situation, measuring their heart rate before and after to assess the physiological effect on the human body. Also used by Aeronautical Engineering students for training and research. This room can be used for specific dissertation projects that require the flight simulator.
+
+**Ty Dysgu** — A purpose-built residential house on campus used to stage realistic, real-world scenarios for students to work independently or interprofessionally. It supports policing, paramedic science, forensic science, social work, and allied health students in practising skills such as responding to incidents with casualties, conducting crime scene searches, or working in a home environment. It is also used for the university's annual Major Incident simulation exercises with local emergency services. This room can be used for specific dissertation projects that require the house for experiential projects.
+
+**Biomechanics and Performance lab** — For conducting biomechanical analysis, physiological testing, and performance research to understand how the human body works, with the goal of improving athletic performance and reducing injury risk. Equipped with an Alter-G anti-gravity treadmill, Biodex Isokinetic Dynamometer, 10-metre sprint track, speed gates, a jump mat, power racks, and strength & conditioning equipment. This room can be used for specific dissertation projects that revolve in sports psychology.

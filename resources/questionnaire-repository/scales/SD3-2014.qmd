@@ -1,0 +1,34 @@
+---
+title: "SD3-2014"
+editor: visual
+---
+
+# Background Information
+
+-   The **Short Dark Triad (SD3)** is a 27-item self-report questionnaire developed by **Jones & Paulhus (2014)** to efficiently measure three socially aversive personality traits—**Machiavellianism, Narcissism, and Psychopathy**—in non-clinical populations. The SD3 was created to provide a **brief, reliable, and valid** alternative to longer or more clinical assessment tools, making it suitable for research settings where time is limited.
+
+# Reference
+
+-   Jones, D. N., & Paulhus, D. L. (2014). Introducing the short dark triad (SD3) a brief measure of dark personality traits. *Assessment*, *21*(1), 28-41. <https://doi.org/10.1177/1073191113514105>
+
+# Copyright restrictions
+
+|  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|
+|  |  |  |  |  |  |  |
+|  | Use Case |  | Allowed? |  | Notes |  |
+|  |  |  |  |  |  |  |
+|  | Academic research |  | ✔️ Yes |  | Use exact wording, cite authors |  |
+|  |  |  |  |  |  |  |
+|  | Teaching slides |  | ✔️ Yes |  | Not for commercial training |  |
+|  |  |  |  |  |  |  |
+|  | Student papers |  | ✔️ Yes |  | Cite authors |  |
+|  |  |  |  |  |  |  |
+|  | Gorilla.sc / Qualtrics studies |  | ✔️ Yes |  | Non-commercial only |  |
+|  |  |  |  |  |  |  |
+|  | Translation |  | ❌ No |  | Needs permission |  |
+|  |  |  |  |  |  |  |
+|  | Commercial use |  | ❌ No |  | Must obtain license |  |
+|  |  |  |  |  |  |  |
+|  | Editing/modifying items |  | ❌ No |  | Items must remain unchanged |  |
+|  |  |  |  |  |  |  |

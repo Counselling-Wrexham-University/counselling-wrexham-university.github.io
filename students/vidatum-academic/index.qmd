@@ -1,0 +1,404 @@
+---
+title: "Guide to Online Ethics Applications (Wrexham Research Information System (WRIS) / Vidatum Academic)"
+format: html
+---
+
+**Document status and authorship** - This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document as the online application is subject to change and further extensions by the Research Office.Therefore, this resource will be continually evolving and it is intended to support psychology students $\Psi$ as a guide for psychology students to complete their online ethics application. I would also recommend to open this link [here](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf) whilst going through this guide. You can also find the necessary templates for your study [here](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/){.uri}. The full links can be found below:
+
+- User Guide $\rightarrow$ [Wrexham Research Ethics System Student User Guide](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf)
+
+- Templates (Welsh) $\rightarrow$ <https://wrexham.ac.uk/cy/ymchwil/ein-hymchwil/moeseg-ymchwil/sut-i-wneud-cais-a-thempledi-prifysgol/>
+
+- Templates (English) $\rightarrow$ <https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/>
+
+This document was created by the psychology technicians at Wrexham University with support from AI (Copilot‑GPT‑5, February 2026).
+
+**Key Advice**
+
+- Attempt to get your Final version of your Ethics anytime before [**December**]{.underline}. Any ethics reviews past this point will deteriorate the time that you can conduct your study and significant delays will also occur.
+- Follow the Blue Text-boxes on the side for additional information to answer the following questions.
+- Make sure to speak to your supervisor(s) for any questions that you fully do not understand.
+- Make sure to click Save on each of the pages
+
+# **1-Project Details**
+
+This section will be covering the first section of your ethics application which is the *Project Details*.
+
+## *1-1-Project*
+
+This section is straightforward. Add the necessary basic details such as
+
+- Project title
+
+- Your name :)
+
+- Are you:
+
+  - Undergraduate student (BSc)
+
+  - Postgraduate Taught Student (MSc)
+
+  - Postgraduate Research Student (MPhil, MRes, PhD)
+
+- **Programme**
+
+  - BSc (Hons) Psychology
+
+  - MSc Applied Psychology
+
+  - MSc Psychology (Conversion)
+
+- Your supervisor's name - (You will have to search for their name in the system. Nonetheless, you should know their name as you will have had meetings beforehand).
+
+- Supervisor's Faculty - **Faculty of Social and Life Sciences**.
+
+## *1-2- WU Collaborator*
+
+Any collaborators within Wrexham University need to be added here. This can be additional supervisors or technicians that are working on the project.
+
+## *1-3-Other Collaborators*
+
+Any colaborators external of Wrexham University need to be added here.
+
+## *1-4-Project Dates*
+
+Make sure to set your **Project Start Date** *before* you submit your ethics application. Many students overlook the two‑week review period, and applications are often returned for small corrections such as incorrect dates. To avoid delays, ensure your start date allows enough time for the review process.
+
+For the **Project End Date**, give yourself the *maximum* amount of time possible. Think about your dissertation deadline and set your end date to at least **2–4 weeks before** your final submission to ensure you have enough time for data collection, analysis, and writing.
+
+## *1-5-Funding*
+
+This is another straightforward section, as your dissertation research should not require any funding.
+
+## *1-6-Generic Application*
+
+Another straightforward section — this should simply be a **“no.”**
+
+## *1-7-External Approval*
+
+Another straightforward section — this should simply be a **“no.”** However, students would only need **External Approval** if their research involves an organisation, setting, or participant group **outside the University**, where that organisation has its *own* ethics or permission procedures. Examples include:
+
+- **Schools or Colleges** — Many schools require their own safeguarding and research approval before any contact with pupils or staff.
+- **NHS settings** — Any research involving patients, staff, data, or premises within the NHS requires approval through the Health Research Authority (HRA).
+- **Charities, workplaces, or community organisations** — If you intend to recruit participants or collect data through an external organisation, they may have internal research governance processes you must follow.
+- **Private companies or clinical services** — Some services (e.g., counselling agencies, private clinics) require written permission or internal ethical review.
+
+In short, a student needs **External Approval** whenever another organisation acts as a [*gatekeeper*]{.underline} to participants, data, or locations, and that organisation insists on its own permission procedure.
+
+## *1-8-Application type*
+
+Most of the time this should only consist of [**Human Participants**]{.underline}. Frequently asked is whether you are collecting **personal data**, but since you are following BPS guidelines then you will be **anonimising the data and therefore not collecting personal data**. If you are collecting neuro-endocrinological, blood, or any other data for biological data analysis then this would be **human material.**
+
+## *1-9-Overseas Research*
+
+If you are targeting any locations that are outside of the UK then click yes. If you do say yes then you need to show your overseas ethical considerations thoroughly depending on the country you are attempting to obtain.
+
+# **2 - Aims & Objectives**
+
+This section will be covering the second part of your ethics application which is the [*Aims and Objectives*]{.underline}. This will vary for each student and therefore the guidance below provides **general advice** to help you structure and express your aims effectively.
+
+## *2-1-Research Aims*
+
+Provide your research aims and objectives of your dissertation project.
+
+- In this section, clearly state **what your dissertation project intends to achieve**. Your **aim** should give an overall statement of the purpose of your study, while your **objectives** should break this down into specific, achievable steps. These must align with your research question and the methods you intend to use.
+
+Please provide details of your research design (Please use lay language free from technical terms) 
+
+- Next, briefly outline **how** you plan to conduct your research. This may include your **methodology** (e.g., experimental, survey, qualitative interviews), **sampling approach**, **data‑collection techniques**, and any key procedures. Keep this section concise but clear enough for reviewers to understand your planned process. Your reviewer will not be from the Psychology department, so try to avoid using any technical terms from the psychological sciences.
+
+Describe the potential benefits and impacts of your research, this can involve improving our current knowledge of the literature, how to improve a service etc.
+
+- Here, explain how your research may be valuable. Potential benefits might include:
+
+  - Contributing to or updating existing psychological literature
+
+  - Highlighting gaps in current knowledge (*I would avoid saying research gaps*)
+
+  - Informing practice or improving a service
+
+  - Providing insights that could guide future research or interventions
+
+You do *not* need to guarantee outcomes—simply outline the possible positive contributions your work may offer.
+
+## *2-2-Gatekeeper*
+
+If you are requesting permission to access an individual or a group of potential research participants through an external organisation, you **must select “Yes”** for this question. This applies whenever an organisation, gatekeeper, or authorised person is required to grant you access.
+
+- Examples:
+
+  - LinkedIn Groups (Unless they have a post saying they are open to posts, however you must supply in the ethics application evidence of this via screenshot)
+
+  - Facebook Groups
+
+  - Reddit Forums
+
+  - External Communities
+
+Gatekeeper approval is **not normally required** when recruiting via:
+
+- Open university-approved recruitment systems (e.g. PsychTech Moodle Page, [Student Intranet](https://students.wrexham.ac.uk/dissertation-project-participation/))
+
+- Your own personal social media **without targeting a specific group**
+
+- Fully open public spaces where no permission is required and no moderation exists
+
+**Evidence -** Later you will need to show this evidence of approval/permission by the gatekeeper. This can be:
+
+- Email or written confirmation from a gatekeeper or administrator
+- A screenshot of group rules explicitly allowing research recruitment
+- A message confirming permission to post recruitment materials
+
+**Common Mistakes -** Some pitfalls to avoid so you don't get rejected in your application process.
+
+- Assuming “public” means “permission not needed”
+
+- Posting without moderator approval
+
+- Failing to upload screenshots or written evidence
+
+- Treating online communities differently from physical organisations
+
+If in doubt, assume approval **is required** and seek clarification. Please also speak with your supervisor, as some organisations are classed as **higher‑risk** (i.e. NHS, Schools, Prisons) for ethical review. These may require additional scrutiny, longer approval times, or further documentation before your application can be approved. Essentially, if someone controls access to your pool of participants you wish to collect, they are the gatekeeper. Thus, you need to declare the gatekeeper and then provide the evidence of approval.
+
+## *2-3-Risk*
+
+Please refer back to the **BPS Ethical Principles** to guide how you will minimise risks within your study. You can access the full [BPS Code of ethics and conduct](https://www.bps.org.uk/guideline/code-ethics-and-conduct) on the BPS website.
+
+Nonetheless, the primary ethical principles include:
+
+- **Respect** – valuing the dignity, rights, and autonomy of all participants.
+
+- **Competence** – working within your abilities and seeking supervision where necessary.
+
+- **Responsibility** – ensuring participant welfare, avoiding harm, and managing risk appropriately.
+
+- **Integrity** – conducting research honestly, transparently, and without deception unless ethically justified.
+
+## *2-4-Method*
+
+- **Interviews -** 1-to-1 interviews between the participant (interviewee) and yourself (the interviewer)
+
+- **Focus Groups -** thematic discussions between participants.
+
+- **Survey / Questionnaire** - Psychometric questionnaires
+
+- **Observation** - Observation to obtain inter-rater scoring.
+
+- **Non-Invasive experiment** - Most psychological / cognitive experiments would be considered as this.
+
+- **Invasive experiment** - This can suggest several things. The one that can be attributed mostly for this high-stress psychological experiments or invasive electrode placements.
+
+- **Secondary Analysis** - You should only do secondary analysis if you are doing a quantitative analysis of the data, such as meta-analysis or a meta synthesis. Therefore this excludes systematic reviews or analyses of previous qualitative research.
+
+- **Human Tissue** – Collecting, storing, or analysing biological samples (e.g., blood, saliva, DNA) to investigate physiological, genetic, or health-related research questions.
+
+- **Audits / Service Evaluations taking place in the NHS** – Assessing existing healthcare services or practices to determine effectiveness, quality, or compliance with standards, rather than generating new generalisable research knowledge.
+
+- **Internet-mediated research / data mining** – Collecting or analysing data gathered through online platforms, social media, forums, digital archives, or large datasets to explore behaviours, attitudes, or trends.
+
+- **Animals** – Conducting research involving live animals to study behaviour, biology, or physiological processes under controlled or observational conditions.
+
+- **Environmental Methods** – Investigating how physical or social environments influence behaviour, wellbeing, or health (e.g., noise, space design, natural vs urban settings).
+
+- **Visual / Audio Methods** – Using images, video, sound recordings, or multimedia materials as primary data sources to analyse behaviour, communication, or experiences.
+
+- **Auto-ethnography** – A reflective research approach where researchers use their own personal experiences as data to explore cultural, social, or psychological phenomena.
+
+- **Other** – Research methods that do not fit into the listed categories and require further explanation or justification within the research proposal.
+
+# **3 - Human Participants**
+
+This section will be covering the third section of your ethics application which is the *Human Participants*. This will vary for each applicant and therefore I will be providing general advice.
+
+## *3-1 Participants*
+
+Provide key characteristics you want to collect from your participants, such as age and gender and other features in alignment to your projects objectives and aims. State any inclusion and exclusion criteria and how it will be done on the platform you are using.
+
+State the number of participants you require for your study. This can be done through *Power analyses* using the free software called *G\*Power* or inferring from the your literature of interest as to what statistical models were used to reach the appropriate power and effect sizes of those studies.
+
+## *3-2-Population*
+
+This should hopefully be **None of the Above.** However, if any of these options are selected then it will trigger higher ethical guidance from the University Research Ethics Committee (UREC) to review your ethics. We would advise for any dissertation projects in Lv6 to attempt to conduct a project that selects **None of the Above.** This is due to time constraints of the project for BSc Psychology Programmes. MSc Students are encouraged to conduct research to conduct research that may be within this scope as they have more time do conduct this research.
+
+## *3-3-Welsh Language*
+
+Describe if you have made any arrangements in place to conduct research in Wales. This could be making sure that participant information sheet, consent form or debrief are in Welsh. (Welsh Templates can be found [here](https://wrexham.ac.uk/cy/ymchwil/ein-hymchwil/moeseg-ymchwil/sut-i-wneud-cais-a-thempledi-prifysgol/)) If you are conducting research in the wider UK then you can say that instead.
+
+## *3-4-Location*
+
+Specify if you are conducting your research on University premises and where exactly. If you are conducting your research mostly online then specify which online platforms you will be using to collect your participants. Do not simply just say "online" or "on-campus".
+
+## *3-5-Recruitment*
+
+Specify how participants will be approached and identified and recruited. I would advise you to refer back to what sampling strategy you are using for this method and also specify if you are using any specific platforms for capturing this.
+
+## *3-6-Consent*
+
+This should be simply a **yes.**
+
+## *3-7- Deception*
+
+We have had previous studies conducting deceptive research. If so, you must explain why the deception is necessary for your research and why the use of this strategy is absolutely necessary to the research. This will come up following questions on how to complete this section and this must be explained extremely clearly to the ethics reviewer. I would highly suggest you speak to your supervisor for this section so that everything is done appropriately as otherwise it will be flagged as high risk and will be sent to the university research ethics committee (UREC).
+
+## *3-8-Sensitivity & Distress*
+
+Most psychological studies will meet this point of sensitivity and distress as key psychological processes of interest in mental health are that of depression, anxiety, loneliness which meet this criteria of sensitivity etc. Therefore appropriate risk measures need to be established so that the research is attempting to minimise the harm in accordance to the BPS principles . This can be done specifically through appropriate documentation that sends participants to appropriate support or helplines, Risk Assessments are conducted to ensure risk minimisation, debriefs and informed consent.
+
+## *3-9-Disclosure*
+
+To address this question in alignment with BPS guidelines, students must explicitly declare whether their research topic or methods could prompt a participant to disclose risk of harm to self or others, ongoing illegal activity, or safeguarding concerns involving vulnerable populations (Particularly in Qualitative Designs). If such risks exist, students need to demonstrate data minimisation by showing that they are not collecting unnecessary sensitive or identifiable data beyond what is strictly required for the research.
+
+They must then outline a clear escalation protocol detailing how disclosures will be managed—specifically stating that they will immediately inform their academic supervisor to determine if confidentiality must be breached to notify relevant authorities or safeguarding leads. Finally, students must confirm that participants are fully aware of these boundaries before consenting by quoting the exact clause in their Participant Information Sheet and Consent Form that explicitly defines the legal and ethical limits of confidentiality.
+
+Essentially, this comprises of
+
+|  |  |
+|------------------------------------|------------------------------------|
+| **Requirement** | **What to write in the application box** |
+| **Risk Identification** | Declare whether disclosures are likely based on topic/method. |
+| **Data Minimisation** | Confirm data collected is strictly necessary and anonymised where possible. |
+| **Protocol Details** | Step-by-step reporting plan (Supervisor → Safeguarding/Emergency contact). This can by extracting the [appropriate University templates](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/) |
+| **Informed Consent** | Quote the exact clause included in the Participant Information Sheet regarding limits to confidentiality. |
+
+# **4 - Data Management**
+
+This section will be covering the fourth section of your ethics application which is the *Data Management*. This will vary for each applicant and therefore I will be providing general advice.
+
+## *4-1-Data Type*
+
+You have two sections to fill out here; what the data is and how will the data be collected. Just be as pedantic as possible and try to give as much information out as possible so that the reviewer understand what you are trying to do. Sometimes being vague can be at your disadvantage as then the reviewer will question if there's any ethical considerations you had left out in your application as data is important. S
+
+Specifically to consider, you must highlight why you are collecting specific demographic data. As the are protected characteristics that must be protected unless past research demands it. **Essentially, protected characteristics are personal identity attributes that require extra care in research because misuse or disclosure could cause harm, discrimination, or distress.** Therefore, if you are trying to obtain specific demographics then *please make sure to reference* why it is *necessary* for your research to obtain these characteristics in alignment to your **aims and objectives**.
+
+A list of common protected characteristics relevant to psychological research:
+
+- **Age** – Including children, adolescents, and older adults, who may require additional consent or capacity considerations.
+- **Disability** – Physical, sensory, cognitive, or mental impairments; includes neurodiversity and mental health conditions.
+- **Gender reassignment** – Transgender and gender-diverse identities, including transition history.
+- **Marriage and civil partnership** – Relevant when research concerns legal, social, or relational status.
+- **Pregnancy and maternity** – Including pregnancy status, postnatal experiences, or fertility-related issues.
+- **Race / ethnicity** – Including nationality, skin colour, ethnic or cultural background.
+- **Religion or belief** – Religious affiliation, spiritual beliefs, or lack of belief.
+- **Sex** – Typically referring to biological sex.
+- **Sexual orientation** – Sexual identity, attraction, or behaviour.
+
+Ethics committees should and will often ask:
+
+- Is this characteristic essential to the research aims?
+
+- Could participants be identified or harmed if data were disclosed?
+
+- Are recruitment, consent, and reporting respectful and inclusive?
+
+You must clearly describe how your data will be collected or generated. In most cases, data should be collected using approved platforms such as **JISC** (for surveys), **Gorilla.sc** (for experimental tasks), **Panopto** (for interviews / focus groups). If you are collecting data in person without using a dedicated platform, you must outline a clear and structured procedure to ensure that data are collected consistently, handled securely, and stored appropriately on **University One Drive**.
+
+If your study involves any **paper-based materials**, you must specify how these will be managed and securely disposed of, including prompt placement into **confidential waste bins** once data have been transferred or are no longer required. Careful consideration of these procedures is essential, as **face-to-face data collection is subject to closer ethical scrutiny**, particularly in relation to how participant data are handled, stored, and protected.
+
+## *4-2-Data Storage*
+
+Wrexham University recommends that all research data should be stored on the University server or your university Office 365 accounts as a secure protected and backed up service. Any physical data should be stored securely on University site. Further guidance on the safe storage of research data can be found on the [UK Data Service Webpages](https://ukdataservice.ac.uk/learning-hub/research-data-management/#store-your-data).
+
+## *4-3-Access*
+
+In this section, you must specify who will have access to the data for the duration of the research project. Access should normally be restricted to you as the student researcher and your supervisor. If your project is advanced in nature or may require technical or methodological support, you should also include **psychology technicians** as authorised data handlers within the application. Limiting access to only those directly involved in the research helps ensure confidentiality, data security, and compliance with ethical and data protection requirements.
+
+## *4-4-Retention & Destruction*
+
+Student research data should be stored until the end of studies or transferred to the supervisor if required to be retained for a longer period. If required for longer, then necessary data to support or validate a research project’s observations, findings or outputs should be retained in an appropriate format and storage facility for at least 10 years
+
+## *4-5-Open Access*
+
+If you are attempting to make your data available for re-use then please speak to your supervisor.
+
+## *4-6-Dissemination*
+
+In this section, you should explain where and how your findings will be shared. For most undergraduate and postgraduate projects, this will include:
+
+- Submission as part of a dissertation, thesis, or assessed coursework
+
+- Presentation to academic staff or examiners
+
+- Possible inclusion in poster presentations, internal conferences, or teaching materials
+
+If there is any intention to share findings more widely (e.g. conferences, journal articles, public reports), this should be stated clearly. You should also indicate that results will be reported in an aggregated and anonymised form, rather than at an individual participant level.
+
+Students are not expected to publish their work, but they should be clear and realistic about potential academic dissemination routes. If you seek to publish your work then please speak to your supervisor.
+
+Something to note however, you should demonstrate awareness of how dissemination could affect participants or groups represented in the data. Key ethical considerations typically include:
+
+- Anonymity and confidentiality – ensuring that no individual participant can be identified in written reports, presentations, or figures.
+- Sensitive or protected characteristics – taking care not to stigmatise, stereotype, or misrepresent individuals or groups, particularly where protected characteristics are involved.
+- Responsible reporting – avoiding sensationalised language, overgeneralisation, or causal claims that are not supported by the data.
+- Data minimisation – reporting only what is necessary to address the research questions.
+- Participant dignity – ensuring findings are presented respectfully, even when results are unexpected or negative.
+
+If findings could be misinterpreted or cause distress, students should note how they will contextualise and explain results carefully. In the end, you need to show your **understanding** who will see your results, how they will be shared, and how you will protect participants from harm or identification when doing so.
+
+## *4-7-Storage*
+
+Your data should be **fully anonymised form** as this is best practice to protect your participants. Specifically, this is when the information does not relate to an identified or identifiable person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable.
+
+Please avoid going for **identifiable** information as this will tagged as high risk and the wait time for your application will extend from 2 weeks.
+
+## *4-8-Data Processing*
+
+The anonymisation process should be applied as early as possible and maintained throughout the research lifecycle. Nevertheless, this will vary if you are using specific platforms or methodological approaches. Therefore, I have highlighted the following steps as good practice:
+
+**Removal of direct identifiers** - All direct identifiers (e.g. names, email addresses, student numbers, IP addresses, or usernames) must be removed from the dataset immediately after data collection.
+
+**Use of participant codes** - Each participant should be assigned a unique, non-identifiable code (e.g. P001, P002). Any document linking participant identities to codes (a “key”) must be stored separately from the research data, in a secure location, and accessed only if absolutely necessary.
+
+**Handling of indirect identifiers** - Indirect identifiers (e.g. age, gender, ethnicity, job role, or other demographic variables) should be collected only where relevant and reported in aggregated form. Categories may be collapsed where small cell sizes could risk identification.
+
+**Anonymisation of qualitative data** - For interviews, open-text responses, or observational notes, identifying details (e.g. names of people, places, organisations, or unique events) must be removed or replaced with neutral descriptors (e.g. “\[workplace\]”, “\[friend\]”).
+
+**Secure storage of anonymised data -** Anonymised datasets should be stored on approved, secure systems (e.g.University OneDrive) with restricted access. Identifiable raw data should not be shared or transferred unnecessarily.
+
+**Reporting and dissemination -** Findings must be reported in a way that prevents identification of individuals or small groups, including careful use of quotations, figures, and tables.
+
+**Data retention and destruction -** Any temporary files containing identifiable information should be securely deleted once anonymisation is complete and no longer required.
+
+## *4-9-Disclosure*
+
+This should hopefully no. If there is a potential of disclosure please discuss with your supervisor to best manage how to limit confidentiality of the participants.
+
+## *4-10-Data Transfer*
+
+As your data should be maintained on the University Office 360 account then you should answer **No**.
+
+# **5 - Governance**
+
+## *5-1-Further Ethical Issues*
+
+This should hopefully be a **no**. If **yes** please discuss with your supervisor asi this will vary type of psychometric scales to usage of deception in experiments.
+
+## *5-2-Experience*
+
+You should outline the core principles of the BPS here as have you been taught. Then outline the specific modules you have obtained this training. I would recommend to show as much information of your understanding and how it conects with the current research and how you have ensured to keep ethical standard throughout your application.
+
+## *5-3-Conflicts of Interest*
+
+This should hopefully be a **no**. If yes then please discuss with your supervisor.
+
+## *5-4-Insurance*
+
+Please outline any of the selected elements if your research does involve with any of the following from the list on Vidatum Academic.
+
+## *5-5-Information Security*
+
+This should hopefully be **None of the Above**.
+
+# **6 - Attachments**
+
+This section should comprise of the necessary documents that. For this section please try to add all the necessary documents:
+
+- Advert
+- Participant Information Sheet
+- Consent Form
+- Experimental Materials (if quantitative experiment)
+- Psychometric Scales (If quantitative survey)
+- Interview schedule (if qualitative interview)
+- Risk Assessment (if conducting face-to-face/on university grounds)
+- Data Management Plan
+- Debrief

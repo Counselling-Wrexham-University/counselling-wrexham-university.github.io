@@ -1,0 +1,33 @@
+---
+title: "Using JISC for your Dissertation Project"
+format: html
+---
+
+Over the years the PsychTech have provided guides and videos on how to use JISC and how to create surveys. However, the issue with this is that platform JISC has gone through various changes and shifts both as an organisation and more importantly on their website. Therefore, creating guides by us is essentially not of great time usage for us. Therefore, we advise students to follow the Help & Support page which is heavily updated by the JISC team itself.
+
+Here you can find the link to the [Help & Support Page](https://onlinesurveys.jisc.ac.uk/help/). You can also find the Panopto guide done by [Wrexham University Learning Skills Guides](https://wrexham.libguides.com/panopto).
+
+Jisc Online Surveys is an ideal tool for designing academic questionnaires and primary research because it ensures strict GDPR compliance, offers advanced logic branching, and handles secure data exports directly to tools like Excel or SPSS. You can request access by completing this [form](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JABKV6oLmjfbQqvnE3ItB8ZPAfrbYar9MWRVk3bQlfdyqZs?nav=YTVlZGM0YmUtNTJmMC00YWE3LWEyMjItMmMxMGFkZTAzNTRi) here and you can easily log in through [myuni.wrexham.ac.uk](https://myuni.wrexham.ac.uk/) under the **VLE & Teaching Resources** section or you can access it via [here](https://app.onlinesurveys.jisc.ac.uk/login?callbackUrl=%2Fdashboard%2Fwgu).
+
+## **Essential Checklist for Choosing & Using Psychometric Scales**
+
+What we can provide with assistance is some helpful pointers when searching for your Psychometric scale. So firstly, before selecting a psychometric scale or questionnaire for your research project, work through these key considerations to ensure your measure is both scientifically valid and ethically sound:
+
+- **Licensing & Terms of Use:** Verify whether the scale is freely available in the public domain or requires explicit permission/payment from the copyright holder before distribution.
+- **Ethical Approval:** Ensure the content of the scale is age-appropriate, non-triggering for your target demographic, and explicitly approved by your ethics committee. If you do use sensitive scales then make sure you provide information on mitigation factors via a Risk assessment or appropriate information in your Particiapant information sheet and online ethics application for using that scale.
+- **Item Redundancy & Subscales:** Check if the scale contains overlapping or redundant items. Group questions into their correct underlying subscale dimensions prior to analysis.
+- **Scoring & Aggregation Rules:** Review the author's scoring manual to determine whether to sum or average item responses, handle reverse-scored items, and manage missing data points.
+
+## Data Cleaning and Statistical Modelling
+
+Please refer to the PsychTech Moodle Page for videos that refer to data cleaning, and modelling. You can also find the necessary information for running SPSS here:
+
+[**SPSS HELP GUIDE**](https://www.ibm.com/docs/en/spss-statistics/29.0.0?topic=system-data-transformations)
+
+## **Key Concepts to Keep in Mind**
+
+- **Reverse Scoring:** Identify negative or oppositely phrased items (e.g., "I rarely feel happy" on a self-esteem scale) and invert their values before calculating subscale totals.
+- **Calculating Subscale Scores:** Compute separate composite scores (mean or sum) for each distinct subscale rather than collapsing everything into a single overall score, unless the original validation paper explicitly supports doing so.
+- **Item Redundancy:** Look out for questions that ask virtually the same thing in slightly different ways. Highly redundant items inflate internal consistency ($\alpha$) artificially without adding genuine psychological information.
+
+The Psychology technicians have also created a repository on [Gorilla.sc](https://app.gorilla.sc/openmaterials/1112705) holding several psychometric scales for ease of use for students who wish to implement and focus on their experiments whilst having the psychometric scales on hand and ready to use.

@@ -1,0 +1,26 @@
+---
+title: "scales"
+format: html
+---
+
+# Questionnaire Repository
+
+Psychologists commonly use questionnaires to gather information about people’s attitudes, personality, perceptions, and behaviour.
+
+Although the questionnaires, scales, and inventories listed below offer a helpful starting point, they represent only a small selection of the measures available. You may find a more suitable option by searching the Library, exploring Google Scholar, or using other academic resources.
+
+If you come across a measure you think we should consider adding, please feel free to let us know—we always welcome suggestions.
+
+If you have further questions, you can contact: [psychology.technician\@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk)
+
+------------------------------------------------------------------------
+
+# Disclaimer:
+
+We attempt to offer the most up to date information. However, it is up to you as the student and academic researcher to ensure that information you obtain from here is [**correct**]{.underline}. Especially, taking care not to breach [**copyright law**]{.underline}. You can find our more about copyright by clicking [here](https://www.openresearch.cam.ac.uk/copyright-licensing-citation)
+
+------------------------------------------------------------------------
+
+## Repository:
+
+-   [Facet Map](E:/GitHub/wrexham-main/wrexham-psychology-technicians/website/Resources/questionnaire-repository/scales/facet-map-2013.qmd)

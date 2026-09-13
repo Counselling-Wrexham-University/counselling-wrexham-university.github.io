@@ -1,0 +1,110 @@
+---
+title: "Using Gorilla.sc for your Dissertation Project"
+format: html
+---
+
+Over the years the PsychTech have provided guides and videos on how to use Gorilla.sc and how to create experiments and surveys. However, the issue with this is that platform Gorilla.sc has gone through various changes and shifts both as an organisation and more importantly on their website. Therefore, creating guides by us is essentially not of great time usage for us. Therefore, we advise students to follow the Help & Support page which is heavily updated by the Gorilla.sc team itself.
+
+Here you can find the link to the [Documentation & Support Page](https://support.gorilla.sc/support/). Here you will find comprehensive guides and also [sample projects](https://app.gorilla.sc/admin/samples).
+
+Gorilla.sc is an ideal platform for designing interactive behavioral experiments, online tasks, and complex academic questionnaires because it provides precise millisecond timing, advanced branching and randomization, and seamless data exports compatible with R, SPSS, or Python. You can request access by completing this [form](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JABKV6oLmjfbQqvnE3ItB8ZPAfrbYar9MWRVk3bQlfdyqZs?nav=YTVlZGM0YmUtNTJmMC00YWE3LWEyMjItMmMxMGFkZTAzNTRi) here and you can find the website [here](https://gorilla.sc/)
+
+The Psychology technicians have also created a repository on [Gorilla.sc](https://app.gorilla.sc/openmaterials/1112705) holding several psychometric scales for ease of use for students who wish to implement and focus on solely building their experiments whilst having the psychometric scales on hand and ready to implement into their study.
+
+# **Essential Checklist for Experimental Design**  
+
+Nonetheless, I have written a generic guide here that hopefully will not require that much change in the future. For further details please visit the [support page](https://support.gorilla.sc/support/) or [guides on launching your study](https://support.gorilla.sc/support/launching-your-study/index)
+
+## Phase 1: Task Design & Logic (Task Builder)
+
+**Trial Structure & Canvas Layout**
+
+- Set up explicit fixations/crosses with clear display durations (e.g., 500 ms).
+
+- Ensure response buttons or keypresses are bound to explicit zones.
+
+- Define explicit screen bounds and scaling so elements render cleanly across varying monitor sizes.
+
+**Stimulus Management**
+
+- Upload stimulus files (images, audio, video) using consistent, clear file names.
+
+<!-- -->
+
+- Verify media preload settings (e.g., set critical visual or audio stimuli to preload before trial display to prevent timing lag).
+
+**Spreadsheet Construction**
+
+- Map columns directly to task zones (e.g., `stimulus_image`, `correct_response`).
+
+<!-- -->
+
+- Add a `randomise_blocks` or `randomise_trials` column to control trial sequence per participant.
+
+- Specify a `display` column to direct Gorilla which screen layout to call for each row.
+
+**Data & Metric Logging**
+
+- Check that Reaction Time (RT), accuracy logging are toggled ON for response screens.
+
+- Check that psychometric measures are obtaining appropriate values and follow the exact formatting
+
+<!-- -->
+
+- Set up correct key bindings and response tags (e.g., `space` = target, `f`/`j` = binary choice).
+
+### Phase 2: Experiment Flow & Logic (Experiment Tree)
+
+- **Participant Routing**
+
+  - Include an **Participant Information & Informed Consent** screen at the very beginning.
+
+  - Add a **Demographics Questionnaire** (or screening checks) prior to the core task.
+
+  - Place **Instructions** nodes with brief comprehension checks before major tasks.
+
+- **Randomization & Counterbalancing**
+
+  - Use **Randomiser** nodes to assign participants to conditions or task orders evenly.
+
+  - Use **Branching** nodes to divert participants based on accuracy, demographics, or consent answers.
+
+- **Data Quality & Rejection Controls**
+
+  - Add an **Attention Check** or **Catch Trial** node to screen out low-effort responses.
+
+  - Set up a **Branching / Reject** path for participants who fail attention checks or decline consent.
+
+- **Recruitment Platform Integration**
+
+  - Place a **Redirect / Finish** node at the end with appropriate completion URLs (e.g., Prolific, CloudResearch, or Qualtrics parameters).
+
+  - Pass participant query parameters (`PROLIFIC_PID`, `STUDY_ID`, `SESSION_ID`) into Gorilla embedded variables.
+
+### Phase 3: Pilot Testing & Data Audit
+
+- **Technical Validation**
+
+  - Test the experiment link in **Preview Mode** across multiple browser types (Chrome, Safari, Firefox).
+
+  - Check the task on both desktop and mobile layouts (or set device restrictions in the Experiment Tree settings).
+
+<!-- -->
+
+- **Data Export Verification**
+
+  - Run a full mock session and export the **Data CSV**.
+
+  - Confirm that key columns (`Response`, `Reaction Time`, `Spreadsheet Row`, `Correct`, `Participant ID`) are present and accurate.
+
+  - Verify that spreadsheet values parse cleanly without missing data or mismatched headers.
+
+### Phase 4: Launching your Experiment 
+
+As previously mentioned, once you are ready to launch your study then follow this link here for a full guide to make sure you have followed everything: <https://support.gorilla.sc/support/launching-your-study/index>
+
+We have inserted the guide above so you can get the full information above. However, when you are indeed ready to launch your experiment then please watch this video set by gorilla.sc: <https://support.gorilla.sc/support/launching-your-study/create-to-launch#launchyourexperiment>
+
+Finally, once you have requested the Tokens the Psychology Technicians will accept your token requests and then you will have to accept the tokens by requesting that same number again. It's a little bit confusing I know but this is how Gorilla.sc is set up!
+
+Good Luck in your data collection!!!

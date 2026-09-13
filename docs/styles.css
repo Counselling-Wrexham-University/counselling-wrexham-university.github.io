@@ -1,0 +1,715 @@
+/* ==========================================================
+   Wrexham University – Counselling Department
+   Custom styles, light & dark mode
+   ========================================================== */
+
+/* ==========================================================
+   1. BASE
+   ========================================================== */
+
+body.quarto-light {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #151f35;
+  line-height: 1.6;
+}
+
+body.quarto-dark {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+body.quarto-light h1, body.quarto-light h2, body.quarto-light h3,
+body.quarto-light h4, body.quarto-light h5, body.quarto-light h6 {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  color: #151f35;
+  font-weight: 600;
+}
+
+body.quarto-dark h1, body.quarto-dark h2, body.quarto-dark h3,
+body.quarto-dark h4, body.quarto-dark h5, body.quarto-dark h6 {
+  color: #ffffff;
+}
+
+a { transition: color 0.2s; }
+
+body.quarto-light a { color: #50b9a8; text-decoration: none; }
+body.quarto-light a:hover { color: #3b8d7f; text-decoration: underline; }
+
+body.quarto-dark a { color: #50b9a8; }
+body.quarto-dark a:hover { color: #3b8d7f; }
+
+html { scroll-behavior: smooth; }
+
+/* Remove AnchorJS chain icons */
+a.anchorjs-link { display: none !important; }
+
+#quarto-sidebar {
+  position: sticky;
+  top: 1rem;
+}
+
+/* ==========================================================
+   2. NAVBAR
+   ========================================================== */
+
+body.quarto-light .navbar { background-color: #151f35 !important; }
+body.quarto-dark  .navbar { background-color: #0d1324 !important; }
+
+body.quarto-light .navbar a,
+body.quarto-light .navbar-brand,
+body.quarto-dark .navbar a,
+body.quarto-dark .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+body.quarto-light .navbar a:hover { color: #50b9a8 !important; text-decoration: underline; }
+body.quarto-dark  .navbar a:hover { color: #50b9a8 !important; }
+
+/* ---- Dropdown container ---- */
+.navbar .dropdown-menu {
+  background-color: #151f35 !important;
+  padding: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  min-width: 220px;
+}
+
+.navbar .dropdown-item {
+  padding: 12px 20px !important;
+  margin: 0 !important;
+  font-weight: 600 !important;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar .dropdown-item:hover {
+  filter: brightness(0.85);
+  text-decoration: none !important;
+}
+
+/* ---- Branded colour sequence, items 1–9 ---- */
+.navbar .dropdown-menu li:nth-child(1) .dropdown-item { background-color: #4c4394 !important; color: #ffffff !important; }
+.navbar .dropdown-menu li:nth-child(2) .dropdown-item { background-color: #e64550 !important; color: #ffffff !important; }
+.navbar .dropdown-menu li:nth-child(3) .dropdown-item { background-color: #eb5e95 !important; color: #ffffff !important; }
+.navbar .dropdown-menu li:nth-child(4) .dropdown-item { background-color: #50b9a8 !important; color: #151f35 !important; }
+.navbar .dropdown-menu li:nth-child(5) .dropdown-item { background-color: #fdc400 !important; color: #151f35 !important; }
+.navbar .dropdown-menu li:nth-child(6) .dropdown-item { background-color: #020203 !important; color: #ffffff !important; }
+.navbar .dropdown-menu li:nth-child(7) .dropdown-item { background-color: #ffffff !important; color: #151f35 !important; }
+.navbar .dropdown-menu li:nth-child(8) .dropdown-item { background-color: #e6881e !important; color: #151f35 !important; }
+.navbar .dropdown-menu li:nth-child(9) .dropdown-item { background-color: #151f35 !important; color: #ffffff !important; }
+
+/* ---- Carpet roll-out animation (desktop only) ---- */
+@media (min-width: 992px) {
+  .navbar .dropdown-menu {
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition:
+      transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+      opacity 0.3s ease,
+      visibility 0.4s;
+    pointer-events: none;
+  }
+
+  .navbar .nav-item.dropdown:hover > .dropdown-menu,
+  .navbar .nav-item.dropdown .dropdown-menu.show {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+    pointer-events: auto;
+  }
+}
+
+/* ==========================================================
+   3. NAVBAR TOOLS — search replaced by chat trigger
+   ========================================================== */
+
+.quarto-search-toggle,
+#quarto-search,
+.quarto-navbar-tools .bi-search,
+.quarto-navbar-tools .quarto-search-toggle {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+}
+
+.quarto-navbar-tools {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 15px !important;
+}
+
+.quarto-color-scheme-toggle {
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+}
+
+#custom-chat-trigger {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 0 10px;
+  margin: 0 !important;
+  line-height: 1 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.2s ease;
+  color: #50b9a8;
+  z-index: 1002;
+}
+
+#custom-chat-trigger:hover { transform: scale(1.1); }
+
+#custom-chat-trigger::after {
+  content: 'Need Help?';
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #50b9a8;
+  color: #151f35;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#custom-chat-trigger:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#chat-box {
+  display: none;
+  position: fixed !important;
+  top: 70px !important;
+  right: 20px !important;
+  width: 320px !important;
+  background: white !important;
+  border: 2px solid #50b9a8 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3) !important;
+  z-index: 999999 !important;
+}
+
+html[data-bs-theme="dark"] #chat-box {
+  background: #151f35 !important;
+  color: white !important;
+}
+
+/* ==========================================================
+   4. BUTTONS, ACCENTS, CARDS
+   ========================================================== */
+
+body.quarto-light .btn-primary {
+  background-color: #50b9a8;
+  border-color: #50b9a8;
+  color: #151f35;
+  font-weight: 600;
+}
+
+body.quarto-light .btn-primary:hover {
+  background-color: #3b8d7f;
+  border-color: #3b8d7f;
+  color: #ffffff;
+}
+
+.accent {
+  background-color: #50b9a8 !important;
+  color: #151f35 !important;
+  padding: 1.5rem !important;
+  border-radius: 12px !important;
+  margin: 1.5rem 0 !important;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.card {
+  border: none !important;
+  border-radius: 12px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
+  filter: brightness(1.05);
+}
+
+.card-title {
+  font-weight: 800 !important;
+  margin-bottom: 10px !important;
+  text-transform: uppercase;
+}
+
+/* ---- Grid card colours, by position ---- */
+.grid .card:nth-child(1), .grid .card.purple-card { background-color: #4c4394 !important; }
+.grid .card:nth-child(2), .grid .card.red-card    { background-color: #e64550 !important; }
+.grid .card:nth-child(3), .grid .card.pink-card   { background-color: #eb5e95 !important; }
+.grid .card:nth-child(4), .grid .card.orange-card { background-color: #e6881e !important; }
+.grid .card:nth-child(5), .grid .card.yellow-card { background-color: #fdc400 !important; }
+.grid .card.teal-card { background-color: #50b9a8 !important; }
+
+/* White text on the dark card colours */
+.grid .card:nth-child(1) .card-title, .grid .card:nth-child(1) p,
+.grid .card:nth-child(2) .card-title, .grid .card:nth-child(2) p,
+.grid .card:nth-child(3) .card-title, .grid .card:nth-child(3) p {
+  color: #ffffff !important;
+}
+
+/* Black text on the bright card colours */
+.grid .card:nth-child(4) .card-title, .grid .card:nth-child(4) p,
+.grid .card:nth-child(5) .card-title, .grid .card:nth-child(5) p,
+.grid .card.yellow-card .card-title, .grid .card.yellow-card p,
+.grid .card.teal-card .card-title, .grid .card.teal-card p {
+  color: #000000 !important;
+}
+
+body.quarto-dark .grid .card:nth-child(4) .card-title,
+body.quarto-dark .grid .card:nth-child(5) .card-title {
+  color: #000000 !important;
+}
+
+/* ==========================================================
+   5. BREADCRUMBS
+   ========================================================== */
+
+.breadcrumb-container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+body.quarto-light .breadcrumb-container {
+  background-color: #f0f8ff;
+  color: #151f35;
+}
+
+body.quarto-dark .breadcrumb-container {
+  background-color: #1a2338;
+  color: #e0e0e0;
+}
+
+body.quarto-light .breadcrumb-container a { color: #151f35; text-decoration: none; }
+body.quarto-dark  .breadcrumb-container a { color: #e0e0e0; text-decoration: none; }
+
+.breadcrumb-container a:hover {
+  text-decoration: underline;
+  color: #50b9a8;
+}
+
+.breadcrumb-container .breadcrumb li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.breadcrumb-container .breadcrumb li::after {
+  content: "›";
+  margin-left: 0.5rem;
+  color: #888;
+}
+
+.breadcrumb-container .breadcrumb li:last-child::after { content: ""; }
+
+/* ==========================================================
+   6. COLLAPSIBLE SECTIONS
+   ========================================================== */
+
+details {
+  border: 2px solid #151f35;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #151f35;
+  font-size: 1.1em;
+  list-style: none;
+}
+
+summary::after {
+  content: ' ▼';
+  float: right;
+  color: #151f35;
+}
+
+details[open] summary::after { content: ' ▲'; }
+
+body.quarto-dark details {
+  background-color: #1f1f1f;
+  border-color: #50b9a8;
+}
+
+body.quarto-dark summary,
+body.quarto-dark summary::after {
+  color: #50b9a8;
+}
+
+/* ==========================================================
+   7. FLOATING CHAT WIDGET
+   ========================================================== */
+
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.chat-widget-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.chat-widget-button:hover { transform: scale(1.05); }
+
+.chat-widget-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chat-speech {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  background-color: #50b9a8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.chat-widget-button:hover .chat-speech {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==========================================================
+   8. SCROLL-TO-TOP WIDGET
+   ========================================================== */
+
+#scroll-top-widget {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #151f35;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s,
+    background-color 0.2s ease;
+}
+
+#scroll-top-widget span {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 1px currentColor, 0 2px 4px rgba(0,0,0,0.35);
+  transform: translateY(-10px);   /* optical centring of the arrow */
+}
+
+#scroll-top-widget:hover {
+  background-color: #50b9a8;
+  transform: scale(1.1);
+}
+
+#scroll-top-widget.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ==========================================================
+   9. FLOATING HELP WIDGET — radial "planetary" menu
+   ========================================================== */
+
+#help-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9998;
+  overflow: visible !important;
+}
+
+#help-main {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+#help-main img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+  transition: transform 0.15s ease;
+  animation: sun-glow 4s ease-in-out infinite;
+}
+
+#help-main:active img { transform: scale(0.92); }
+
+@keyframes sun-glow {
+  0%, 100% { box-shadow: 0 4px 12px rgba(0,0,0,0.35); transform: scale(1); }
+  50%      { box-shadow: 0 4px 25px rgba(80, 185, 168, 0.4); transform: scale(1.03); }
+}
+
+/* ---- Orbiting action buttons ---- */
+.help-action {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #151f35;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 99;
+  transform: translate(-50%, -50%) scale(0);
+  transition:
+    transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.4s ease,
+    filter 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.help-action img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Motion along each button's own radial vector */
+@keyframes gravity-float {
+  0%   { transform: translate(-50%, -50%) translate(calc(var(--tx) * 1),    calc(var(--ty) * 1))    scale(1); }
+  50%  { transform: translate(-50%, -50%) translate(calc(var(--tx) * 1.08), calc(var(--ty) * 1.08)) scale(1.03); }
+  100% { transform: translate(-50%, -50%) translate(calc(var(--tx) * 1),    calc(var(--ty) * 1))    scale(1); }
+}
+
+@keyframes atmosphere-pulse {
+  0%, 100% { box-shadow: 0 4px 10px rgba(0,0,0,0.3), 0 0 5px rgba(80, 185, 168, 0.2); }
+  50%      { box-shadow: 0 4px 15px rgba(0,0,0,0.4), 0 0 15px rgba(80, 185, 168, 0.5); }
+}
+
+@keyframes logo-pulse-main {
+  0%   { transform: scale(1);    box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+  50%  { transform: scale(1.1);  box-shadow: 0 8px 24px rgba(80, 185, 168, 0.6); }
+  100% { transform: scale(1);    box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+}
+
+@keyframes orbit-pulse-glow {
+  0%   { box-shadow: 0 4px 10px rgba(0,0,0,0.3); filter: brightness(1); }
+  50%  { box-shadow: 0 0 20px rgba(80, 185, 168, 0.8); filter: brightness(1.3); }
+  100% { box-shadow: 0 4px 10px rgba(0,0,0,0.3); filter: brightness(1); }
+}
+
+/* Open state: fan out and start orbiting */
+#help-widget.open .help-action {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) translate(var(--tx), var(--ty)) scale(1);
+  animation:
+    gravity-float 5s ease-in-out infinite,
+    atmosphere-pulse 5s ease-in-out infinite;
+}
+
+/* Hover: pause the drift and lean toward the cursor */
+.help-action:hover {
+  animation-play-state: paused !important;
+  transform: translate(-50%, -50%) translate(calc(var(--tx) * 1.1), calc(var(--ty) * 1.1)) scale(1.3) !important;
+  filter: brightness(1.2);
+  box-shadow: 0 0 25px rgba(80, 185, 168, 0.8) !important;
+  z-index: 100;
+}
+
+#help-widget:not(.open) #help-main:hover img {
+  animation: logo-pulse-main 1.2s infinite ease-in-out;
+}
+
+#help-widget.open .help-action:hover {
+  animation: orbit-pulse-glow 1s infinite ease-in-out;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* ---- Orbit positions ---- */
+/* Inner ring */
+.action-myuni                   { --tx:   41px; --ty:  -92px; transition-delay: 0.05s; animation-delay: 0.1s !important; }
+.action-digital-learning-skills { --tx:  -17px; --ty: -100px; transition-delay: 0.10s; animation-delay: 0.3s !important; }
+.action-email                   { --tx:  -71px; --ty:  -71px; transition-delay: 0.15s; animation-delay: 0.5s !important; }
+.action-wris                    { --tx: -100px; --ty:  -15px; transition-delay: 0.20s; animation-delay: 0.7s !important; }
+.action-gorilla                 { --tx:  -92px; --ty:   42px; transition-delay: 0.25s; animation-delay: 0.9s !important; }
+
+/* Outer ring */
+.action-osf                     { --tx:  -63px; --ty: -124px; transition-delay: 0.30s; animation-delay: 0.2s !important; }
+.action-itdesk                  { --tx: -130px; --ty:  -60px; transition-delay: 0.35s; animation-delay: 0.4s !important; }
+.action-jisc                    { --tx: -140px; --ty:   20px; transition-delay: 0.40s; animation-delay: 0.6s !important; }
+.action-github                  { --tx:   20px; --ty: -140px; transition-delay: 0.45s; animation-delay: 0.8s !important; }
+
+/* ==========================================================
+   10. FOOTERS
+   ========================================================== */
+
+body.quarto-light footer {
+  background-color: #151f35;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Full-width band footer */
+.full-width-footer {
+  width: 100%;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  transition: background-color 0.3s ease;
+}
+
+body.quarto-light .full-width-footer {
+  background-color: #151f35;
+  color: #ffffff;
+}
+
+body.quarto-dark .full-width-footer {
+  background-color: #0a0e1a;
+  color: #e0e0e0;
+  border-top: 1px solid #50b9a8;
+}
+
+.full-width-footer h2 {
+  color: #50b9a8 !important;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.full-width-footer a {
+  color: #ffffff !important;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+body.quarto-dark .full-width-footer a { color: #50b9a8 !important; }
+
+.full-width-footer a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Half-viewport footer variant */
+.full-page-footer {
+  background-color: #151f35;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.full-page-footer h2 { margin: 0 0 0.5em 0; font-size: 1.8em; }
+.full-page-footer p  { margin: 0.5em 0; font-size: 1.1em; }
+
+.full-page-footer a {
+  color: #f0c040;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.full-page-footer a:hover { text-decoration: underline; }
+
+/* ==========================================================
+   11. SPIRAL SYNTH WAVE — animated canvas ribbons
+   Canvases are created by assets/synthwave.js
+   ========================================================== */
+
+/* Suppress the old node/line background pattern */
+.tech-node,
+.tech-line { display: none !important; }
+
+.synthwave-ribbon {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.synthwave-left  { left: 0; }
+.synthwave-right { right: 0; }
+
+@media (max-width: 1400px) {
+  .synthwave-ribbon { display: none; }
+}
+
+
+
