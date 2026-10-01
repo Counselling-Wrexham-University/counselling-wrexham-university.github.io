@@ -18,15 +18,15 @@ The questionnaires, scales, and inventories listed below are a great place to ge
 
 We recommend students from Wrexham University to use the "Free for use" scales. If you require a particular scale, then please contact the author(s) of the questionnaire for use permissions. However, please consult your supervisor before proceeding.
 
-The scales are provided solely as a courtesy to help Dissertation students develop their experiments efficiently, to get their projects underway, and provide module leaders resources for their teaching modules. Not all scales are provided and will only be available when Wrexham students, researchers and module leaders provide the appropriate evidence of licensing or permission.
+The scales provided below sit within the Gorilla.sc Repository but it is solely as a courtesy to help Dissertation students develop their online experiments efficiently, and to get their projects underway, and also provide module leaders resources for their teaching modules. Not all scales are provided and will only be available when Wrexham students, researchers and module leaders provide the appropriate evidence of licensing or permission.
 
-Please note that the scales may contain errors. Therefore, if you identify any inaccuracies, please kindly contact us at <a href="mailto:psychology.technician@wrexham.ac.uk" style="color: #0000EE; text-decoration: underline;">psychology.technician@wrexham.ac.uk</a> so we can rectify any of the scales. While every effort has been made to ensure accuracy, these materials are prepared by humans and should be carefully checked before use in any research or teaching capacity.
+Please note that the scales may contain errors. Therefore, if you identify any inaccuracies of any scales within the repository, please kindly contact us at <a href="mailto:psychology.technician@wrexham.ac.uk" style="color: #0000EE; text-decoration: underline;">psychology.technician@wrexham.ac.uk</a> so we can rectify any of the scales. While every effort has been made to ensure accuracy, these materials are prepared by humans and should be carefully checked before use in any research or teaching capacity.
 
-Additionally, it is the responsibility of each researcher to ensure the information they use from this repository is accurate and complies with copyright law. Some scales will also dictate that you cannot modify or adapt the contents of the scale, so if you should use a scale from this repository it should follow the appropriate copyright licensing from the original publishers. For more information about copyright and how it applies to research materials, please see the UK Government’s guidance on copyright: <a href="https://www.gov.uk/copyright" style="color: #0000EE; text-decoration: underline;">https://www.gov.uk/copyright</a>.
+Additionally, it is the responsibility of every researcher to ensure the information they use from this repository is accurate and complies with copyright law. Some scales will also dictate that you cannot modify or adapt the contents of the scale, so if you should use a scale from this repository it should follow the appropriate copyright licensing from the original publishers. For more information about copyright and how it applies to research materials, please see the UK Government’s guidance on copyright: <a href="https://www.gov.uk/copyright" style="color: #0000EE; text-decoration: underline;">https://www.gov.uk/copyright</a>.
 
 Please note: Due to the volume of requests, emails requesting permission for use will not receive a reply. We are also unable to provide author contact information.
 
-If you have further questions, you can contact: <a href="mailto:psychology.technician@wrexham.ac.uk" style="color: #0000EE; text-decoration: underline;">psychology.technician@wrexham.ac.uk</a>
+If you have other questions regarding the repository then contact us at : <a href="mailto:psychology.technician@wrexham.ac.uk" style="color: #0000EE; text-decoration: underline;">psychology.technician@wrexham.ac.uk</a>
 
 :::
 
@@ -34,7 +34,7 @@ If you have further questions, you can contact: <a href="mailto:psychology.techn
 
 ------------------------------------------------------------------------
 
-This page organises validated questionnaires into key psychological domains. You can access the Gorilla version of these tasks here: [Wrexham PsychTech Open Materials](https://app.gorilla.sc/openmaterials/1112705)
+This page organises validated questionnaires into key psychological domains. You can access the Gorilla version of these tasks here: [Wrexham PsychTech Open Materials](https://app.gorilla.sc/openmaterials/1112705). If you cannot find the scale in the repository and it is indeed an open source scale then let us know as we may have forgot to add it in! 
 
 ## Scale Count
 
@@ -44,10 +44,8 @@ This page organises validated questionnaires into key psychological domains. You
 
 -   † Proprietary / license required
 
-# Full List
+# Full List of Scales
 
-Below is the **same structure**, converted into **Quarto Markdown** with **unnumbered section headings**.
-You can paste this directly into a `.qmd` file.
 
 ---
 

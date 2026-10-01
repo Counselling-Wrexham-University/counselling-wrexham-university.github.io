@@ -3,7 +3,7 @@ title: "Guide to Online Ethics Applications (Wrexham Research Information System
 format: html
 ---
 
-**Document status and authorship** - This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document as the online application is subject to change and further extensions by the Research Office.Therefore, this resource will be continually evolving and it is intended to support psychology students $\Psi$ as a guide for psychology students to complete their online ethics application. I would also recommend to open this link [here](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf) whilst going through this guide. You can also find the necessary templates for your study [here](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/){.uri}. The full links can be found below:
+**Document status and authorship** - This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document as the online application is subject to change and further extensions by the Research Office.Therefore, this resource will be continually evolving and it is intended to support Counselling students  as a guide for counselling students to complete their online ethics application. I would also recommend to open this link [here](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf) whilst going through this guide. You can also find the necessary templates for your study [here](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/){.uri}. The full links can be found below:
 
 - User Guide $\rightarrow$ [Wrexham Research Ethics System Student User Guide](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf)
 
@@ -11,7 +11,7 @@ format: html
 
 - Templates (English) $\rightarrow$ <https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/>
 
-This document was created by the psychology technicians at Wrexham University with support from AI (Copilot‑GPT‑5, February 2026).
+This document was created by the PsychTech at Wrexham University with support from AI (Copilot‑GPT‑5, February 2026).
 
 **Key Advice**
 
@@ -34,19 +34,17 @@ This section is straightforward. Add the necessary basic details such as
 
 - Are you:
 
-  - Undergraduate student (BSc)
+  - Undergraduate student (Dip HE, BSc)
 
-  - Postgraduate Taught Student (MSc)
+  - Postgraduate Taught Student (MSc, MRes)
 
-  - Postgraduate Research Student (MPhil, MRes, PhD)
+  - Postgraduate Research Student (MPhil, PhD)
 
 - **Programme**
 
-  - BSc (Hons) Psychology
+  - Dip HE Counselling
 
-  - MSc Applied Psychology
-
-  - MSc Psychology (Conversion)
+  - MSc Couselling 
 
 - Your supervisor's name - (You will have to search for their name in the system. Nonetheless, you should know their name as you will have had meetings beforehand).
 
@@ -105,7 +103,7 @@ Provide your research aims and objectives of your dissertation project.
 
 Please provide details of your research design (Please use lay language free from technical terms) 
 
-- Next, briefly outline **how** you plan to conduct your research. This may include your **methodology** (e.g., experimental, survey, qualitative interviews), **sampling approach**, **data‑collection techniques**, and any key procedures. Keep this section concise but clear enough for reviewers to understand your planned process. Your reviewer will not be from the Psychology department, so try to avoid using any technical terms from the psychological sciences.
+- Next, briefly outline **how** you plan to conduct your research. This may include your **methodology** (e.g., experimental, survey, qualitative interviews), **sampling approach**, **data‑collection techniques**, and any key procedures. Keep this section concise but clear enough for reviewers to understand your planned process. Your reviewer will not be from the Counselling department, so try to avoid using any technical terms from the psychological sciences.
 
 Describe the potential benefits and impacts of your research, this can involve improving our current knowledge of the literature, how to improve a service etc.
 
@@ -219,7 +217,7 @@ State the number of participants you require for your study. This can be done th
 
 ## *3-2-Population*
 
-This should hopefully be **None of the Above.** However, if any of these options are selected then it will trigger higher ethical guidance from the University Research Ethics Committee (UREC) to review your ethics. We would advise for any dissertation projects in Lv6 to attempt to conduct a project that selects **None of the Above.** This is due to time constraints of the project for BSc Psychology Programmes. MSc Students are encouraged to conduct research to conduct research that may be within this scope as they have more time do conduct this research.
+This should hopefully be **None of the Above.** However, if any of these options are selected then it will trigger higher ethical guidance from the University Research Ethics Committee (UREC) to review your ethics. We would advise for any dissertation projects in Lv6 to attempt to conduct a project that selects **None of the Above.** This is due to time constraints of the project, but MSc Students are encouraged to conduct research that may be within this scope as they have more time do conduct this research.
 
 ## *3-3-Welsh Language*
 
@@ -301,7 +299,7 @@ Wrexham University recommends that all research data should be stored on the Uni
 
 ## *4-3-Access*
 
-In this section, you must specify who will have access to the data for the duration of the research project. Access should normally be restricted to you as the student researcher and your supervisor. If your project is advanced in nature or may require technical or methodological support, you should also include **psychology technicians** as authorised data handlers within the application. Limiting access to only those directly involved in the research helps ensure confidentiality, data security, and compliance with ethical and data protection requirements.
+In this section, you must specify who will have access to the data for the duration of the research project. Access should normally be restricted to you as the student researcher and your supervisor. If your project is advanced in nature or may require technical or methodological support. Limiting access to only those directly involved in the research helps ensure confidentiality, data security, and compliance with ethical and data protection requirements.
 
 ## *4-4-Retention & Destruction*
 

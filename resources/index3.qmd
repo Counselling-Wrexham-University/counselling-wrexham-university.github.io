@@ -8,14 +8,14 @@ format: html
 ::: accent
 Psychologists regularly use experiments to collect data about peoples cognitions, personality, perceptions, or behaviour (amongst other things).
 
-However, there are a number of solutions available for conducting data collection with behavioural tasks, such as the Stroop task, Go/No-Go task, or N-back task. At Wrexham University, we predominantly use 2 solutions; Psychopy and Gorilla.
+However, there are a number of solutions available for conducting data collection with behavioural tasks, such as the Stroop task, Go/No-Go task, or N-back task. At Wrexham University, we predominantly use 2 solutions; Psychopy (face-to-face) and Gorilla (online experiments).
 
 Each has different strengths and weaknesses, so you should consider which system is best for your research. 
 :::
 
 An upcoming array of batteries are on their way to be made and gathered as a full list of experimental task (Updated to [Task Builder 2](https://support.gorilla.sc/support/tools/task-builder-2)) within our Wrexham University Repository page on [Gorilla.sc](https://gorilla.sc/). If you are an undergraduate student at Wrexham University you will be expected to create your own version of the task.
 
-If you have further questions, you can contact: [psychology.technician\@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk)
+If you have further questions, you can contact: [psychology.technician\@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk). This is a list of tasks that we are working on developing into the PsychoPy and Gorilla.sc repository. 
 
 # Upcoming 
 

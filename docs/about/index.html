@@ -290,10 +290,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Main Student Page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../students/case-studies/index.html">
- <span class="dropdown-text">Dissertation Case Studies</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../students/H&amp;S/index.html">
  <span class="dropdown-text">Risk Assessments</span></a>
   </li>  
@@ -359,8 +355,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Main Platforms Page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://app.gorilla.sc/openmaterials/1112705">
- <span class="dropdown-text">Gorilla.sc Open</span></a>
+    <a class="dropdown-item" href="../platforms/gorilla.html">
+ <span class="dropdown-text">Gorilla.sc</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../platforms/sona/index.html">
@@ -586,9 +582,9 @@ Yusra Aurangzeb works alongside Sam as the Psychology Technician, her working da
 
 
 
-  <a class="help-action action-github" href="https://github.com/WU-Psychology-Technician" target="_blank" rel="noopener" aria-label="GitHub">
+  <a class="help-action action-bacp" href="https://www.bacp.co.uk/" target="_blank" rel="noopener" aria-label="bacp">
 
-    <img src="../images/github.png" alt="GitHub">
+    <img src="../images/bacp.png" alt="BACP">
 
   </a>
 
@@ -610,9 +606,9 @@ Yusra Aurangzeb works alongside Sam as the Psychology Technician, her working da
 
 
 
-  <a class="help-action action-osf" href="https://osf.io/" target="_blank" rel="noopener" aria-label="OSF">
+  <a class="help-action action-ncps" href="https://ncps.com/" target="_blank" rel="noopener" aria-label="NCPS">
 
-    <img src="../images/OSF.png" alt="OSF">
+    <img src="../images/NCPS.png" alt="NCPS">
 
   </a>
 
@@ -715,7 +711,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   <div class="footer-content">
 
-    <h2>Psychology Technicians · Wrexham University</h2>
+    <h2>Counselling · Wrexham University</h2>
 
     <p>© <span id="current-year"></span></p>
 
@@ -848,151 +844,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
-<style>
-
-  .tech-bg-overlay {
-
-    position: fixed;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100vw;
-
-    height: 100vh;
-
-    z-index: -1; 
-
-    pointer-events: none;
-
-    display: block !important;
-
-  }
-
-
-
-  body { background-color: var(--quarto-body-bg); }
-
-
-
-  /* Wider containers to allow the patterns to spread out */
-
-  .svg-left { position: absolute; left: 0; top: 0; height: 100vh; width: 250px; }
-
-  .svg-right { position: absolute; right: 0; top: 0; height: 100vh; width: 250px; }
-
-
-
-  .tech-line { fill: none; stroke-width: 2; stroke-linecap: round; }
-
-  
-
-  .tech-line.static { 
-
-    stroke: var(--quarto-body-color); 
-
-    opacity: 0.08; 
-
-  }
-
-
-
-  .tech-line.pulse {
-
-    stroke: #50b9a8;
-
-    stroke-dasharray: 120, 1000;
-
-    stroke-dashoffset: 1120;
-
-    animation: electricity 8s linear infinite;
-
-    filter: drop-shadow(0 0 5px #50b9a8);
-
-  }
-
-
-
-  .tech-node {
-
-    fill: var(--quarto-body-bg);
-
-    stroke: #50b9a8;
-
-    stroke-width: 1.2;
-
-    filter: drop-shadow(0 0 3px #50b9a8);
-
-  }
-
-
-
-  @keyframes electricity {
-
-    from { stroke-dashoffset: 1120; }
-
-    to { stroke-dashoffset: 0; }
-
-  }
-
-
-
-  @media (max-width: 1200px) {
-
-    .tech-bg-overlay { display: none; }
-
-  }
-
-</style>
-
-
-
-<div class="tech-bg-overlay">
-
-  <svg class="svg-left" viewbox="0 0 250 1000" preserveaspectratio="xMinYMin slice">
-
-    <path class="tech-line static" d="M 50,0 V 200 L 90,260 V 500 L 40,580 V 1000"></path>
-
-    <path class="tech-line pulse" style="animation-duration: 6s;" d="M 50,0 V 200 L 90,260 V 500 L 40,580 V 1000"></path>
-
-    
-
-    <path class="tech-line static" d="M 90,260 L 130,320 V 450 L 110,480"></path>
-
-    <path class="tech-line pulse" style="animation-duration: 9s; animation-delay: -2s;" d="M 90,260 L 130,320 V 450 L 110,480"></path>
-
-    
-
-    <circle class="tech-node" cx="90" cy="260" r="4"></circle> <circle class="tech-node" cx="110" cy="480" r="3"></circle>
-
-  </svg>
-
-
-
-  <svg class="svg-right" viewbox="0 0 250 1000" preserveaspectratio="xMaxYMin slice">
-
-    <path class="tech-line static" d="M 210,0 V 300 L 170,380 V 650 L 220,750 V 1000"></path>
-
-    <path class="tech-line pulse" style="animation-duration: 7s;" d="M 210,0 V 300 L 170,380 V 650 L 220,750 V 1000"></path>
-
-
-
-    <path class="tech-line static" d="M 170,380 L 100,450 V 600 L 130,640"></path>
-
-    <path class="tech-line pulse" style="animation-duration: 10s; animation-delay: -3s;" d="M 170,380 L 100,450 V 600 L 130,640"></path>
-
-    
-
-    <path class="tech-line static" d="M 130,640 L 70,700 V 850 L 100,900"></path>
-
-    <path class="tech-line pulse" style="animation-duration: 8s; animation-delay: -5s;" d="M 130,640 L 70,700 V 850 L 100,900"></path>
-
-
-
-    <circle class="tech-node" cx="170" cy="380" r="4.5"></circle> <circle class="tech-node" cx="130" cy="640" r="4"></circle>   <circle class="tech-node" cx="100" cy="900" r="3"></circle>   <circle class="tech-node" cx="100" cy="450" r="2.5"></circle> </svg>
-
-</div>
 <div id="google_translate_element" style="display:none;"></div>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -1094,6 +945,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+<script src="../assets/synthwave.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

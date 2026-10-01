@@ -45,50 +45,6 @@ Please see the FAQ in the About section as I have also pointed out (or the techn
 
 ## What Else We Offer
 
-::::::::::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;"}
-:::: card
-::: card-body
-<h3 class="card-title">
-
-[**Case Studies**](case-studies/index.qmd)
-
-</h3>
-
-<p>Learn about our previous dissertation projects and what they conducted for their final year.</p>
-
-```{=html}
-<img src="../images/case-study-image.png" 
-     alt="PsyTech Icon" 
-     style="width: 210px; 
-            display: block; 
-            margin-left: 70px;
-            margin-top: 50px;
-            margin-bottom: 0.05rem;">
-```
-:::
-::::
-
-:::: card
-::: card-body
-<h3 class="card-title">
-
-[**SONA - Recruitment Page**](Students/SONA/index.qmd)
-
-</h3>
-
-<p>(<b>CURRENTLY IN-DEVELOPMENT</b>). Learn what you can do on this page to get as many participants as possible for your dissertation project in your final year.</p>
-
-```{=html}
-<img src="../images/sona-image.png" 
-     alt="sona logo" 
-     style="width: 130px; 
-            display: block; 
-            margin-left: 105px; 
-            margin-bottom: 0.2rem;">
-```
-:::
-::::
-
 :::: card
 ::: card-body
 <h3 class="card-title">

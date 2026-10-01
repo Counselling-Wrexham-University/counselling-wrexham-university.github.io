@@ -85,8 +85,6 @@ website:
         menu:
           - text: "Main News Page"
             href: updates/index.qmd
-          - text: "Current Technician Tasks"
-            href: updates/tasks.qmd
           - text: "Feedback"
             href: updates/feedback.qmd
 

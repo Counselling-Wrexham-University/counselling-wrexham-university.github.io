@@ -5,11 +5,11 @@ format: html
 
 The Psychology Laboratory and experimental pods are situated in the Bevan Building in K115.
 
-We also encourage students who wish to do more aspiring projects to also look into the other rooms that may be available to fit the purpose of your research and ideas. You can look in this document for a full list of all the available rooms that Wrexham University provides and also look at the \[PsychTech Room Booking System\]([PsychTech Room Booking System ](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JACQMhm2_Hv4S6U294r1BoVWAdy4TLDU0ozzh7vXU5HsqGM?nav=ZDk0ZWE3MjUtMzk3NS00NDg2LWE5MjgtZDM5MjdlYzY3ODU4)) for the technicians to prepare the spaces for you.
+We also encourage students who wish to do more aspiring projects to also look into the other rooms that may be available to fit the purpose of your research and ideas. You can look in this document for a full list of all the available rooms that Wrexham University provides and also look at the [PsychTech Room Booking System ](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JACQMhm2_Hv4S6U294r1BoVWAdy4TLDU0ozzh7vXU5HsqGM?nav=ZDk0ZWE3MjUtMzk3NS00NDg2LWE5MjgtZDM5MjdlYzY3ODU4)) for the technicians to prepare the spaces for you.
 
 # Facilities
 
-The lab facilitates 2 experimental pods with light and air cooling control. The lab currently holds contains all the specialised and miscellaneous equipment used by the Psychology Team, more information on this can be found in the [equipment section](equipment/index.qmd).
+The Psychlab facilitates 2 experimental pods with light and air cooling control. The lab currently holds contains all the specialised and miscellaneous equipment used by the Psychology Team, more information on this can be found in the [equipment section](equipment/index.qmd).
 
 # Lab Sustainability
 
@@ -68,14 +68,14 @@ There are many facilities on campus that students can utilize for their disserta
 
 - **Immersive CAVE:** A four-wall and floor projection space for realistic, interactive training scenarios which can fit 10 people, standing only.
 
-- **XR Zones** (includes 3 zones - each can accomodate 1 person using Virtual Reality (VR) or a maximum of 8 people using a table & chairs, per zone)
+- **XR Zones**(includes 3 zones - each can accomodate 1 person using Virtual Reality (VR) or a maximum of 8 people using a table & chairs, per zone)
 
 - **The Bridge** (a collaboration area accommodates up to 8 people on a standing/seated high table, which is used for planning, reflection and engagement across different immersive activities)
 
-**Observation Room**: **Centre of the Child** — It is a multidisciplinary research and teaching centre at Wrexham University's Plas Coch campus, supporting academic programmes in early childhood studies, psychology, nursing, and social work. It houses the on-campus **Little Scholars** day nursery, which provides full daycare and early years education for children aged 3 months to 5 years, serving university students, staff, and the general public. This centre can be used for specific research purposes for MSc or PhD students who wish to conduct observational studies with child populations.
+**Observation Room**: **Centre of the Child** — It is a multidisciplinary research and teaching centre at Wrexham University's Plas Coch campus, supporting academic programmes in early childhood studies, psychology, nursing, and social work.It houses the on-campus **Little Scholars** day nursery, which provides full daycare and early years education for children aged 3 months to 5 years, serving university students, staff, and the general public.This centre can be used for specific research purposes for MSc or PhD students who wish to conduct observational studies with child populations.
 
 **Flight Simulator Room** — Used as part of the Psychology biopsychology module, where students take part in stress testing by landing the Merlin Flight Simulator in an emergency situation, measuring their heart rate before and after to assess the physiological effect on the human body. Also used by Aeronautical Engineering students for training and research. This room can be used for specific dissertation projects that require the flight simulator.
 
-**Ty Dysgu** — A purpose-built residential house on campus used to stage realistic, real-world scenarios for students to work independently or interprofessionally. It supports policing, paramedic science, forensic science, social work, and allied health students in practising skills such as responding to incidents with casualties, conducting crime scene searches, or working in a home environment. It is also used for the university's annual Major Incident simulation exercises with local emergency services. This room can be used for specific dissertation projects that require the house for experiential projects.
+**Ty Dysgu** — A purpose-built residential house on campus used to stage realistic, real-world scenarios for students to work independently or inter-professionally. It supports policing, paramedic science, forensic science, social work, and allied health students in practising skills such as responding to incidents with casualties, conducting crime scene searches, or working in a home environment. It is also used for the university's annual Major Incident simulation exercises with local emergency services. This room can be used for specific dissertation projects that require the house for experiential projects.
 
-**Biomechanics and Performance lab** — For conducting biomechanical analysis, physiological testing, and performance research to understand how the human body works, with the goal of improving athletic performance and reducing injury risk. Equipped with an Alter-G anti-gravity treadmill, Biodex Isokinetic Dynamometer, 10-metre sprint track, speed gates, a jump mat, power racks, and strength & conditioning equipment. This room can be used for specific dissertation projects that revolve in sports psychology.
+**Biomechanics and Performance lab** — For conducting biomechanical analysis, physiological testing, and performance research to understand how the human body works, with the goal of improving athletic performance and reducing injury risk. Equipped with an Alter-G anti-gravity treadmill, Biodex Isokinetic Dynamometer, 10-metre sprint track, speed gates, a jump mat, power racks, and strength & conditioning equipment. This room can be used for specific dissertation projects that revolve in sports psychology.

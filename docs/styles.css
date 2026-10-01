@@ -52,24 +52,45 @@ a.anchorjs-link { display: none !important; }
 }
 
 /* ==========================================================
-   2. NAVBAR
+   2. NAVBAR — brand teal
+   Navy text on teal (~7:1 contrast). White on teal is ~2.2:1
+   and fails WCAG, so link colour is navy, not white.
    ========================================================== */
 
-body.quarto-light .navbar { background-color: #151f35 !important; }
-body.quarto-dark  .navbar { background-color: #0d1324 !important; }
+body.quarto-light .navbar { background-color: #50b9a8 !important; }
+body.quarto-dark  .navbar { background-color: #3b8d7f !important; }
 
 body.quarto-light .navbar a,
 body.quarto-light .navbar-brand,
+body.quarto-light .navbar .navbar-title,
 body.quarto-dark .navbar a,
-body.quarto-dark .navbar-brand {
-  color: #ffffff !important;
-  font-weight: 500;
+body.quarto-dark .navbar-brand,
+body.quarto-dark .navbar .navbar-title {
+  color: #151f35 !important;
+  font-weight: 600;
 }
 
-body.quarto-light .navbar a:hover { color: #50b9a8 !important; text-decoration: underline; }
-body.quarto-dark  .navbar a:hover { color: #50b9a8 !important; }
+body.quarto-light .navbar a:hover,
+body.quarto-dark  .navbar a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+/* Mobile hamburger — default icon is a white SVG, invisible on teal */
+.navbar-toggler {
+  border-color: rgba(21, 31, 53, 0.4) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23151f35' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Dark-mode toggle icon sits in the navbar too */
+.navbar .quarto-color-scheme-toggle i.bi { color: #151f35 !important; }
 
 /* ---- Dropdown container ---- */
+/* Panels stay navy: they hang below the teal bar and keep the
+   navy/teal contrast that carries the brand. */
 .navbar .dropdown-menu {
   background-color: #151f35 !important;
   padding: 0 !important;
@@ -91,6 +112,9 @@ body.quarto-dark  .navbar a:hover { color: #50b9a8 !important; }
   filter: brightness(0.85);
   text-decoration: none !important;
 }
+
+/* Dropdown items set their own colours below — don't inherit navbar navy */
+.navbar .dropdown-item:hover .dropdown-text { color: inherit !important; }
 
 /* ---- Branded colour sequence, items 1–9 ---- */
 .navbar .dropdown-menu li:nth-child(1) .dropdown-item { background-color: #4c4394 !important; color: #ffffff !important; }
@@ -164,7 +188,7 @@ body.quarto-dark  .navbar a:hover { color: #50b9a8 !important; }
   justify-content: center;
   position: relative;
   transition: transform 0.2s ease;
-  color: #50b9a8;
+  color: #151f35;      /* navy — teal would vanish into the teal bar */
   z-index: 1002;
 }
 
@@ -175,8 +199,8 @@ body.quarto-dark  .navbar a:hover { color: #50b9a8 !important; }
   position: absolute;
   top: 45px;
   right: 0;
-  background-color: #50b9a8;
-  color: #151f35;
+  background-color: #151f35;   /* navy tooltip below a teal bar */
+  color: #ffffff;
   padding: 5px 12px;
   border-radius: 8px;
   font-size: 0.75rem;
@@ -460,6 +484,7 @@ body.quarto-dark summary::after {
 
 #scroll-top-widget:hover {
   background-color: #50b9a8;
+  color: #151f35;
   transform: scale(1.1);
 }
 
@@ -606,10 +631,10 @@ body.quarto-dark summary::after {
 .action-gorilla                 { --tx:  -92px; --ty:   42px; transition-delay: 0.25s; animation-delay: 0.9s !important; }
 
 /* Outer ring */
-.action-osf                     { --tx:  -63px; --ty: -124px; transition-delay: 0.30s; animation-delay: 0.2s !important; }
+.action-bacp                     { --tx:  -63px; --ty: -124px; transition-delay: 0.30s; animation-delay: 0.2s !important; }
 .action-itdesk                  { --tx: -130px; --ty:  -60px; transition-delay: 0.35s; animation-delay: 0.4s !important; }
 .action-jisc                    { --tx: -140px; --ty:   20px; transition-delay: 0.40s; animation-delay: 0.6s !important; }
-.action-github                  { --tx:   20px; --ty: -140px; transition-delay: 0.45s; animation-delay: 0.8s !important; }
+.action-ncps                  { --tx:   20px; --ty: -140px; transition-delay: 0.45s; animation-delay: 0.8s !important; }
 
 /* ==========================================================
    10. FOOTERS
@@ -710,6 +735,9 @@ body.quarto-dark .full-width-footer a { color: #50b9a8 !important; }
 @media (max-width: 1400px) {
   .synthwave-ribbon { display: none; }
 }
+
+
+
 
 
 

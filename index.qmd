@@ -23,18 +23,18 @@ This site provides technical expertise, and resources to students and staff in t
 ::: card-body
 <h3 class="card-title">
 
-Resources
+Resources & Platforms
 
 </h3>
 
-<p>Access training materials, SOPs, and tutorials on tools/platforms such as SPSS, R, Gorilla, and PsychoPy.</p>
+<p>Access training materials, SOPs, and tutorials on tools/platforms such as SPSS, R, Gorilla, JISC and PsychoPy.</p>
 
 <img src="images/resources.png" 
      alt="PsyTech Icon" 
      style="width: 110px; 
             display: block; 
             margin-left: 70px;
-            margin-top: 50px;
+            margin-top: 100px;
             margin-bottom: 0.05rem;">
 
 
@@ -45,17 +45,17 @@ Resources
 ::: card-body
 <h3 class="card-title">
 
-PsyTech Support
+PsychTech Support
 
 </h3>
 
-<p>Meet the technicians, book time with us, and discover how we can help with your research and teaching projects.</p>
+<p>Meet the technicians, book time with us, and discover how we can help with your dissertation project [Click here to book a meeting with us.](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled)</p>
 
 <img src="../images/psy-tech-image-2.png" 
      alt="PsyTech Icon" 
      style="width: 170px; 
             display: block;
-            margin-top: 18px;
+            margin-top: 60px;
             margin-left: 37px; 
             margin-bottom: 0.05rem;">
 :::
@@ -65,17 +65,18 @@ PsyTech Support
 ::: card-body
 <h3 class="card-title">
 
-Booking Slots
+Recruitment & Faculty Research
+
 
 </h3>
 
-<p>We provide flexible meeting slots on a daily basis. Feel free to book in to discuss your technical needs. <b> [Click here to book a meeting with us.](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled)</p> </b>
+<p>Discover current research opportunities and see how you can take part in active studies across our department. Explore our recruitment page to find studies that interest you in participating and getting involved.</p> 
 
 <img src="images/booking.jpg" 
      alt="PsyTech Icon" 
      style="width: 120px; 
             display: block;
-            margin-top: 80px;
+            margin-top: 0.5px;
             margin-left: 50px; 
             margin-bottom: 0.2rem;">
 :::
@@ -94,7 +95,7 @@ The technicians have created guides to help students complete Risk Assessments, 
      alt="PsyTech Icon" 
      style="width: 100px; 
             display: block;
-            margin-top: 40px;
+            margin-top: 60px;
             margin-left: 70px; 
             margin-bottom: 0.2rem;">
 
@@ -109,8 +110,6 @@ The technicians have created guides to help students complete Risk Assessments, 
 To find what you need, please visit the sections above:
 
 -   [**About**](About/index.qmd) – learn more about our role and expertise
-
--   [**Equipment**](Equipment/index.qmd) – discover the tools and technologies available
 
 -   [**Students**](Students/index.qmd) - discover some helpful guides and documents as a student
 
@@ -143,6 +142,6 @@ Specifically,
 - Wrexham IT Support
 - PsychTech Booking System 
 - Wrexham Digital Skills 
-- OSF Repositories 
+- OSF 
 - Moodle 
-- GitHub 
+- British Association For Counselling and Psychotherapy  
