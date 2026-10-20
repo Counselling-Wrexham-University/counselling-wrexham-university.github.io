@@ -98,7 +98,7 @@ NCPS states that these principles cannot deliver a single "right" answer, but ca
 ### 2.3 How the two map onto each other
 
 | Concern                          | BACP              | NCPS                   |
-|----------------------------------|-------------------|------------------------|
+|-------------------------------|------------------|----------------------|
 | Avoiding harm                    | Non-maleficence   | Principle 1            |
 | Promoting good                   | Beneficence       | Principle 1            |
 | Trust                            | Being trustworthy | Principle 2 (Fidelity) |
@@ -324,13 +324,7 @@ Research *about* the harms of conversion practices, or about survivors' experien
 
 ### 6.9 Where to find dissertation information
 
-Assessment briefs, rubrics and writing guidance are on the Moodle page for your module.
-
-::: callout-warning
-## Placeholder — needs your module codes
-
-The original version of this page listed PSY619, PSY771 and PSY775, which are Psychology modules. Replace these with the correct Counselling module codes before publishing.
-:::
+Assessment briefs, rubrics and writing guidance are on the Moodle page for your module. These are situated in COU701 Research Methods and COU707 Research Project.
 
 ### 6.10 Who to ask for Help
 

@@ -3,7 +3,7 @@ title: "Guide to Online Ethics Applications (Wrexham Research Information System
 format: html
 ---
 
-**Document status and authorship** - This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document as the online application is subject to change and further extensions by the Research Office.Therefore, this resource will be continually evolving and it is intended to support Counselling students  as a guide for counselling students to complete their online ethics application. I would also recommend to open this link [here](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf) whilst going through this guide. You can also find the necessary templates for your study [here](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/){.uri}. The full links can be found below:
+**Document status and authorship** - This page has been generated collaboratively using artificial intelligence and human academic oversight. It is not a final or static policy document as the online application is subject to change and further extensions by the Research Office.Therefore, this resource will be continually evolving and it is intended to support Counselling students as a guide for counselling students to complete their online ethics application. I would also recommend to open this link [here](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf) whilst going through this guide. You can also find the necessary templates for your study [here](https://wrexham.ac.uk/research/our-research/research-ethics/how-to-apply--university-templates/){.uri}. The full links can be found below:
 
 - User Guide $\rightarrow$ [Wrexham Research Ethics System Student User Guide](https://wrexham.ac.uk/media/marketing/research/documents-misc/Wrexham-Research-Ethics-System-Student-User-Guide.pdf)
 
@@ -34,7 +34,7 @@ This section is straightforward. Add the necessary basic details such as
 
 - Are you:
 
-  - Undergraduate student (Dip HE, BSc)
+  - Undergraduate student (BSc)
 
   - Postgraduate Taught Student (MSc, MRes)
 
@@ -44,7 +44,7 @@ This section is straightforward. Add the necessary basic details such as
 
   - Dip HE Counselling
 
-  - MSc Couselling 
+  - MSc Couselling
 
 - Your supervisor's name - (You will have to search for their name in the system. Nonetheless, you should know their name as you will have had meetings beforehand).
 
