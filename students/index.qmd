@@ -9,11 +9,11 @@ Even if you are not a dissertation student this place is still a good start to u
 
 ### PsychLabs Booker
 
-You can book the Psychlabs [here](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JACQMhm2_Hv4S6U294r1BoVWAdy4TLDU0ozzh7vXU5HsqGM?nav=ZDk0ZWE3MjUtMzk3NS00NDg2LWE5MjgtZDM5MjdlYzY3ODU4)
+You can book laboratories and external rooms [here](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JACQMhm2_Hv4S6U294r1BoVWAdy4TLDU0ozzh7vXU5HsqGM?nav=ZDk0ZWE3MjUtMzk3NS00NDg2LWE5MjgtZDM5MjdlYzY3ODU4). *This booking form does not confirm a booking but* a **provisional request.** Our technicians will check room availability for your selected time and follow up shortly with confirmation or alternative times**.**
 
-Our suite of specialist labs are dedicated to specific types of research and/or specific pieces of equipment. The use of many of these labs is restricted to those who have received appropriate training. Students, please speak to your module leader or project supervisor and ask them to make you known to us before you attempt to book a lab to use any specialist equipment.
+Our suite of specialist labs are dedicated to specific types of research and/or specific pieces of equipment. The use of many of these labs is restricted to those who have received appropriate training. Please speak to your module leader or project supervisor and ask them to make you known to us before you attempt to book a lab to use any specialist equipment.
 
-If you wish for any extra resources in the room, please book those well in advance with the Psychology Technicians. (Each room and experimental pod has a list of features that can be seen when booking the room).
+If you wish for any extra resources in the room, please book those well in advance with the Psychology Technicians via Email at [psychology.technician\@wrexham.ac.uk](mailto:psychology.technician@wrexham.ac.uk). (Each room and experimental pod has a list of features that can be seen when booking the room).
 
 ------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ If you wish for any extra resources in the room, please book those well in advan
 
 You can book services provided by the Technicians based on our availability [here](https://bookings.cloud.microsoft/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled).
 
-Our open bookings are based on our availability on our calendars. Please do not request if we can change our availability to accommodate you. This is the reason why we have chosen this booking system so you can flexibly select time blocks appropriately in accordance to our work schedule and your own as we are trying to help everyone who has requested help through all levels within our available work hours. We will also delineate each service available to you
+Our open bookings are based on our availability of our calendars. Please do not request if we can change our availability to accommodate you. This is the reason why we have chosen this booking system so you can flexibly select time blocks appropriately in accordance to our work schedule and your own as we are trying to help everyone who has requested help through all levels within our available work hours. We will also delineate each service available to you here below
 
 - **Initial Discussion -** If you are thinking of doing a technical project for your dissertation then come and speak to us so you can understand what we can help with!
 
@@ -45,6 +45,50 @@ Please see the FAQ in the About section as I have also pointed out (or the techn
 
 ## What Else We Offer
 
+::::::::::::::: {.grid style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;"}
+:::: card
+::: card-body
+<h3 class="card-title">
+
+[**Case Studies**](case-studies/index.qmd)
+
+</h3>
+
+<p>Learn about our previous dissertation projects and what they conducted for their final year.</p>
+
+```{=html}
+<img src="../images/case-study-image.png" 
+     alt="PsyTech Icon" 
+     style="width: 210px; 
+            display: block; 
+            margin-left: 70px;
+            margin-top: 50px;
+            margin-bottom: 0.05rem;">
+```
+:::
+::::
+
+:::: card
+::: card-body
+<h3 class="card-title">
+
+[**SONA**](Students/SONA/index.qmd)
+
+</h3>
+
+<p>(<b>CURRENTLY IN-DEVELOPMENT</b>)</p>
+
+```{=html}
+<img src="../images/sona-image.png" 
+     alt="sona logo" 
+     style="width: 130px; 
+            display: block; 
+            margin-left: 105px; 
+            margin-bottom: 0.2rem;">
+```
+:::
+::::
+
 :::: card
 ::: card-body
 <h3 class="card-title">
@@ -53,7 +97,7 @@ Please see the FAQ in the About section as I have also pointed out (or the techn
 
 </h3>
 
-<p>Meet the technicians, [book time with us](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled), and discover how we can help with your final year dissertation project and other modules. Even if you are not a final year student (Lv6), this site still can offer insight</p>
+<p>Meet the technicians, [**book time with us**](https://outlook.office.com/book/PsychTechWrexham@MAILGLYNDWRAC.onmicrosoft.com/?ismsaljsauthenabled), and discover how we can help with your final year dissertation project and other modules. Even if you are not a final year student (Lv6), this site still can offer insight</p>
 
 ```{=html}
 <img src="../images/psy-tech-image-2.png" 
@@ -116,7 +160,7 @@ Please see the FAQ in the About section as I have also pointed out (or the techn
 
 </h3>
 
-<p>Access our **PSYGEM** Learning Navigator that is trained specificly to guide you on how to approach your assessments at Wrexham University.</p>
+<p>Access our **PSYCHGEM** Learning Navigator that is trained specifically to guide you on how to approach your assessments at Wrexham University.</p>
 
 ```{=html}
 <img src="../images/gemini-gem-teal.png" 
@@ -131,3 +175,5 @@ Please see the FAQ in the About section as I have also pointed out (or the techn
 :::::::::::::::
 
 ------------------------------------------------------------------------
+
+If you need help or information regarding specific resources such as JISC, Gorilla.sc, Panopto then please see the Platforms section of our webpage.
