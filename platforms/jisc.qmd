@@ -7,7 +7,7 @@ Over the years the PsychTech have provided guides and videos on how to use JISC 
 
 Here you can find the link to the [Help & Support Page](https://onlinesurveys.jisc.ac.uk/help/). You can also find the Panopto guide done by [Wrexham University Learning Skills Guides](https://wrexham.libguides.com/panopto).
 
-Jisc Online Surveys is an ideal tool for designing academic questionnaires and primary research because it ensures strict GDPR compliance, offers advanced logic branching, and handles secure data exports directly to tools like Excel or SPSS. You can request access by completing this [form](https://mailglyndwrac.sharepoint.com/:l:/s/PsychologyTechsonlyTeamspage/JABKV6oLmjfbQqvnE3ItB8ZPAfrbYar9MWRVk3bQlfdyqZs?nav=YTVlZGM0YmUtNTJmMC00YWE3LWEyMjItMmMxMGFkZTAzNTRi) here and you can easily log in through [myuni.wrexham.ac.uk](https://myuni.wrexham.ac.uk/) under the **VLE & Teaching Resources** section or you can access it via [here](https://app.onlinesurveys.jisc.ac.uk/login?callbackUrl=%2Fdashboard%2Fwgu).
+Jisc Online Surveys is an ideal tool for designing academic questionnaires and primary research because it ensures strict GDPR compliance, offers advanced logic branching, and handles secure data exports directly to tools like Excel or SPSS. You can request access by completing this [form](https://forms.cloud.microsoft/e/eMnAwn4RVA) here and you can easily log in through [myuni.wrexham.ac.uk](https://myuni.wrexham.ac.uk/) under the **VLE & Teaching Resources** section or you can access it via [here](https://app.onlinesurveys.jisc.ac.uk/login?callbackUrl=%2Fdashboard%2Fwgu).
 
 ## **Essential Checklist for Choosing & Using Psychometric Scales**
 
