@@ -18,11 +18,6 @@ What we can provide with assistance is some helpful pointers when searching for 
 - **Item Redundancy & Subscales:** Check if the scale contains overlapping or redundant items. Group questions into their correct underlying subscale dimensions prior to analysis.
 - **Scoring & Aggregation Rules:** Review the author's scoring manual to determine whether to sum or average item responses, handle reverse-scored items, and manage missing data points.
 
-## Data Cleaning and Statistical Modelling
-
-Please refer to the PsychTech Moodle Page for videos that refer to data cleaning, and modelling. You can also find the necessary information for running SPSS here:
-
-[**SPSS HELP GUIDE**](https://www.ibm.com/docs/en/spss-statistics/29.0.0?topic=system-data-transformations)
 
 ## **Key Concepts to Keep in Mind**
 
